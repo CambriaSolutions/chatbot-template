@@ -115,4 +115,4 @@ Object.entries(scheduledTriggers).forEach(([triggerName, scheduledTrigger]) => {
     .schedule(scheduledTrigger.schedule)
     .timeZone(scheduledTrigger.timezone)
     .onRun(async (context) => scheduledTriggerWrapper(scheduledTrigger.handler, context))
-})
+}) 
