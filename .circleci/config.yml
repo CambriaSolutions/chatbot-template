@@ -163,7 +163,7 @@ workflows:
           filters:
             branches:
               only:
-                - development
+                - develop
       - deploy_functions:
           firebaseProjectId: mscj-csa-dev
           googleMapsKey: AIzaSyCSpN9JJqwyhOXPJ9qtLsaN0DlkLcEpO2Y # Not a secret
@@ -171,7 +171,7 @@ workflows:
           filters:
             branches:
               only:
-                - development
+                - develop
       - deploy_hosting_test_harness:
           firebaseProjectId: mscj-csa-dev
           googleMapsKey: AIzaSyCSpN9JJqwyhOXPJ9qtLsaN0DlkLcEpO2Y # Not a secret
@@ -182,7 +182,7 @@ workflows:
           filters:
             branches:
               only:
-                - development
+                - develop
       - deploy_hosting_analytics:
           firebaseProjectId: mscj-csa-dev
           firebaseApiKey: AIzaSyBQMg5vouqkfFb24UsgyLvLE07UtMcUyy4 # Not a secret
@@ -194,7 +194,7 @@ workflows:
           filters:
             branches:
               only:
-                - development
+                - develop
       # Stage Jobs
       - deploy_dialogflow_agent:
           jsonKey: STAGE_MSCJ_CSA_KEY_JSON
@@ -241,7 +241,7 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
       - deploy_functions:
           firebaseProjectId: mscj-csa
           googleMapsKey: AIzaSyCSpN9JJqwyhOXPJ9qtLsaN0DlkLcEpO2Y # Not a secret
@@ -249,8 +249,8 @@ workflows:
           filters:
             branches:
               only:
-                - master
-      # We do NOT deploy the test harness hosting project for the master branch
+                - main
+      # We do NOT deploy the test harness hosting project for the main branch
       # a WordPress site and requires gen to be implemented via a plug in.
       - deploy_hosting_analytics:
           firebaseProjectId: mscj-csa
@@ -263,4 +263,4 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
