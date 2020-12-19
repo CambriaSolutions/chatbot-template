@@ -1,0 +1,33 @@
+[
+  {
+    "value": "no",
+    "synonyms": [
+      "i aint got nothing",
+      "incorrect",
+      "nah",
+      "naw",
+      "neh",
+      "no",
+      "no maam",
+      "no sir",
+      "nope"
+    ]
+  },
+  {
+    "value": "yes",
+    "synonyms": [
+      "correct",
+      "i think so",
+      "indeed",
+      "yea",
+      "yeah",
+      "yep",
+      "yes",
+      "yes ma\u0027am",
+      "yes maam",
+      "yes sir",
+      "yeup",
+      "yup"
+    ]
+  }
+]

@@ -60,6 +60,7 @@ jobs:
             "GOOGLE_MAPS_KEY=<< parameters.googleMapsKey >>
 
             FULFILLMENT_URL=<< parameters.fulfillmentUrl >>" > .env
+      - run: cd functions && npm run build
       - run: sudo npm install -g firebase-tools
       - run: firebase deploy --only functions,firestore --token $FIREBASE_DEPLOY_TOKEN -P << parameters.firebaseProjectId >>
 
