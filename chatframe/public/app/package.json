@@ -1,0 +1,79 @@
+{
+  "name": "chatframe",
+  "version": "1.19.50",
+  "description": "Cambria webchat-core project",
+  "main": "build/chatframe.js",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "npx eslint '**/*.ts'",
+    "lint-fix": "npx eslint '**/*.ts' --fix"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.1",
+    "canvas": "^2.5.0",
+    "date-fns": "^2.16.1",
+    "dotenv": "^8.2.0",
+    "global": "^4.3.2",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.20",
+    "markdown-to-jsx": "^7.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-google-maps": "^9.4.5",
+    "react-redux": "^7.2.1",
+    "react-virtualized": "^9.22.2",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.2.0",
+    "utf-8-validate": "^5.0.2",
+    "uuid": "^8.3.0",
+    "validator": "^13.1.17",
+    "webfontloader": "^1.6.28",
+    "whatwg-fetch": "^3.4.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/googlemaps": "^3.0.0",
+    "@types/jest": "^26.0.15",
+    "@types/lodash": "^4.14.163",
+    "@types/markerclustererplus": "^2.1.29",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/styled-components": "^5.1.4",
+    "@types/webfontloader": "^1.6.32",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint": "^7.11.0",
+    "fetch-mock": "^9.10.7",
+    "react-scripts": "4.0.0",
+    "typescript": "^4.0.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+[
+  {
+    "addressComponents": {
+      "city": "Brookhaven",
+      "street": "108 South Whitworth Avenue"
+    },
+    "lat": 31.57951359999999,
+    "lng": -90.4433644,
+    "placeId": "ChIJo7m4A9PZJ4YRgvCq5rClHK8"
+  },
+  {
+    "addressComponents": {
+      "city": "Clarksdale",
+      "street": "157 Issaquena Avenue"
+    },
+    "lat": 34.2033988,
+    "lng": -90.57286719999999,
+    "placeId": "EiwxNTcgSXNzYXF1ZW5hIEF2ZSwgQ2xhcmtzZGFsZSwgTVMgMzg2MTQsIFVTQSIbEhkKFAoSCWG-bY0F3yqGEYjmUAoavIodEJ0B"
+  },
+  {
+    "addressComponents": {
+      "city": "Cleveland",
+      "street": "822 North Davis Avenue"
+    },
+    "lat": 33.7618211,
+    "lng": -90.7154418,
+    "placeId": "ChIJCyJaTE2oK4YR4lUyc949txM"
+  },
+  {
+    "addressComponents": {
+      "city": "Columbia",
+      "street": "811 Main Street Suite 18"
+    },
+    "lat": 31.254082,
+    "lng": -89.8356876,
+    "placeId": "Eig4MTEgTWFpbiBTdCAjMTgsIENvbHVtYmlhLCBNUyAzOTQyOSwgVVNBIh4aHAoWChQKEglPSi54GWidiBFshe7Rf2IuTxICMTg"
+  },
+  {
+    "addressComponents": {
+      "city": "Corinth",
+      "street": "610 South Cass Street"
+    },
+    "lat": 34.9267458,
+    "lng": -88.5184021,
+    "placeId": "EiU2MTAgUyBDYXNzIFN0LCBDb3JpbnRoLCBNUyAzODgzNCwgVVNBIhsSGQoUChIJOV42ZifBfYgRaKJ9ySB9-5AQ4gQ"
+  },
+  {
+    "addressComponents": {
+      "city": "Rosedale",
+      "street": "643 Mississippi 1"
+    },
+    "lat": 33.8385825,
+    "lng": -91.02570349999999,
+    "placeId": "EiE2NDMgTVMtMSwgUm9zZWRhbGUsIE1TIDM4NzY5LCBVU0EiGxIZChQKEgmZ0YilAHcrhhGjr-ltRNJDYRCDBQ"
+  },
+  {
+    "addressComponents": {
+      "city": "Grenada",
+      "street": "1400 Wooded Drive"
+    },
+    "lat": 33.7691462,
+    "lng": -89.8241168,
+    "placeId": "ChIJ1SClOhfNgYgRtRzntBDg2jk"
+  },
+  {
+    "addressComponents": {
+      "city": "Gulfport",
+      "street": "10415 Express Drive"
+    },
+    "lat": 30.4393999,
+    "lng": -89.03799029999999,
+    "placeId": "ChIJS9hAEyIUnIgRmhxb6dY7lQY"
+  },
+  {
+    "addressComponents": {
+      "city": "Hattiesburg",
+      "street": "5 Willow Bend Drive"
+    },
+    "lat": 31.3169846,
+    "lng": -89.43581809999999,
+    "placeId": "ChIJLw8tZv0gnYgR4pGJZW9m3bc"
+  },
+  {
+    "addressComponents": {
+      "city": "Hernando",
+      "street": "165 West South Street Suite 100"
+    },
+    "lat": 34.8214048,
+    "lng": -89.99248,
+    "placeId": "EiwxNjUgVyBTb3V0aCBTdCAjMTAwLCBIZXJuYW5kbywgTVMgMzg2MzIsIFVTQSIfGh0KFgoUChIJNZgMrnn1f4gRaDSaJam3EWkSAzEwMA"
+  },
+  {
+    "addressComponents": {
+      "city": "Kosciusko",
+      "street": "128 West Washington Street"
+    },
+    "lat": 33.0586866,
+    "lng": -89.5899843,
+    "placeId": "Ei0xMjggVyBXYXNoaW5ndG9uIFN0LCBLb3NjaXVza28sIE1TIDM5MDkwLCBVU0EiGxIZChQKEgkl4ZpVdCeCiBErCqdxSPReWhCAAQ"
+  },
+  {
+    "addressComponents": {
+      "city": "Laurel",
+      "street": "1600 Mississippi 15"
+    },
+    "lat": 31.7105858,
+    "lng": -89.1507288,
+    "placeId": "ChIJgZWEGyI0g4gRvn183UKBfPs"
+  },
+  {
+    "addressComponents": {
+      "city": "Magee",
+      "street": "1st Avenue Southeast"
+    },
+    "lat": 31.8664031,
+    "lng": -89.7312862,
+    "placeId": "ChIJ3ZB4Ivu4gogRjW5i3iQMf8Q"
+  },
+  {
+    "addressComponents": {
+      "city": "McComb",
+      "street": "907 South Locust Street Suite C"
+    },
+    "lat": 31.2333934,
+    "lng": -90.4388236,
+    "placeId": "Ei45MDcgUyBMb2N1c3QgU3QgU3VpdGUgQywgTWNDb21iLCBNUyAzOTY0OCwgVVNBIigaJgobEhkKFAoSCckBAJw8uCeGEf6-heFGBIlvEIsHEgdTdWl0ZSBD"
+  },
+  {
+    "addressComponents": {
+      "city": "Meridian",
+      "street": "2911 8th Street Suite A"
+    },
+    "lat": 32.364604,
+    "lng": -88.708075,
+    "placeId": "EiwyOTExIDh0aCBTdCBTdWl0ZSBBLCBNZXJpZGlhbiwgTVMgMzkzMDEsIFVTQSIjGiEKFgoUChIJqdYdseN9hIgRBATfF8iD76cSB1N1aXRlIEE"
+  },
+  {
+    "addressComponents": {
+      "city": "Natchez",
+      "street": "119 Jeff Davis Boulevard Suite A"
+    },
+    "lat": 31.5234951,
+    "lng": -91.3881088,
+    "placeId": "EjMxMTkgSmVmZiBEYXZpcyBCbHZkIFN1aXRlIEEsIE5hdGNoZXosIE1TIDM5MTIwLCBVU0EiIxohChYKFAoSCedguWTJ8CWGEVNVCeESaUnzEgdTdWl0ZSBB"
+  },
+  {
+    "addressComponents": {
+      "city": "Oxford",
+      "street": "2550 Jackson Avenue West Suite 2550-6"
+    },
+    "lat": 34.3604016,
+    "lng": -89.5665307,
+    "placeId": "EjYyNTUwIEphY2tzb24gQXZlIFcgU3VpdGUgMjU1MC02LCBPeGZvcmQsIE1TIDM4NjU1LCBVU0EiKBomChYKFAoSCeVqNLFpcICIES0ywBcXEIeFEgxTdWl0ZSAyNTUwLTY"
+  },
+  {
+    "addressComponents": {
+      "city": "Pascagoula",
+      "street": "3664 14th Street"
+    },
+    "lat": 30.3731817,
+    "lng": -88.53868779999999,
+    "placeId": "ChIJKVRLod3om4gRh7EcCXRIiqU"
+  },
+  {
+    "addressComponents": {
+      "city": "Philadelphia",
+      "street": "1122 East Main Street Suite 1"
+    },
+    "lat": 32.7707637,
+    "lng": -89.0908974,
+    "placeId": "Ei4xMTIyIEUgTWFpbiBTdCAjMSwgUGhpbGFkZWxwaGlhLCBNUyAzOTM1MCwgVVNBIiIaIAobEhkKFAoSCfsyf_l56oOIEeD-74bxKd5AEOIIEgEx"
+  },
+  {
+    "addressComponents": {
+      "city": "Ridgeland",
+      "street": "950 East County Line Road Suite G"
+    },
+    "lat": 32.4007252,
+    "lng": -90.13743269999999,
+    "placeId": "EjY5NTAgRSBDb3VudHkgTGluZSBSZCBTdWl0ZSBHLCBSaWRnZWxhbmQsIE1TIDM5MTU3LCBVU0EiIxohChYKFAoSCZs1qNGJ0imGEaZJ3edB3JvsEgdTdWl0ZSBH"
+  },
+  {
+    "addressComponents": {
+      "city": "Starkville",
+      "street": "600 Russell Street Suite 110"
+    },
+    "lat": 33.4573838,
+    "lng": -88.8026596,
+    "placeId": "ElxDb29sZXkgUGh5c2ljYWwgUGxhbnQgKEhpc3RvcmljIENvdHRvbiBNaWxsKSwgNjAwIFJ1c3NlbGwgU3QgIzExMCwgU3Rhcmt2aWxsZSwgTVMgMzk3NTksIFVTQSIfGh0KFgoUChIJAafeMT81gYgRxoUcoTZgFQ4SAzExMA"
+  },
+  {
+    "addressComponents": {
+      "city": "Tupelo",
+      "street": "600 Main Street Suite B"
+    },
+    "lat": 34.2576064,
+    "lng": -88.71191209999999,
+    "placeId": "Eio2MDAgTWFpbiBTdCBTdWl0ZSBCLCBUdXBlbG8sIE1TIDM4ODA0LCBVU0EiIxohChYKFAoSCf9Aj_UfTIeIEeySDevwbxttEgdTdWl0ZSBC"
+  },
+  {
+    "addressComponents": {
+      "city": "Vicksburg",
+      "street": "1507 Washington Street Suite 1st Floor"
+    },
+    "lat": 32.347764,
+    "lng": -90.88216,
+    "placeId": "EjYxNTA3IFdhc2hpbmd0b24gU3QgMXN0IEZsb29yLCBWaWNrc2J1cmcsIE1TIDM5MTgwLCBVU0EiJRojChYKFAoSCT-nRVEh4CiGEWxbNEvNaPEREgkxc3QgRmxvb3I"
+  },
+  {
+    "addressComponents": {
+      "city": "Yazoo City",
+      "street": "128 West Jefferson Street"
+    },
+    "lat": 32.8462151,
+    "lng": -90.4134686,
+    "placeId": "ChIJHWhe6f2QKYYROXyxlHpKi98"
+  }
+]

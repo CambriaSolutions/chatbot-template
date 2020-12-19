@@ -1,0 +1,266 @@
+version: 2.1
+jobs:
+  deploy_dialogflow_agent:
+    docker:
+      - image: circleci/node:12.16.1
+    working_directory: ~/repo/
+    parameters:
+      jsonKey:
+        description: "The key json object specified in the environment variables."
+        type: string # string? "${DEV_MSCJ_CSA_KEY_JSON}"
+      env:
+        type: string # e.g. dev,
+    steps:
+      - checkout
+      - restore_cache:
+          key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+      - run: cd scripts && npm install
+      - save_cache:
+          key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+          paths:
+            - scripts/node_modules
+      - run:
+          name: "Add env variables"
+          command: cd scripts/deployment && echo "GOOGLE_APPLICATION_CREDENTIALS=./mscj-key.json" > .env
+      - run:
+          name: "Create mscj key file for scripts"
+          command: cd scripts/deployment && echo "${<< parameters.jsonKey >>}" > mscj-key.json
+      - run:
+          name: "Agent configuration"
+          command: cd agent && mv agent.<< parameters.env >>.json agent.json
+      - run:
+          name: "Restore to << parameters.env >> Dialogflow"
+          command: cd scripts/deployment && node restoreDialogflow
+      - run:
+          name: "Populate Firestore"
+          command: cd scripts/deployment && node populateFirestore
+  deploy_functions:
+    docker:
+      - image: circleci/node:10.16.3
+    working_directory: ~/repo/
+    parameters:
+      firebaseProjectId:
+        type: string # e.g. mscj-csa-dev
+      googleMapsKey:
+        type: string
+      fulfillmentUrl:
+        type: string
+    steps:
+      - checkout
+      - restore_cache:
+          key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+      - run: cd functions && npm install
+      - save_cache:
+          key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+          paths:
+            - functions/node_modules
+      - run:
+          name: "Add env variables to functions folder"
+          command: cd functions && echo
+            "GOOGLE_MAPS_KEY=<< parameters.googleMapsKey >>
+
+            FULFILLMENT_URL=<< parameters.fulfillmentUrl >>" > .env
+      - run: sudo npm install -g firebase-tools
+      - run: firebase deploy --only functions,firestore --token $FIREBASE_DEPLOY_TOKEN -P << parameters.firebaseProjectId >>
+
+  deploy_hosting_test_harness:
+    docker:
+      - image: circleci/node:12.16.1
+    working_directory: ~/repo/
+    parameters:
+      firebaseProjectId:
+        type: string # e.g. mscj-csa-dev
+      googleMapsKey:
+        type: string
+      eventUrl:
+        type: string
+      textUrl:
+        type: string
+      feedbackURL:
+        type: string
+      reportError:
+        type: string
+    steps:
+      - checkout
+      - restore_cache:
+          key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+      - run: cd chatframe/public/app && npm install
+      - save_cache:
+          key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+          paths:
+            - chatframe/public/app/node_modules
+      - run:
+          name: "Add env variables to chatframe/public/app folder"
+          command: cd chatframe/public/app && echo
+            "REACT_APP_GOOGLE_MAPS_KEY=<< parameters.googleMapsKey >>
+
+            REACT_APP_EVENT_URL=<< parameters.eventUrl >>
+
+            REACT_APP_TEXT_URL=<< parameters.textUrl >>
+
+            REACT_APP_FEEDBACK_URL=<< parameters.feedbackURL >>
+
+            REACT_APP_REPORT_ERROR_URL=<< parameters.reportError >>" > .env
+
+      - run:
+          name: "Add env variables to chatframe/public/app folder"
+          command: cd chatframe/public/app && npm run build
+      - run: sudo npm install -g firebase-tools
+      - run: firebase deploy --only hosting:testHarness --token $FIREBASE_DEPLOY_TOKEN -P << parameters.firebaseProjectId >>
+
+  deploy_hosting_analytics:
+    docker:
+      - image: circleci/node:12.16.1
+    working_directory: ~/repo/
+    parameters:
+      firebaseProjectId:
+        type: string
+      firebaseApiKey:
+        type: string
+      firebaseAuthDomain:
+        type: string
+      firebaseDatabaseUrl:
+        type: string
+      firebaseMessagingSenderId:
+        type: integer
+      firebaseStorageBucket:
+        type: string
+      firebaseAppId:
+        type: string
+    steps:
+      - checkout
+      - restore_cache:
+          key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+      - run: cd hosting/analytics && npm install
+      - save_cache:
+          key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+          paths:
+            - node_modules
+            - functions/node_modules
+      - run:
+          name: "Add env variables & build"
+          command: |
+            cd hosting/analytics  
+            export REACT_APP_FIREBASE_API_KEY=<< parameters.firebaseApiKey >>
+            export REACT_APP_FIREBASE_AUTH_DOMAIN=<< parameters.firebaseAuthDomain >>
+            export REACT_APP_FIREBASE_DATABASE_URL=<< parameters.firebaseDatabaseUrl >>
+            export REACT_APP_FIREBASE_MESSAGING_SENDER_ID=<< parameters.firebaseMessagingSenderId >>
+            export REACT_APP_FIREBASE_PROJECT_ID=<< parameters.firebaseProjectId >>
+            export REACT_APP_FIREBASE_STORAGE_BUCKET=<< parameters.firebaseStorageBucket >>
+            export REACT_APP_FIREBASE_APP_ID=<< parameters.firebaseAppId >>
+            CI=false npm run build
+      - run: sudo npm install -g firebase-tools
+      - run: firebase deploy --only hosting:analytics --token $FIREBASE_DEPLOY_TOKEN -P << parameters.firebaseProjectId >>
+
+workflows:
+  version: 2
+  build_deploy:
+    jobs:
+      # Development Jobs
+      - deploy_dialogflow_agent:
+          jsonKey: DEV_MSCJ_CSA_KEY_JSON
+          env: dev
+          filters:
+            branches:
+              only:
+                - development
+      - deploy_functions:
+          firebaseProjectId: mscj-csa-dev
+          googleMapsKey: AIzaSyCSpN9JJqwyhOXPJ9qtLsaN0DlkLcEpO2Y # Not a secret
+          fulfillmentUrl: https://us-central1-mscj-csa-dev.cloudfunctions.net/dialogflowFirebaseFulfillment?coldStart=true
+          filters:
+            branches:
+              only:
+                - development
+      - deploy_hosting_test_harness:
+          firebaseProjectId: mscj-csa-dev
+          googleMapsKey: AIzaSyCSpN9JJqwyhOXPJ9qtLsaN0DlkLcEpO2Y # Not a secret
+          eventUrl: https://us-central1-mscj-csa-dev.cloudfunctions.net/eventRequest
+          textUrl: https://us-central1-mscj-csa-dev.cloudfunctions.net/textRequest
+          feedbackURL: https://us-central1-mscj-csa-dev.cloudfunctions.net/storeFeedback
+          reportError: https://us-central1-mscj-csa-dev.cloudfunctions.net/reportError
+          filters:
+            branches:
+              only:
+                - development
+      - deploy_hosting_analytics:
+          firebaseProjectId: mscj-csa-dev
+          firebaseApiKey: AIzaSyBQMg5vouqkfFb24UsgyLvLE07UtMcUyy4 # Not a secret
+          firebaseAuthDomain: mscj-csa-dev.firebaseapp.com
+          firebaseDatabaseUrl: https://mscj-csa-dev.firebaseio.com
+          firebaseStorageBucket: mscj-csa-dev.appspot.com
+          firebaseMessagingSenderId: 49672378126
+          firebaseAppId: 1:49672378126:web:87154089bbf0ab3efaa95f
+          filters:
+            branches:
+              only:
+                - development
+      # Stage Jobs
+      - deploy_dialogflow_agent:
+          jsonKey: STAGE_MSCJ_CSA_KEY_JSON
+          env: stage
+          filters:
+            branches:
+              only:
+                - stage
+      - deploy_functions:
+          firebaseProjectId: mscj-csa-stage
+          googleMapsKey: AIzaSyCSpN9JJqwyhOXPJ9qtLsaN0DlkLcEpO2Y # Not a secret
+          fulfillmentUrl: https://us-central1-mscj-csa-stage.cloudfunctions.net/dialogflowFirebaseFulfillment?coldStart=true
+          filters:
+            branches:
+              only:
+                - stage
+      - deploy_hosting_test_harness:
+          firebaseProjectId: mscj-csa-stage
+          googleMapsKey: AIzaSyCSpN9JJqwyhOXPJ9qtLsaN0DlkLcEpO2Y # Not a secret
+          eventUrl: https://us-central1-mscj-csa-stage.cloudfunctions.net/eventRequest
+          textUrl: https://us-central1-mscj-csa-stage.cloudfunctions.net/textRequest
+          feedbackURL: https://us-central1-mscj-csa-stage.cloudfunctions.net/storeFeedback
+          reportError: https://us-central1-mscj-csa-stage.cloudfunctions.net/reportError
+          filters:
+            branches:
+              only:
+                - stage
+      - deploy_hosting_analytics:
+          firebaseProjectId: mscj-csa-stage
+          firebaseApiKey: AIzaSyAm9oafBVGNTACGTR1zazX1KhyfNmTbkqA # Not a secret
+          firebaseAuthDomain: mscj-csa-stage.firebaseapp.com
+          firebaseDatabaseUrl: https://mscj-csa-stage.firebaseio.co
+          firebaseStorageBucket: mscj-csa-stage.appspot.com
+          firebaseMessagingSenderId: 643831569189
+          firebaseAppId: 1:643831569189:web:698546da1881f72b2558cc
+          filters:
+            branches:
+              only:
+                - stage
+      # Production Jobs
+      - deploy_dialogflow_agent:
+          jsonKey: PROD_MSCJ_CSA_KEY_JSON
+          env: prod
+          filters:
+            branches:
+              only:
+                - master
+      - deploy_functions:
+          firebaseProjectId: mscj-csa
+          googleMapsKey: AIzaSyCSpN9JJqwyhOXPJ9qtLsaN0DlkLcEpO2Y # Not a secret
+          fulfillmentUrl: https://us-central1-mscj-csa.cloudfunctions.net/dialogflowFirebaseFulfillment?coldStart=true
+          filters:
+            branches:
+              only:
+                - master
+      # We do NOT deploy the test harness hosting project for the master branch
+      # a WordPress site and requires gen to be implemented via a plug in.
+      - deploy_hosting_analytics:
+          firebaseProjectId: mscj-csa
+          firebaseApiKey: AIzaSyAJWQ5p4qVaLjNcDO0RryOvwjO-8Z9p_cw # Not a secret
+          firebaseAuthDomain: mscj-csa.firebaseapp.com
+          firebaseDatabaseUrl: https://mscj-csa.firebaseio.com
+          firebaseStorageBucket: mscj-csa.appspot.com
+          firebaseMessagingSenderId: 150336923856
+          firebaseAppId: 1:150336923856:web:357018f59ca3c7c14b16d5
+          filters:
+            branches:
+              only:
+                - master

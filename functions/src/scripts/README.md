@@ -1,0 +1,5 @@
+The contentExtract.ts file located in this directory is used to extract the relevant intent information and put it in a csv file in order to easily add it to the excel spreadsheet, or corroborate the data already in the excel spreadsheet. Specifically, the contentExtract script will look at all the intents in the agents folder and output each intent's context, id, name, response phrases etc. 
+
+The contentExtract.ts file is not used in the deployment process, nor is it used by any firebase function. It is meant to be run by developer when necessary. This script is not included in the scripts folder located at the root level because of the dependencies on intent handlers. 
+
+Lastly, the intentHandler folder in this directory simply contains some helper functions that assist in fetching the intent handlers. Do not try to run those files directly. 

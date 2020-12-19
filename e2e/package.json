@@ -1,0 +1,28 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js",
+  "scripts": {
+    "reconciliation-report": "mocha reconciliation.js --reporter mochawesome --timeout 10000",
+    "regression-report": "mocha test.js --reporter mochawesome --timeout 10000",
+    "test": "mocha --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dialogflow": "^0.12.2",
+    "dotenv": "^6.2.0",
+    "firebase-admin": "^8.12.1",
+    "lodash": "^4.17.20",
+    "request": "^2.88.2",
+    "uuid": "^8.0.0",
+    "xlsx": "^0.16.6",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "mochawesome": "^6.1.1"
+  }
+}
