@@ -1,0 +1,1 @@
+export const detectMobile = (userAgentString) => userAgentString.indexOf('Mobi') > -1
