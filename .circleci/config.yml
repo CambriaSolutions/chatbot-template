@@ -31,9 +31,6 @@ jobs:
       - run:
           name: "Restore to << parameters.env >> Dialogflow"
           command: cd scripts/deployment && node restoreDialogflow
-      - run:
-          name: "Populate Firestore"
-          command: cd scripts/deployment && node populateFirestore
   deploy_functions:
     docker:
       - image: circleci/node:10.16.3
