@@ -148,7 +148,7 @@ export const storeFeedback = async (req, res) => {
           name: feedback,
           occurrences: 1,
         }))
-        // Create new metric entry with feedback and empty intent & supportRequest
+        // Create new metric entry with feedback and empty intent
         await metricRef.update({
           feedback: {
             helpful: wasHelpful ? feedbackList : [],

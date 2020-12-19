@@ -58,7 +58,6 @@ const aggregateRequest = async (admin, store, context, reqData, conversationId, 
 
 // Metrics:
 // - Store intent from conversation & increase occurrences in metric
-// - Store support request submitted & increase occurrences
 const storeMetrics = async (
   admin,
   store,
@@ -238,7 +237,7 @@ const storeMetrics = async (
     // Update the metrics collection for this request
     await metricsRef.update(updatedMetrics)
   } else {
-    // Create new metric entry with current intent & supportRequest
+    // Create new metric entry with current intent
     const currentExitIntent = {}
     currentExitIntent[conversationId] = {
       name: currIntent.name,
@@ -268,7 +267,6 @@ const storeMetrics = async (
       numConversations: 1,
       numConversationsWithDuration: 0,
       averageConversationDuration: 0,
-      numConversationsWithSupportRequests: 0,
       numFallbacks: 0,
       fallbackTriggeringQueries: [],
       noneOfTheseCategories: [],
@@ -398,7 +396,7 @@ const calculateMetrics = async (admin, store, reqData: ConversationSnapshot, sub
     conversation.duration = duration
     newConversationDuration = duration
     previousConversationDuration = currConversation.duration
-    
+
     if (isFallbackIntent) {
       if (reqData.queryResult.queryText.length > 0) {
         conversation.fallbackTriggeringQuery = reqData.queryResult.queryText
@@ -426,7 +424,7 @@ const calculateMetrics = async (admin, store, reqData: ConversationSnapshot, sub
   }
 
 
-  // Keep record of intents & support requests usage
+  // Keep record of intents 
   await storeMetrics(
     admin,
     store,
