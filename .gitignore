@@ -72,7 +72,6 @@ scripts/export/
 content/
 
 mscj-key-dev.json
-mscj-key-isd.json
 mscj-key-stage.json
 mscj-key-prod.json
 

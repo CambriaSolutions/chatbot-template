@@ -149,9 +149,9 @@ class Dashboard extends Component<any, any> {
                   icon='account_circle'
                   tooltip={
                     this.props.subjectMatterName.toLowerCase() === 'general'
-                      ? 'Counts the total number of times when a user acknowledges the privacy statement and enters Gen\'s home screen.'
+                      ? 'Counts the total number of times when a user acknowledges the privacy statement and enters <<Bot>>\'s home screen.'
                       : (this.props.subjectMatterName.toLowerCase() === 'total'
-                        ? 'Counts the total number of impressions when a user click on Gen on the MDHS website'
+                        ? 'Counts the total number of impressions when a user click on <<Bot>> on the MDHS website'
                         : `Counts the number of impressions when a user selects the ${this.props.subjectMatterName.toUpperCase()} option from the home screen.`)
                   }
                 />
@@ -167,8 +167,8 @@ class Dashboard extends Component<any, any> {
                     icon='schedule'
                     tooltip={
                       this.props.subjectMatterName === 'general'
-                        ? 'The average time between Gen\'s first response and when a user selects a knowledge area.'
-                        : `The average time of each session for the ${this.props.subjectMatterName.toUpperCase()} knowledge area. A session is the time b/w when a user selects the ${this.props.subjectMatterName.toUpperCase()} option from home screen and the last response that Gen gives them. This does not include the time b/w the last response and closing their browser window or Gen.`
+                        ? 'The average time between <<Bot>>\'s first response and when a user selects a knowledge area.'
+                        : `The average time of each session for the ${this.props.subjectMatterName.toUpperCase()} knowledge area. A session is the time b/w when a user selects the ${this.props.subjectMatterName.toUpperCase()} option from home screen and the last response that <<Bot>> gives them. This does not include the time b/w the last response and closing their browser window or <<Bot>>.`
                     }
                   />
                 </Grid>
@@ -188,7 +188,7 @@ class Dashboard extends Component<any, any> {
                       ? `This metric is not applicable to the ${this.props.subjectMatterName.toUpperCase()} knowledge area.`
                       : (this.props.subjectMatterName.toLowerCase() === 'total'
                         ? 'Counts the total number of times when a user acknowledges the privacy statement.'
-                        : `Counts the number of times a user interacted with Gen in the ${this.props.subjectMatterName.toUpperCase()} knowledge area`)
+                        : `Counts the number of times a user interacted with <<Bot>> in the ${this.props.subjectMatterName.toUpperCase()} knowledge area`)
                   }
                 />
               </Grid>
@@ -215,7 +215,7 @@ class Dashboard extends Component<any, any> {
                   TransitionComponent={Zoom}
                   title={
                     this.props.subjectMatterName.toLowerCase() === 'total'
-                      ? 'Intents being triggered the most number of times in Gen'
+                      ? 'Intents being triggered the most number of times in <<Bot>>'
                       : `Intents being triggered the most number of times for the [${this.props.subjectMatterName}] subject matter`
                   }
                   arrow
@@ -234,7 +234,7 @@ class Dashboard extends Component<any, any> {
               this.props.subjectMatterName.toLowerCase() !== 'total' &&
               <Grid item xs={12} sm={6} >
                 <GraphWrap>
-                  <Tooltip TransitionComponent={Zoom} title={`Intents specific to the [${this.props.subjectMatterName}] subject matter after which users exit Gen`
+                  <Tooltip TransitionComponent={Zoom} title={`Intents specific to the [${this.props.subjectMatterName}] subject matter after which users exit <<Bot>>`
                   } arrow placement='top-start' >
                     <HelpOutlineIcon />
                   </Tooltip>

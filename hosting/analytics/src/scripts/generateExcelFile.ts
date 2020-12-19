@@ -60,36 +60,6 @@ const createSheet1 = (workbook, phrasesData, subjectMatter, includeSubjectMatter
     }
   }
 
-  const suggestionColumns = [
-    {
-      name: 'Gen Suggestion 1',
-      filterButton: true,
-      style: {
-        font: {
-          size: 16
-        }
-      }
-    },
-    {
-      name: 'Gen Suggestion 2',
-      filterButton: true,
-      style: {
-        font: {
-          size: 16
-        }
-      }
-    },
-    {
-      name: 'Gen Suggestion 3',
-      filterButton: true,
-      style: {
-        font: {
-          size: 16
-        }
-      }
-    }
-  ]
-
   let sheet1Columns = [
     unhandledPhrasesColumn,
     dateColumn
@@ -152,7 +122,7 @@ const createSheet2 = (workbook, feedbackData, subjectMatter, includeSubjectMatte
       }
     },
     {
-      name: 'Was Gen helpful?',
+      name: 'Was <<Bot>> helpful?',
       filterButton: true,
       style: {
         font: {

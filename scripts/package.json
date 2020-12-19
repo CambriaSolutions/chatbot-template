@@ -1,0 +1,37 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "locations.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "populateScripts": "node populateMlCategoriesCollection.js && node populateIntentsCollection.js && node populateIntentSuggestions.js",
+    "lint": "npx eslint '**/*.js'",
+    "lint-fix": "npx eslint '**/*.js' --fix",
+    "generate-plugin": "cd ../chatframe/public/app && npm install && npm run build && cd ../../../scripts/util && node createPluginZip.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/automl": "^2.2.0",
+    "@google-cloud/dialogflow": "^3.3.0",
+    "archiver": "^5.0.2",
+    "date-fns": "^2.16.1",
+    "dialogflow": "^4.0.3",
+    "dotenv": "^8.2.0",
+    "firebase": "^7.22.1",
+    "firebase-admin": "^9.2.0",
+    "firebase-functions": "^3.11.0",
+    "fs": "0.0.1-security",
+    "jszip": "^3.5.0",
+    "node-fetch": "^2.6.1",
+    "parse-address": "^1.1.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.6",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
+}
