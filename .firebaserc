@@ -1,37 +1,6 @@
 {
   "projects": {
-    "default": "mscj-csa-dev",
-    "dev": "mscj-csa-dev",
-    "stage": "mscj-csa-stage",
-    "prod": "mscj-csa-prod"
   },
   "targets": {
-    "mscj-csa-dev": {
-      "hosting": {
-        "testHarness": [
-          "mscj-csa-dev-test-harness"
-        ],
-        "analytics": [
-          "mscj-csa-dev-analytics"
-        ]
-      }
-    },
-    "mscj-csa-stage": {
-      "hosting": {
-        "testHarness": [
-          "mscj-csa-stage-test-harness"
-        ],
-        "analytics": [
-          "mscj-csa-stage-analytics"
-        ]
-      }
-    },
-    "mscj-csa-prod": {
-      "hosting": {
-        "analytics": [
-          "mscj-csa-prod-analytics"
-        ]
-      }
-    }
   }
 }

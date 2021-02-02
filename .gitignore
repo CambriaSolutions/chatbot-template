@@ -71,9 +71,7 @@ functions/analyticsKey.json
 scripts/export/
 content/
 
-mscj-key-dev.json
-mscj-key-stage.json
-mscj-key-prod.json
+# Add additional  environment keys here
 
 **/build
 
