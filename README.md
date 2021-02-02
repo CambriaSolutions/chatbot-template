@@ -1,2 +1,3 @@
-# mscj-csa
-Mississippi Center for Justice - Customer Service Agent
+# chatbot-template
+
+Template of a chatbot and analytics dashboard using React and Firebase.
