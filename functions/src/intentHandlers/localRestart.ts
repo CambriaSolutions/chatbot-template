@@ -3,11 +3,17 @@ import { Suggestion } from 'dialogflow-fulfillment'
 const rootIntents = [
   'Default Fallback Intent',
   'global-restart',
-  'mscj-root',
+  'cse-root',
+  'snap-root',
+  'tanf-root',
+  'wfd-root',
 ]
 
 const isHomeEnabled = (agent) => {
-  return agent.context.get('mscj-subject-matter') !== undefined
+  return agent.context.get('cse-subject-matter') !== undefined
+    || agent.context.get('snap-subject-matter') !== undefined
+    || agent.context.get('tanf-subject-matter') !== undefined
+    || agent.context.get('wfd-subject-matter') !== undefined
 }
 
 const isRootIntent = (agent) => {

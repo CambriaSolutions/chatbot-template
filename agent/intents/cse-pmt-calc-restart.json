@@ -1,0 +1,46 @@
+{
+  "id": "f7c127ee-425e-458b-979f-b9af7504a525",
+  "name": "cse-pmt-calc-restart",
+  "auto": true,
+  "contexts": [
+    "waiting-pmt-calc-restart",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-pmt-calc-restart",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,82 @@
+{
+  "id": "7899aecd-fb56-40b2-8cc4-56b9298ce947",
+  "name": "map-deliver-map-county-office",
+  "auto": true,
+  "contexts": [
+    "waiting-map-deliver-map-county-office"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-map-deliver-map-county-office",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4951ec7a-8adb-4b1e-8fe8-a9f30a1d6d4d",
+          "name": "zip-code",
+          "required": false,
+          "dataType": "@sys.zip-code",
+          "value": "$zip-code",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c8399d56-0fb9-42fb-be37-3d8918d170ae",
+          "name": "address",
+          "required": false,
+          "dataType": "@sys.address",
+          "value": "$address",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "00f79bf3-634c-4ca8-a896-ebd5dd62093d",
+          "name": "geo-city",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "value": "$geo-city",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

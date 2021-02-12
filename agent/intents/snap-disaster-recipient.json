@@ -1,0 +1,58 @@
+{
+  "id": "238273c2-81ed-4823-8d20-92d21e8b8181",
+  "name": "snap-disaster-recipient",
+  "auto": true,
+  "contexts": [
+    "snap-subject-matter",
+    "snap-disaster-waiting-recipient"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "snap-subject-matter",
+          "lifespan": 99
+        },
+        {
+          "name": "snap-disaster-waiting-recipient",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cul\u003e\n\u003cli\u003eA SNAP recipient with an open case may request a replacement for food purchased with SNAP benefits that were destroyed in a disaster (such as flood, fire, or tornado).\u003c/li\u003e\n\u003cli\u003eTo qualify for a replacement, the recipient must report the loss to the county office and sign the \u003ca href\u003d\"https://www.mdhs.ms.gov/wp-content/uploads/2020/04/MDHS-EA-508-Fillable-1.pdf\" target\u003d\"_blank\"\u003eMDHS-EA-508\u003c/a\u003e, Household Statement of Food Loss Due to Household Disaster attesting to the loss within 10 days of disaster.\u003c/li\u003e\n\u003cli\u003eThe household’s disaster must be verified.\u003c/li\u003e\u003c/ul\u003e"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

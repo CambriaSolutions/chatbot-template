@@ -1,0 +1,54 @@
+[
+  {
+    "id": "b31f424a-0275-4a7e-b0a6-d650d67c76ec",
+    "data": [
+      {
+        "text": "guidelines",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9481e26e-0dac-4792-8036-1e2b74c939a8",
+    "data": [
+      {
+        "text": "what are the guidelines for appointments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "81a78581-8d8e-4e5f-9032-7624d5dc69f0",
+    "data": [
+      {
+        "text": "guidelines regarding appointments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "82974c1f-6cdc-4650-b2e0-9c4fe08856a5",
+    "data": [
+      {
+        "text": "appointment guidelines",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

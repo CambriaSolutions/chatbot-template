@@ -1,0 +1,69 @@
+{
+  "id": "a3a40e7a-faf9-42d3-bba0-d712b1a6b2f0",
+  "name": "cse-pmtQA-NCP-payment-status",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "78417a52-fa19-4f3b-af58-7441367ead47",
+          "name": "guardianship",
+          "required": false,
+          "dataType": "@guardianship",
+          "value": "$guardianship",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f455ea1a-47ee-4245-978d-d3bc051c8996",
+          "name": "cadence",
+          "required": false,
+          "dataType": "@cadence",
+          "value": "$cadence",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

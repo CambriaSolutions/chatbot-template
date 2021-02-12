@@ -1,0 +1,17 @@
+[
+  {
+    "id": "963d074f-00d5-4250-9f43-b789f7c852d5",
+    "data": [
+      {
+        "text": "yes",
+        "meta": "@yes-no",
+        "alias": "continuePaymentReduction",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

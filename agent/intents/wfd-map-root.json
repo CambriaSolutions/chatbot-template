@@ -1,0 +1,47 @@
+{
+  "id": "27c631de-0532-4041-a5b4-4f50f917b082",
+  "name": "wfd-map-root",
+  "auto": true,
+  "contexts": [
+    "wfd-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You may contact a MDHS county office between 8:00 am and 5:00 pm, Monday through Friday, excluding holidays, to obtain additional information about S2W."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I can help locate the nearest office to you, what is your address?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

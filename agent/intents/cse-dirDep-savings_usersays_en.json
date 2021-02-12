@@ -1,0 +1,41 @@
+[
+  {
+    "id": "3d7adfb1-d7c1-4b62-8acf-e03c608b4084",
+    "data": [
+      {
+        "text": "my savings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0b88b45d-c822-4c91-a849-937fc0a7816c",
+    "data": [
+      {
+        "text": "savings account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b11f2b94-6981-45a0-ad4a-708661c654a0",
+    "data": [
+      {
+        "text": "savings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

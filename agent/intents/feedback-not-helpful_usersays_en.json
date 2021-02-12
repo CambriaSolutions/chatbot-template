@@ -1,0 +1,71 @@
+[
+  {
+    "id": "faa8431f-1a67-42cb-9684-495f5a7ad96d",
+    "data": [
+      {
+        "text": "it was not helpful",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6bebb296-c9f1-4d8c-8bd3-639e2362f808",
+    "data": [
+      {
+        "text": "it wasn\u0027t",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6b747443-1ec8-4fea-9604-c98ed783857e",
+    "data": [
+      {
+        "text": "it was not",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7b585417-0686-4a0d-890b-384fdf9facdf",
+    "data": [
+      {
+        "text": "nope",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a0d43105-a35c-41cb-824e-94f0d6a3c5e9",
+    "data": [
+      {
+        "text": "no",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

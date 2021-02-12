@@ -1,0 +1,55 @@
+[
+  {
+    "id": "92048828-36be-43b1-b0fa-4b09721766d2",
+    "data": [
+      {
+        "text": "250",
+        "meta": "@sys.number",
+        "alias": "otherChildSupport",
+        "userDefined": true
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c2065210-3519-4e79-918e-8461cc8014bd",
+    "data": [
+      {
+        "text": "three thousand",
+        "meta": "@sys.number",
+        "alias": "otherChildSupport",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ff1cb180-b79e-481d-b36f-b29e1445a39a",
+    "data": [
+      {
+        "text": "$",
+        "userDefined": false
+      },
+      {
+        "text": "300",
+        "meta": "@sys.number",
+        "alias": "otherChildSupport",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

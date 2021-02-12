@@ -1,0 +1,51 @@
+{
+  "id": "4373844f-abc1-4ccf-8960-87a2ba6e3d4c",
+  "name": "snap-county-office",
+  "auto": true,
+  "contexts": [
+    "snap-subject-matter",
+    "waiting-snap-county-office"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "snap-subject-matter",
+          "lifespan": 99
+        },
+        {
+          "name": "waiting-map-deliver-map-county-office",
+          "lifespan": 1
+        },
+        {
+          "name": "waiting-snap-county-office",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For additional information like a specific fax number or email address for a county office, please type your address below."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

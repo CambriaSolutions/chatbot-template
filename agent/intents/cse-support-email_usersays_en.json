@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1ce93b52-1074-4c1f-abc9-872299d1e7ac",
+    "data": [
+      {
+        "text": "my email is ",
+        "userDefined": false
+      },
+      {
+        "text": "jtran@cambriasolutions.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "26337144-9bbc-46f7-9bb4-da7f9c694f1e",
+    "data": [
+      {
+        "text": "cfreeman@cambriasolutions.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1ddc8800-2f70-48cc-81fe-afcab2e2f59f",
+    "data": [
+      {
+        "text": "its ",
+        "userDefined": false
+      },
+      {
+        "text": "cfreeman@cambriasolutions.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "813cfa60-cb4c-4213-862f-607e4e256ff0",
+    "data": [
+      {
+        "text": "my email is ",
+        "userDefined": false
+      },
+      {
+        "text": "cc.freem@yahoo.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

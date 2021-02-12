@@ -2,7 +2,7 @@
 var fs = require('fs')
 var archiver = require('archiver')
 
-var output = fs.createWriteStream('BotPlugin.zip')
+var output = fs.createWriteStream('GenBotPlugin.zip')
 var archive = archiver('zip', {
   zlib: { level: 9 } // Sets the compression level.
 })

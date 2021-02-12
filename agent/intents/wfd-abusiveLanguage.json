@@ -1,0 +1,57 @@
+{
+  "id": "cbc0b17f-1e27-4fe2-9100-dac92b9ace47",
+  "name": "wfd-abusiveLanguage",
+  "auto": true,
+  "contexts": [
+    "wfd-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "wfd-subject-matter",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c36fbde1-cb4b-4add-a159-0a60a210ff22",
+          "name": "geo-state",
+          "required": false,
+          "dataType": "@sys.geo-state",
+          "value": "$geo-state",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I\u0027m sorry you feel that way. I\u0027m learning everyday and apologize that I cannot help you right now. If you need further assistance with your request please try to rephrase your question or call \u003ca href\u003d\"tel:+16013594500\"\u003e1-601-359-4500\u003c/a\u003e."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": "339405b5-0fbc-45dd-af1c-3d4bc5dccdd7",
+  "name": "cse-caseQA-compliance-support-request",
+  "auto": true,
+  "contexts": [
+    "waiting-caseQA-compliance-support-request",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-caseQA-compliance-support-request",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

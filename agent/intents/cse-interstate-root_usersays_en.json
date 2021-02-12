@@ -1,0 +1,534 @@
+[
+  {
+    "id": "5c7d0e3b-177f-4deb-b4fd-0ba357c8356a",
+    "data": [
+      {
+        "text": "Will ",
+        "userDefined": false
+      },
+      {
+        "text": "Mississippi",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      },
+      {
+        "text": " pick ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      },
+      {
+        "text": " my case if it started in ",
+        "userDefined": false
+      },
+      {
+        "text": "Texas",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d64c8685-38e6-45e0-a03b-02d0e8331ab5",
+    "data": [
+      {
+        "text": "My case is close in ",
+        "userDefined": false
+      },
+      {
+        "text": "California",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      },
+      {
+        "text": " i need my refund from ",
+        "userDefined": false
+      },
+      {
+        "text": "Mississippi",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6ceb1695-02c2-4fe1-8848-fc77c0693cfe",
+    "data": [
+      {
+        "text": "Not in ",
+        "userDefined": false
+      },
+      {
+        "text": "Mississippi",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      },
+      {
+        "text": " anymore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fe070d26-4cc1-4825-ae18-e3c0ab5c63a7",
+    "data": [
+      {
+        "text": "My daughter was born in ",
+        "userDefined": false
+      },
+      {
+        "text": "Mississippi",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "87865a27-cc8d-40e9-8d6e-c60e9433e12e",
+    "data": [
+      {
+        "text": "He resides in ",
+        "userDefined": false
+      },
+      {
+        "text": "Mississippi",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7da0e43e-649c-477b-b338-ff8562d3f7a7",
+    "data": [
+      {
+        "text": "I\u0027m in ",
+        "userDefined": false
+      },
+      {
+        "text": "Georgia",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      },
+      {
+        "text": " and only get updates from my case here in ",
+        "userDefined": false
+      },
+      {
+        "text": "GA",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      },
+      {
+        "text": " can I have access to my case information there in ",
+        "userDefined": false
+      },
+      {
+        "text": "Mississippi",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d98e1e09-7e13-4f8b-8362-362c6bc45ad6",
+    "data": [
+      {
+        "text": "I have a child support case in Arkansas, can I change it to MS where I ",
+        "userDefined": false
+      },
+      {
+        "text": "currently",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      },
+      {
+        "text": " reside as the custodial parent?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "090498b6-1247-4401-a98e-c80e6f8d612a",
+    "data": [
+      {
+        "text": "Transfer case",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0de80974-dd1a-4f47-8925-d255352b64ff",
+    "data": [
+      {
+        "text": "Need to talk to a human ASAP about a case brought against me before time runs out name is ",
+        "userDefined": false
+      },
+      {
+        "text": "David",
+        "meta": "@sys.given-name",
+        "alias": "given-name",
+        "userDefined": false
+      },
+      {
+        "text": " Loper number is 251-408-",
+        "userDefined": false
+      },
+      {
+        "text": "7107",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      },
+      {
+        "text": " an I live in ",
+        "userDefined": false
+      },
+      {
+        "text": "George county",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " an case was open up in ",
+        "userDefined": false
+      },
+      {
+        "text": "Gulfport",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e7438869-e0e6-4c6f-baef-06e9638a265e",
+    "data": [
+      {
+        "text": "How long will it take the State of MS look into an out of state case in Wisconsin?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "24eed2cb-8c1f-4a46-9ea8-de6f8a720b14",
+    "data": [
+      {
+        "text": "We are in ",
+        "userDefined": false
+      },
+      {
+        "text": "Texas",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      },
+      {
+        "text": ", but order is from Mississippi.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4c2a46e9-cce6-4392-92d0-ab032b98ed60",
+    "data": [
+      {
+        "text": "But what do I do to transfer services from Mississippi to Alabama",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1df33a73-f58f-49aa-86a3-618d1f6930ab",
+    "data": [
+      {
+        "text": "I live in ",
+        "userDefined": false
+      },
+      {
+        "text": "fl",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      },
+      {
+        "text": ". My sons father lives in ",
+        "userDefined": false
+      },
+      {
+        "text": "Mississippi",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      },
+      {
+        "text": ". I have a case open here and I\u0027m just trying to see what your state is doing to help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2fb9d3f0-cec9-43d4-9430-c2c3b3aa9719",
+    "data": [
+      {
+        "text": "My case is supposed to transferred from the state of Indiana to the state of Mississippi and I\u0027m wondering how long that process takes before I\u0027ll start getting child support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "97b8d6f0-9d43-4453-8e80-04ac27cbc6df",
+    "data": [
+      {
+        "text": "I switch states from Mississippi back to NY where both fathers live and I originally received payments. I tried switching back ",
+        "userDefined": false
+      },
+      {
+        "text": "4 months ago",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "haven",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027t received payments thru either state in that time. Where are my payments going?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "086d81ae-8945-49f7-bdc4-0da1de128490",
+    "data": [
+      {
+        "text": "I received my letter to allow my ex to pay his child support thru the state however he has moved again so he was not notified. What do I need to do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eac09234-cbb5-4f00-8332-3b9eb0938c38",
+    "data": [
+      {
+        "text": "how to transfer my case from ",
+        "userDefined": false
+      },
+      {
+        "text": "West",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " Memphis Arkansas to Mississippi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "affa4626-dc7a-400d-8eeb-683643328154",
+    "data": [
+      {
+        "text": "I  don\u0027t have a case in MS my child support is paid through the state of NY",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6f2262ba-6166-4089-b435-5de4250314ca",
+    "data": [
+      {
+        "text": "I need to transfer my case from one state to another",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0e152374-41e0-4f3e-b05c-99cc70382271",
+    "data": [
+      {
+        "text": "I need to speak to someone about a transfer in my child support from LA to MS",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3d237e56-42d5-4513-8c38-225ce3ff652c",
+    "data": [
+      {
+        "text": "Interstate Cases",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b62a5c66-1737-4f4e-8a7b-b205fb9d8921",
+    "data": [
+      {
+        "text": "I was wondering if the father of my kids child support change if he moved to a different state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f1c2d1fd-f501-4cb1-87d9-7481e23090d9",
+    "data": [
+      {
+        "text": "I\u0027m in ",
+        "userDefined": false
+      },
+      {
+        "text": "Florida",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      },
+      {
+        "text": " but the case in ",
+        "userDefined": false
+      },
+      {
+        "text": "Starkville",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " MS",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "510ae15f-2089-4fb8-810f-7790f9b05cd7",
+    "data": [
+      {
+        "text": "Interstate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

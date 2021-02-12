@@ -1,0 +1,100 @@
+{
+  "id": "42833b8a-7885-4da6-aa44-19dd77e51801",
+  "name": "cse-open-csc-full-services",
+  "auto": true,
+  "contexts": [
+    "waiting-open-csc-full-services",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-open-csc-full-services",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-open-csc-select-form",
+          "lifespan": 2
+        },
+        {
+          "name": "waiting-open-csc-no-service",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Full Services include: Locate the noncustodial parent; Establish the legal paternity of my child(ren); Get a legal order for child support, including medical insurance, for the child(ren), or get an amendment to the child support order if one already exists; Enforce the child support order by any way permitted by law; Collect and distribute child support payments according to Federal guidelines and the laws of the State of Mississippi; Disclose my circumstances in pleadings or other documents filed in a proceeding to enforce/determine child support for my child(ren)."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please note, if you desire Child Support services, you will need to pay $25.00. Include this when you complete and submit the application."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Note, in some cases, there may also be a mandatory $35.00 annual fee. Click \u003ca href\u003d\"https://www.mdhs.ms.gov/wp-content/uploads/2020/06/MDHS_CS_FAQ-2-Annual-Fee-final.pdf\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e to learn more about the annual fee."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Is this the service you want?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "YES",
+              "NO"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "0e495399-8aad-4445-8f5c-4d282cc06850",
+    "data": [
+      {
+        "text": "money gram",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c5a0dc20-8dc2-44a8-a627-c4c1175c1dfe",
+    "data": [
+      {
+        "text": "Moneygram",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

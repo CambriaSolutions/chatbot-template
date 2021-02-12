@@ -1,0 +1,87 @@
+{
+  "id": "386d67d9-a3ca-4bea-b98c-25c1a675154c",
+  "name": "cse-support-parent-paying",
+  "auto": true,
+  "contexts": [
+    "waiting-support-parent-paying",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-support-employment-status",
+          "lifespan": 3,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-parent-paying-more",
+          "lifespan": 3,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-parent-paying",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-employer",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-parent-receiving",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I can help parents making payments with the following requests. If you don\u0027t see what you need, select \"More\"."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Change of Personal Information",
+              "Change of Employment Status",
+              "Child Support Payment Increase or Decrease",
+              "Visitation",
+              "Emancipation",
+              "More"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

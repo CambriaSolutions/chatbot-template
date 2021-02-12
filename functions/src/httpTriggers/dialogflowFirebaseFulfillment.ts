@@ -100,6 +100,7 @@ export const dialogflowFirebaseFulfillment: HttpsFunction = async (request, resp
       // List of intents what will reset the back button context
       const resetBackIntentList = [
         'Default Welcome Intent',
+        'cse-support-submit-issue',
       ]
 
       const resetStartOverIntentList = [

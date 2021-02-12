@@ -7,6 +7,154 @@ import { getUTCDate } from '../../common/helper'
 import { storeMetricsSubscription } from './realtimeActions'
 import { renameIntent } from '../../common/renameIntent'
 
+const personaIntentMappings = {
+  'cse-employer-root': 'Employer',
+  'cse-support-employer': 'Employer',
+  'cse-pmts-general-receive-payments': 'CP',
+  'cse-support-parent-receiving': 'CP',
+  'cse-pmts-general-non-custodial': 'NCP',
+  'cse-support-parent-paying': 'NCP',
+}
+
+const personaIntents = [...Object.keys(personaIntentMappings)]
+
+const derivePersonaMetrics = (personaMetricsQueryResult) => {
+  const personaMetrics = {}
+  const sessionMetrics = {}
+
+  personaMetricsQueryResult.forEach(request => {
+    const intentName = request.intentName
+    if (personaIntents.includes(intentName)) {
+      const requestDate = new Date(request.createdAt.seconds * 1000)
+      const metricsKey = format(requestDate, 'MM-dd-yyyy')
+      let metrics = personaMetrics[metricsKey]
+
+      if (metrics === undefined || metrics === null) {
+        metrics = {
+          cpCount: 0,
+          ncpCount: 0,
+          employerCount: 0
+        }
+      }
+
+      let personas = sessionMetrics[request.sessionId]
+      const persona = personaIntentMappings[intentName]
+
+      if (personas === undefined || personas === null) {
+        personas = [persona]
+        switch (persona) {
+          case 'CP':
+            metrics.cpCount += 1
+            break
+          case 'NCP':
+            metrics.ncpCount += 1
+            break
+          case 'Employer':
+            metrics.employerCount += 1
+            break
+          default:
+            break
+        }
+      } else {
+        if (!personas.includes(persona)) {
+          switch (persona) {
+            case 'CP':
+              metrics.cpCount += 1
+              break
+            case 'NCP':
+              metrics.ncpCount += 1
+              break
+            case 'Employer':
+              metrics.employerCount += 1
+              break
+            default:
+              break
+          }
+          personas.push(persona)
+        }
+      }
+
+      sessionMetrics[request.sessionId] = personas
+      personaMetrics[metricsKey] = metrics
+    }
+  })
+
+  const rtn = map(personaMetrics, (pm: any, key) => ({
+    ...pm,
+    // Add the date as the id
+    id: key,
+    // Set some defaults so this object has the same structure as the other metrics objects. 
+    averageConversationDuration: 0,
+    conversationsWithSupportRequests: [],
+    dailyExitIntents: {},
+    date: {},
+    exitIntents: [],
+    fallbackTriggeringQueries: [],
+    intents: [],
+    noneOfTheseCategories: [],
+    numConversationsWithSupportRequests: 0,
+    numFallbacks: 0,
+    numConversations: 0,
+    numConversationsWithDuration: 0,
+    supportRequests: []
+  }))
+
+  return rtn
+}
+
+const formatPersonaQuerySnapshotDocuments = docs => {
+  return reduce(docs, (result, doc) => {
+    const request = doc.data()
+
+    const output = ({
+      id: doc.id,
+      createdAt: request.createdAt,
+      intentName: request.queryResult.intent.displayName,
+      sessionId: request.session.split('/').pop()
+    })
+
+    if (personaIntents.includes(output.intentName)) {
+      return [...result, output]
+    } else {
+      return result
+    }
+  }, [])
+}
+
+const queryPersonaMetrics = async (context, dateRange) => {
+  const requestsRef = db.collection(`${context}/requests`)
+
+  const startDate = new Date(dateRange.start)
+  const endDate = new Date(dateRange.end)
+
+  const snapshot = await requestsRef
+    .where('queryResult.intent.displayName', 'in', personaIntents)
+    .where('createdAt', '>=', startDate)
+    .where('createdAt', '<=', endDate)
+    .get()
+
+  if (snapshot.empty) {
+    console.warn('no records found')
+  }
+
+  return snapshot
+}
+
+const getPersonaMetrics = async (context, dateRange) => {
+  try {
+
+    const personaMetricsSnapshot = await queryPersonaMetrics(context, dateRange)
+
+    const personaMetricsQueryResult = formatPersonaQuerySnapshotDocuments(personaMetricsSnapshot.docs)
+
+    const personaMetrics = derivePersonaMetrics(personaMetricsQueryResult)
+
+    return personaMetrics
+  } catch (e) {
+    console.error(e)
+  }
+}
+
 const formatMetricsQuerySnapshotDocuments = metricsQuerySnapshot => {
   const fetchedMetrics = []
 
@@ -36,6 +184,19 @@ export const getMetrics = async (dateRange, context) => {
 
   return formatMetricsQuerySnapshotDocuments(metricsQuerySnapshot)
 }
+
+const mergeMetricsAndPersonaMetrics = (metrics, personaMetrics) => reduce(personaMetrics, (results, current) => {
+  const filteredResults = filter(results, x => x.id !== current.id)
+  const resultsDayMetrics = find(results, x => x.id === current.id)
+  return ([
+    ...filteredResults,
+    {
+      // Spread "current" first so the defaults are overwritten
+      ...current,
+      ...resultsDayMetrics
+    }
+  ])
+}, metrics)
 
 // Fetch metrics for a specific subject matter
 export const fetchMetrics = (dateRange, context = undefined) => {
@@ -67,7 +228,14 @@ export const fetchMetrics = (dateRange, context = undefined) => {
           if (doc.exists) {
             const fetchedMetrics = formatMetricsQuerySnapshotDocuments([doc])
 
-            dispatch(fetchMetricsSuccess(fetchedMetrics))
+            // If the metrics changed and triggered an update, need to refetch the persona metrics
+            // in order to merge both sets of metrics.
+            const personaMetrics = await getPersonaMetrics(context, dateRange)
+
+            // Combine the fetched daily metrics with the metrics calculated for daily requests
+            const mergedMetrics = mergeMetricsAndPersonaMetrics(fetchedMetrics, personaMetrics)
+
+            dispatch(fetchMetricsSuccess(mergedMetrics))
           } else {
             dispatch(fetchMetricsSuccess([]))
 
@@ -80,7 +248,12 @@ export const fetchMetrics = (dateRange, context = undefined) => {
 
         const fetchedMetrics = await getMetrics(dateRange, context)
 
-        dispatch(fetchMetricsSuccess(fetchedMetrics))
+        const personaMetrics = await getPersonaMetrics(context, dateRange)
+
+        // Combine the fetched daily metrics with the metrics calculated for daily requests
+        const mergedMetrics = mergeMetricsAndPersonaMetrics(fetchedMetrics, personaMetrics)
+
+        dispatch(fetchMetricsSuccess(mergedMetrics))
       }
 
     } catch (err) {
@@ -116,6 +289,7 @@ export const fetchMetricsTotal = (dateRange) => {
         ncpCount: 0,
         employerCount: 0,
         averageConversationDuration: 0,
+        conversationsWithSupportRequests: [],
         dailyExitIntents: {},
         date: {},
         exitIntents: [],
@@ -128,15 +302,33 @@ export const fetchMetricsTotal = (dateRange) => {
         },
         intents: [],
         noneOfTheseCategories: [],
+        numConversationsWithSupportRequests: 0,
         numFallbacks: 0,
         numConversations: 0,
         numConversationsWithDuration: 0,
+        supportRequests: []
       }
 
       const aggregatedSubjectMatterMetricsById = reduce(subjectMatterMetricsById, (subjectMatterResult, currentSubjectMatter) => {
 
         // Take the current result object and construct a new object that includes the current subject matter's daily metrics
         return reduce(currentSubjectMatter, (dayResult, dayMetrics) => {
+          // Temporarily key the support requests by name to facilitate aggregation
+          const aggregatedSupportRequests = reduce(dayMetrics.supportRequests, (supportResult, currentSupport) => {
+            const previousOccurrences = supportResult[currentSupport.name] ? supportResult[currentSupport.name].occurrences : 0
+
+            return ({
+              // Persist the other entries in the supportResult object
+              ...supportResult,
+              // Keying support requests by name
+              [currentSupport.name]: {
+                name: currentSupport.name,
+                // The new value for occurrences will be the old (current aggregate) plus the new value in the iterate
+                occurrences: previousOccurrences + currentSupport.occurrences
+              }
+            })
+          }, subjectMatterResult[dayMetrics.id] ? subjectMatterResult[dayMetrics.id].supportRequests : {})
+
           // Temporarily key the intents by name to facilitate aggregation
           const aggregatedIntents = reduce(dayMetrics.intents, (intentResult, currentIntent) => {
             const previousOccurrences = intentResult[currentIntent.name] ? intentResult[currentIntent.name].occurrences : 0
@@ -197,6 +389,7 @@ export const fetchMetricsTotal = (dateRange) => {
               ...dayDefaults,
               id: dayMetrics.id,
               feedback: aggregatedFeedback,
+              supportRequests: aggregatedSupportRequests,
               intents: aggregatedIntents
             }
           })
@@ -204,6 +397,8 @@ export const fetchMetricsTotal = (dateRange) => {
       }, {})
 
       // Merge the metrics from the "general" subject matter, and metrics from the actual subject matters.
+      // NOTE: we use *user*, *browser*, and *device* metrics from the "general" subject matter, but the support request metrics
+      // from the individual subject matters
       const mergedMetrics = reduce(generalMetrics, (result, m) => ({
         ...result,
         [m.id]: {
@@ -222,9 +417,10 @@ export const fetchMetricsTotal = (dateRange) => {
         }
       }), aggregatedSubjectMatterMetricsById)
 
-      // Undo the fact that daily metrics are keyed by date
+      // Undo the fact that daily metrics are keyed by date and support requests and intents are keyed by name
       const aggregatedMetrics = map(mergedMetrics, (m: any) => ({
         ...m,
+        supportRequests: map(m.supportRequests),
         intents: map(m.intents)
       }))
 
@@ -238,13 +434,16 @@ export const fetchMetricsTotal = (dateRange) => {
 
 export const fetchMetricsSuccess = metrics => {
   return dispatch => {
-    // Retrieve intents from daily metrics
-    // Create intents dictionary with counters for occurrences & sessions
-    let intents = {}
+    // Retrieve intents & support requests from daily metrics
+    // Create intents & support requests dictionary with counters for occurrences & sessions
+    let intents = {},
+      supportRequests = {}
     const feedback = { helpful: {}, notHelpful: {}, positive: 0, negative: 0 }
     let avgConvoDuration = 0
     let numConversations = 0
     let numConversationsWithDuration = 0
+    let numConversationsWithSupportRequests = 0
+    let numSupportRequests = 0
     let fallbackTriggeringQueries = {}
 
     const exitIntents = []
@@ -254,6 +453,13 @@ export const fetchMetricsSuccess = metrics => {
       avgConvoDuration += metric.averageConversationDuration * metric.numConversationsWithDuration
       numConversations += metric.numConversations
       numConversationsWithDuration += metric.numConversationsWithDuration
+      numConversationsWithSupportRequests +=
+        metric.numConversationsWithSupportRequests
+
+      numSupportRequests += reduce(metric.supportRequests, (result, value) => {
+        result += value.occurrences
+        return result
+      }, 0)
 
       for (const intent in metric.exitIntents) {
         const currentIntent = metric.exitIntents[intent].name
@@ -300,6 +506,23 @@ export const fetchMetricsSuccess = metrics => {
               fallbackTriggeringQueries[query.queryText] = fallbackTriggeringQueries[query.queryText] + query.occurrences
             }
           }
+        }
+      }
+
+      // Support requests
+      const dateSupportRequests = metric.supportRequests
+      if (dateSupportRequests) {
+        for (const dateRequest of dateSupportRequests) {
+          const supportId = dateRequest.name.replace(/\s+/g, '-')
+          const currRequest = supportRequests[`${supportId}`]
+          if (currRequest) {
+            currRequest.occurrences =
+              currRequest.occurrences + dateRequest.occurrences
+          } else
+            supportRequests[`${supportId}`] = {
+              name: `${dateRequest.name}`,
+              occurrences: dateRequest.occurrences,
+            }
         }
       }
 
@@ -351,6 +574,10 @@ export const fetchMetricsSuccess = metrics => {
       id: key,
     }))
 
+    supportRequests = Object.keys(supportRequests).map(key => ({
+      ...supportRequests[key],
+    }))
+
     fallbackTriggeringQueries = Object.keys(fallbackTriggeringQueries).map(key => ({
       queryText: key,
       id: key,
@@ -362,6 +589,9 @@ export const fetchMetricsSuccess = metrics => {
       dailyMetrics: metrics,
       intents: intents,
       fallbackTriggeringQueries: fallbackTriggeringQueries,
+      supportRequests: supportRequests,
+      numConversationsWithSupportRequests: numConversationsWithSupportRequests,
+      supportRequestTotal: numSupportRequests,
       feedback: feedback,
       feedbackSelected: 'positive',
       feedbackFiltered: feedbackFiltered,

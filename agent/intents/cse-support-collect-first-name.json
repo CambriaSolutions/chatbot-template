@@ -1,0 +1,61 @@
+{
+  "id": "44dc9191-8d81-42e9-8e18-13e421a3de3f",
+  "name": "cse-support-collect-first-name",
+  "auto": true,
+  "contexts": [
+    "waiting-support-collect-first-name",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-support-collect-first-name",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "10dfa63a-1e0e-40e8-adf1-faee3c5b8032",
+          "name": "firstName",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$firstName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

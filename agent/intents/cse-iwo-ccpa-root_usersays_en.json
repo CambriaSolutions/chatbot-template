@@ -1,0 +1,54 @@
+[
+  {
+    "id": "7c3bea1a-fa3d-41e8-88d6-812b80808c60",
+    "data": [
+      {
+        "text": "CCPA Calculator",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "769f5efb-0eff-46be-9a48-c5a848585d79",
+    "data": [
+      {
+        "text": "How do I estimate the witholding amount?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bed25ffb-a8de-4047-a003-ae41cda04415",
+    "data": [
+      {
+        "text": "how much an employer can withhold?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4047d44a-bb48-4f07-aa22-023f4d99771d",
+    "data": [
+      {
+        "text": "what is ccpa calculator",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

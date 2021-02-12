@@ -1,0 +1,41 @@
+[
+  {
+    "id": "058385cf-2c40-43c1-b465-f6334131ec01",
+    "data": [
+      {
+        "text": "why isnt my work taking money out of my paycheck",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "858f7970-a27b-4547-a555-089cba5932b5",
+    "data": [
+      {
+        "text": "why isnt my job deducting my pay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d4395367-3f19-4d06-9f5a-f0149383de4c",
+    "data": [
+      {
+        "text": "Why isn\u0027t my employer taking payments out?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

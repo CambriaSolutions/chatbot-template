@@ -1,0 +1,77 @@
+{
+  "id": "0251d143-2623-479a-98bd-b9928c8c969e",
+  "name": "cse-support-parent-receiving-emancipation",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-feedback-root",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-parent-receiving-more",
+          "lifespan": 3,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Unless otherwise ordered by the court, child support generally continues in Mississippi until the child emancipates when a child: 1) reaches the age of 21; 2) marries; 3) joins and serves in the military on a full time basis; or 4) is convicted of a felony and is sentenced to incarceration of at least 2 years. A court may emancipate a child for other reasons allowable under law. Emancipation does not terminate the obligation to satisfy child support arrears that exist at the time of emancipation."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please \u003ca href\u003d\"https://www.acf.hhs.gov/css/irg-state-map\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e for emancipation information from other states."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Submit Feedback",
+              "Request Case Closure"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

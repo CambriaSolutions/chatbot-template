@@ -1,0 +1,154 @@
+[
+  {
+    "id": "f9276112-e3eb-4e64-92e8-ca6de932feaf",
+    "data": [
+      {
+        "text": "Where can I get an application?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f580f669-9fbe-4ef0-9a38-878752eed62b",
+    "data": [
+      {
+        "text": "How can I get an application?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bd7534f8-e33a-427d-9491-92e87b85dc4c",
+    "data": [
+      {
+        "text": "Are referrals and applications available online?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4ce7d079-eda2-4e1a-b5a9-42c6574e59e8",
+    "data": [
+      {
+        "text": "Can I start class before my application is approved?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f216071b-db5b-4b9e-bce3-eaed6a428575",
+    "data": [
+      {
+        "text": "How long will it take to process my application?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "39742bec-8e4b-4388-bab0-223aad94b67c",
+    "data": [
+      {
+        "text": "Can my caseworker submit my application for me?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1415c8fe-a89e-4e96-828f-3bf72a651ede",
+    "data": [
+      {
+        "text": "Do I have to do a food stamp (SNAP) application ",
+        "userDefined": false
+      },
+      {
+        "text": "first",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "37e1369e-92da-4d8e-bf3d-5d69f2fd27eb",
+    "data": [
+      {
+        "text": "When I get referred, do I have to go to the county office for an interview or assessment?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ec418ca6-0886-4ad2-8d65-d7b2130d50d4",
+    "data": [
+      {
+        "text": "Who do I contact?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9831434b-6566-4688-a609-bf072d4d3029",
+    "data": [
+      {
+        "text": "Where can I find information about enrolling?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d011544f-6ced-4b8f-85b1-0873bcda9cc9",
+    "data": [
+      {
+        "text": "How can I apply?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

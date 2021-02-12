@@ -1,0 +1,67 @@
+{
+  "id": "d78fa566-1947-476c-9d23-b6a83f351c39",
+  "name": "cse-contact-qa-number",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-contact-support-handoff",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-contact-provide-phone-number",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I can help you submit service requests and prevent you from waiting on hold. To submit a request, please click below. To see our customer service number, please click “Customer Service”."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Submit Support Request",
+              "Customer Service"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

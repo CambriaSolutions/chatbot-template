@@ -1,0 +1,66 @@
+{
+  "id": "f316d915-5932-4d7d-b8d6-771afbb51245",
+  "name": "cse-caseQA-general",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-support-submitSupportRequest-inquiry",
+          "lifespan": 1,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-restart-conversation",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I cannot provide you case specific information at this time. You may submit a support request or call \u003ca href\u003d\"tel:+18778824916\"\u003e877-882-4916\u003c/a\u003e."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Submit Support Request"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,120 @@
+[
+  {
+    "id": "bc6334c9-32da-4de4-be7b-f050525c6828",
+    "data": [
+      {
+        "text": "sounds good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "292e8e66-a417-4796-8851-36442d482993",
+    "data": [
+      {
+        "text": "got it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a9aae293-7530-41e6-8dc2-389090265567",
+    "data": [
+      {
+        "text": "recalculate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "593afb9d-0116-4ec3-a530-07a773f9048f",
+    "data": [
+      {
+        "text": "yes",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "99d6f9a5-1b3b-435b-8e77-233a355eee8e",
+    "data": [
+      {
+        "text": "calculate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "524dcab0-6d09-4fdf-9999-1071667b8aa9",
+    "data": [
+      {
+        "text": "that\u0027s ok",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ac8c9884-bd37-4244-be2d-19106c0180cc",
+    "data": [
+      {
+        "text": "sure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "280ba8a5-54f1-4afd-a07f-5fcd82cef37e",
+    "data": [
+      {
+        "text": "ok",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "17696f0f-e4d2-4114-95cc-eab482ed0299",
+    "data": [
+      {
+        "text": "I understand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

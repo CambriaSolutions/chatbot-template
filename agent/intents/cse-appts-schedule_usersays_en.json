@@ -1,0 +1,54 @@
+[
+  {
+    "id": "600edad0-2008-4007-9b29-1df5c4c34001",
+    "data": [
+      {
+        "text": "i need to make an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b6d81c3f-e932-4a0f-a600-8859dbe14bbd",
+    "data": [
+      {
+        "text": "i want to make an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "af78473a-4077-4130-96c1-ef8b858edea1",
+    "data": [
+      {
+        "text": "i\u0027d like to make an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ba1fbf37-3c56-4f3c-87c3-e51a095fd67a",
+    "data": [
+      {
+        "text": "schedule an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

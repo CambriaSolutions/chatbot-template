@@ -1,0 +1,47 @@
+[
+  {
+    "id": "5302b140-505f-47fb-918e-5c01b044d09c",
+    "data": [
+      {
+        "text": "sure",
+        "meta": "@yes-no",
+        "alias": "wantsLocation",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2cc6a039-4190-420a-94c5-5c7496d1a870",
+    "data": [
+      {
+        "text": "no",
+        "meta": "@yes-no",
+        "alias": "wantsLocation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f523c8fb-f5a2-4cd8-a304-f7eb9513400b",
+    "data": [
+      {
+        "text": "yes",
+        "meta": "@yes-no",
+        "alias": "wantsLocation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

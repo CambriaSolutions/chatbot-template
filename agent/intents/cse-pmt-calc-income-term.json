@@ -1,0 +1,61 @@
+{
+  "id": "c9aa16c2-4c83-41c3-a7a2-8043d0aebff0",
+  "name": "cse-pmt-calc-income-term",
+  "auto": true,
+  "contexts": [
+    "waiting-pmt-calc-income-term",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-pmt-calc-income-term",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "582bdb79-0672-4451-becf-beca13c1da3f",
+          "name": "numChildren",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$numChildren",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

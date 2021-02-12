@@ -1,0 +1,54 @@
+{
+  "id": "bffe9eb9-c414-4796-b09d-672a2ebb8478",
+  "name": "cse-support-submitSupportRequest-requestPaymentHistory",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 999
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1fe7e21f-f824-4917-9ca8-b42522826c94",
+          "name": "cadence",
+          "required": false,
+          "dataType": "@cadence",
+          "value": "$cadence",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

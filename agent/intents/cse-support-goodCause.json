@@ -1,0 +1,75 @@
+{
+  "id": "c7204ea3-bc22-498f-afd1-b1a9f5b8127a",
+  "name": "cse-support-goodCause",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-support-submitSupportRequest-goodCause",
+          "lifespan": 1,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-parent-receiving-more",
+          "lifespan": 3,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you were referred to child support by another program that requires cooperation with child support, you may be excused from cooperating with child support       if one of the following circumstances applies to your family:       \u003cul\u003e         \u003cli\u003eThe other parent has caused physical or emotional harm to the child.\u003c/li\u003e         \u003cli\u003eThe other parent has caused physical or emotional harm which affects your ability to care for the child(ren).\u003c/li\u003e         \u003cli\u003eThere is a protective order against the other parent. \u003c/li\u003e         \u003cli\u003eThe child(ren) were conceived of either rape or incest.\u003c/li\u003e         \u003cli\u003eLegal proceedings for the adoption of the child are pending before a court of competent jurisdiction.\u003c/li\u003e         \u003cli\u003eYou are receiving assistance from a public or licensed private social service agency to help determine whether you should allow your child(ren) to be adopted.\u003c/li\u003e      \u003c/ul\u003e"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If one of these exemptions applies to your family, please submit a request below and a representative will reach out to you       for more information, or you may call 1-877-882-4916. Please \u003ca href\u003d\"https://www.mdhs.ms.gov/wp-content/uploads/2019/08/MDHS_CSE_Parents-Handbook_V2.pdf\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e to learn what documentation is required for good cause exemptions."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Submit Support Request"
+            ],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

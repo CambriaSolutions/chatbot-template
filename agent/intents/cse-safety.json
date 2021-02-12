@@ -1,0 +1,91 @@
+{
+  "id": "80416c52-5c31-4823-a100-8e6fa8080115",
+  "name": "cse-safety",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-support-submitSupportRequest-safety",
+          "lifespan": 1,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "MDHS takes safety of families very seriously and can modify some processes to help with safety concerns. Reporting your safety concerns is not a criminal allegation against any party in a case, nor a request for MDHS to avoid pursuing services. Instead, this information is used by MDHS to better manage your case and protect your information. MDHS treats this information as confidential, and will not reveal it to any other party, including another parent."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you are applying for child support services or have been referred by another program, please let us know as soon as possible if any of these conditions apply to your family:       \u003cul\u003e        \u003cli\u003eYou are concerned about the other parent’s reaction to child support services.\u003c/li\u003e        \u003cli\u003eThere is a restraining order against the other parent.\u003c/li\u003e        \u003cli\u003eYou are concerned of the other parent getting your address and contact information.\u003c/li\u003e        \u003cli\u003eYou are afraid about the other parent.\u003c/li\u003e        \u003cli\u003eYou are afraid of seeing the other parent in court or child support office.\u003c/li\u003e        \u003cli\u003eThe other parent has been convicted of domestic violence or another related crime such as assault, battery, stalking, etc.\u003c/li\u003e      \u003c/ul\u003e"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If any of the above circumstances apply to your family and you have an existing case or have been referred to child support by another program, please contact us immediately at 1-877-882-4916 or report the information by submitting a request below."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you are considering opening a case, please let us know on the application if these issues apply to your family."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Submit Support Request",
+              "Parent\u0027s Guide to CSE"
+            ],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

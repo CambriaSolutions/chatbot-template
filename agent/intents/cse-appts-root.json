@@ -1,0 +1,68 @@
+{
+  "id": "6149580d-2a87-444a-bea8-d170ba8d9f5f",
+  "name": "cse-appts-root",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-appts-guidelines",
+          "lifespan": 2
+        },
+        {
+          "name": "waiting-appts-schedule",
+          "lifespan": 2
+        },
+        {
+          "name": "waiting-appts-office-locations",
+          "lifespan": 2
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sure, I can provide you with information about appointments. What are you looking to do?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Appointment Guidelines",
+              "Schedule an Appointment",
+              "Office Locations"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

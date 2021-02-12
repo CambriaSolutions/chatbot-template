@@ -25,7 +25,7 @@ const updateDatabaseSettings = async () => {
     }
   })
 
-  const subjectMatters = ['general', 'mscj']
+  const subjectMatters = ['general', 'cse', 'tanf', 'snap']
 
   // Remove any settings that are not a valid subject matter.
   settings.forEach(doc => {

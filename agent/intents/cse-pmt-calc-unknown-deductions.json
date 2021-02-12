@@ -1,0 +1,115 @@
+{
+  "id": "07afd2fd-b428-4702-8aed-05b0f9dfc786",
+  "name": "cse-pmt-calc-unknown-deductions",
+  "auto": true,
+  "contexts": [
+    "waiting-pmt-calc-unknown-deductions",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "payment-factors",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmt-calc-restart",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmt-calc-unknown-deductions",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmt-calc-child-support",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmt-calc-retirement-contributions",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmt-calc-final-estimation",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmt-calc-ss-deductions",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "fed246e1-d2d2-49fc-ad2e-ae7ec0b6d3bc",
+          "name": "dont-know",
+          "required": false,
+          "dataType": "@dont-know",
+          "value": "$dont-know",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I can only estimate your child support payments if you know your income \u0026 deductions."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For more information, please call \u003ca href\u003d\"tel:+18778824916\"\u003e1-877-882-4916\u003c/a\u003e or visit a local child support office."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

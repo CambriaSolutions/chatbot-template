@@ -1,0 +1,93 @@
+[
+  {
+    "id": "bf117a46-ea1f-4da9-ae6b-472510e94433",
+    "data": [
+      {
+        "text": "License Suspension",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "939594a4-c77d-4bcf-9cef-bb77d175a5f0",
+    "data": [
+      {
+        "text": "License Reinstatement",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d4e4ea82-4f2e-4cfc-bb8b-968b7bc7547f",
+    "data": [
+      {
+        "text": "License Suspension Reinstatement",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e505e45a-f4bc-441d-b9c3-3d326d5908e2",
+    "data": [
+      {
+        "text": "License Suspension/Reinstatement",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ab7afff8-3461-4e49-8c61-9d9e1d3f6878",
+    "data": [
+      {
+        "text": "How can I get my license reinstated?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "04211f9c-035d-4c63-bdcd-55b054d455ae",
+    "data": [
+      {
+        "text": "Why was my license revoked?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fe7828c0-44b6-4ad1-a2ec-c1f8f81fe462",
+    "data": [
+      {
+        "text": "Can I get license revoked?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

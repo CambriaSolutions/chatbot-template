@@ -1,0 +1,145 @@
+[
+  {
+    "id": "9ecf1ea9-78b2-49b5-9636-b19a62a42050",
+    "data": [
+      {
+        "text": "howdy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "03584308-2886-4fcf-8b04-30e7db3d35a6",
+    "data": [
+      {
+        "text": "hey there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7600ee40-5642-4e1e-83f3-8e6fa59cad39",
+    "data": [
+      {
+        "text": "are you there?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "881c2ae7-397f-4c46-b460-98080b77971c",
+    "data": [
+      {
+        "text": "hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "89135423-01ca-469d-981f-e560cd7896b8",
+    "data": [
+      {
+        "text": "hello",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5b589991-391f-4dff-9827-5e76a21f00a2",
+    "data": [
+      {
+        "text": "main menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3406779d-e528-4833-b7de-d9fb23fd9501",
+    "data": [
+      {
+        "text": "help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "95779af2-85e6-4dd1-bde4-e89f6637479d",
+    "data": [
+      {
+        "text": "i want to restart",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3daa18b4-958f-410a-baea-e18a7fcdf22a",
+    "data": [
+      {
+        "text": "give me the menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "06b1ada2-2ac3-44af-ae84-624873e581f0",
+    "data": [
+      {
+        "text": "menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "41125e6a-1a88-46d2-8d3f-4324a9a25748",
+    "data": [
+      {
+        "text": "start over",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "id": "5b651cd3-a97b-4ca7-9ab7-9e81e04e4116",
+    "data": [
+      {
+        "text": "how late do you stay open",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3ada8b97-6d12-4486-a85c-e40df3c74c49",
+    "data": [
+      {
+        "text": "when do yall open",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9f22e5ca-1041-411a-b240-bd51c33b213e",
+    "data": [
+      {
+        "text": "when do you guys open",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e609fa7f-6af4-420f-abdb-4f81ca41d62b",
+    "data": [
+      {
+        "text": "what time are you open",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c6a3f248-1a32-43a1-825c-6be3921bade8",
+    "data": [
+      {
+        "text": "when are you guys open",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9f3d0bc7-022c-4386-bc6b-954df4e298f3",
+    "data": [
+      {
+        "text": "what are your hours",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "da795df4-ddfc-4ff3-96b4-002f5eb3d903",
+    "data": [
+      {
+        "text": "what are your office hours",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "68ad2f49-3cdf-4f0c-ade3-a1fd2f44d115",
+    "data": [
+      {
+        "text": "What are your hours of operation?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "53624ecf-b974-48fe-bcaa-88fdc32cd616",
+    "data": [
+      {
+        "text": "May I go into the office at any time?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "id": "dea6e094-d5fd-4e2c-a5e9-1eae648312fe",
+  "name": "cse-pmt-calc-gross-income",
+  "auto": true,
+  "contexts": [
+    "waiting-pmt-calc-gross-income",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-pmt-calc-gross-income",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmt-calc-unknown-income",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmt-calc-unknown-tax-deductions",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a648ff2c-c0ec-4356-9143-85ffb04f4aee",
+          "name": "incomeTerm",
+          "required": false,
+          "dataType": "@cadence",
+          "value": "$incomeTerm",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

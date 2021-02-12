@@ -1,0 +1,67 @@
+[
+  {
+    "id": "2cc07009-735d-4789-9515-49ac13263a67",
+    "data": [
+      {
+        "text": "estimate payments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8a00b438-a37f-42aa-a158-8f6569328f78",
+    "data": [
+      {
+        "text": "Child Support Payments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7134d5a6-f856-4baa-b493-46c71ce9cc3b",
+    "data": [
+      {
+        "text": "what are my support obligations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a4439990-e801-491f-8b88-1b810ca74d4a",
+    "data": [
+      {
+        "text": "calculate support obligations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b3b18230-0bff-4f41-a949-749989dbf318",
+    "data": [
+      {
+        "text": "what will i owe in child support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

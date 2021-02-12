@@ -1,0 +1,80 @@
+[
+  {
+    "id": "cf24ecef-9aa4-42ff-9676-25877f9c77b4",
+    "data": [
+      {
+        "text": "get a new card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8b69a9e7-30f9-4270-8ad1-fdc5b5a4e9d9",
+    "data": [
+      {
+        "text": "get a new eppi card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "344fc058-35cf-4922-84d5-c22b7005207a",
+    "data": [
+      {
+        "text": "receive EPPICard",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5d8aec43-2f7b-4a13-a6ff-7eaf58ca5c8e",
+    "data": [
+      {
+        "text": "get EPPICard",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "14990308-0efc-4c49-80c3-359d41a8f98f",
+    "data": [
+      {
+        "text": "get my card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8247a9d8-7df5-4c32-bfaa-3c2aacfcbf05",
+    "data": [
+      {
+        "text": "get eppi card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

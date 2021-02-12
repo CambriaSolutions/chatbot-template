@@ -1,0 +1,76 @@
+{
+  "id": "c67d44ae-b35f-45c1-bd76-588e4fbe0748",
+  "name": "cse-pmt-calc-ss-deductions",
+  "auto": true,
+  "contexts": [
+    "waiting-pmt-calc-ss-deductions",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-pmt-calc-unknown-deductions",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmt-calc-ss-deductions",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmt-calc-unknown-ss-deductions",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmt-calc-unknown-tax-deductions",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "89068675-b644-44e8-873a-a8f9d0a27414",
+          "name": "taxDeductions",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$taxDeductions",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

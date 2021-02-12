@@ -1,0 +1,72 @@
+{
+  "id": "982d153d-9a3c-4345-8972-4154384fd581",
+  "name": "cse-pmtMethods-debit-card",
+  "auto": true,
+  "contexts": [
+    "waiting-pmtMethods-debit-card",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-pmtMethods-debit-card",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "MDHS will issue Child Support payments to a debit card, unless the custodial parent chooses to receive payments via direct deposit."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For information about fees associated with the debit card or other information, visit \u003ca href\u003d\"https://www.eppicard.com\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e or call their support line at \u003ca href\u003d\"tel:+18664614095\"\u003e1-866-461-4095\u003c/a\u003e."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Tell me about EPPICARD"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

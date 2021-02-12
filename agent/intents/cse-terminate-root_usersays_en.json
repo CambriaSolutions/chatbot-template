@@ -1,0 +1,119 @@
+[
+  {
+    "id": "64200af4-3798-4ed6-906b-2d2946888a9a",
+    "data": [
+      {
+        "text": "How do I terminate a case?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "63a30cc8-5e7a-42e0-81e1-6b3da75f621e",
+    "data": [
+      {
+        "text": "Terminate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a5a3131a-abb2-46c3-8a45-4998efbbbbc3",
+    "data": [
+      {
+        "text": "Terminate?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "801b3d8a-eca5-44c4-b5e2-5063e172db59",
+    "data": [
+      {
+        "text": "How long is my case in effect?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b2b94817-a50e-4780-97bc-445ec6183079",
+    "data": [
+      {
+        "text": "How do I stop my case?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3703e96f-6f1c-4acd-8aed-0dd20769d76e",
+    "data": [
+      {
+        "text": "Case closure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3e1550e7-b092-47db-a81e-5c2c571ee889",
+    "data": [
+      {
+        "text": "How do I terminate my case?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ae88671c-d1be-447a-8140-b60b8f065a09",
+    "data": [
+      {
+        "text": "When can I stop my case?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2e66e2b3-75dc-4f94-a6f0-e70ced02ae84",
+    "data": [
+      {
+        "text": "Close Case",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

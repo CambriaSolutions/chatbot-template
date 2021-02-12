@@ -1,0 +1,86 @@
+[
+  {
+    "id": "93a95b8c-3f85-4d38-8bf4-099d61b64380",
+    "data": [
+      {
+        "text": "Shit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7fd65f61-47f4-4e3d-8b4c-5e33a39d0110",
+    "data": [
+      {
+        "text": "Fuck",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "94705ba3-e9df-4903-9311-2a94d0cbac76",
+    "data": [
+      {
+        "text": "bitch shut ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4186375f-2d93-4463-9d24-d5e39f1ea967",
+    "data": [
+      {
+        "text": "This is bullshit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ba1b9cfa-65c0-4816-9266-0baedc41d122",
+    "data": [
+      {
+        "text": "Fuck yall",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "55c31a50-44c5-4bf3-b6e2-7232e0a393ea",
+    "data": [
+      {
+        "text": "Kiss my ass",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

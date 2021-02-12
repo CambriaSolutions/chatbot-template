@@ -1,0 +1,568 @@
+[
+  {
+    "id": "a3785b61-a7fc-4d5a-9748-6fbaa242d9f2",
+    "data": [
+      {
+        "text": "emergency",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "563183be-c145-4157-82f5-d1176a9cb156",
+    "data": [
+      {
+        "text": "Flood",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "af326c84-2a94-4393-b695-8e349c1e938d",
+    "data": [
+      {
+        "text": "Tornado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "440c4c71-2051-4a13-8c7a-8e6cd1ddca1a",
+    "data": [
+      {
+        "text": "D SNAP",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "02ab52b1-0b89-41d7-8b06-4d0d8f9f34ca",
+    "data": [
+      {
+        "text": "food stamps replacement",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aebb9661-0e8a-4904-8e96-d462ab723d83",
+    "data": [
+      {
+        "text": "SNAP replacement",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ed0437dd-87a1-4342-9927-0407ddb112a6",
+    "data": [
+      {
+        "text": "Power outage",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cc110f00-75d8-409b-819c-ef41b517efaa",
+    "data": [
+      {
+        "text": "Disaster assistance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c06ac8da-2ee1-4ac9-888c-e203023d790b",
+    "data": [
+      {
+        "text": "How to apply for disaster snap. My power has been off ",
+        "userDefined": false
+      },
+      {
+        "text": "since October 9",
+        "meta": "@sys.date-period",
+        "alias": "date-period",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a5bfbcec-70fe-4541-83d7-6fbe8adfdae1",
+    "data": [
+      {
+        "text": "Loss food application",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eeca4103-54cb-418f-b567-ad3b46314d89",
+    "data": [
+      {
+        "text": "looking for application for snap replacement",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "50ccd04d-224a-4c74-97d2-946955913228",
+    "data": [
+      {
+        "text": "Zeta",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      },
+      {
+        "text": " relief",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bcf1364e-3268-4e41-8c21-87507eb94ead",
+    "data": [
+      {
+        "text": "DSNAP disaster applications",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "02bca163-8641-429f-826e-89424d3624de",
+    "data": [
+      {
+        "text": "How do I apply online for replacement food stamps due to hurricane ",
+        "userDefined": false
+      },
+      {
+        "text": "zeta",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "053932c7-9572-4a0f-b05c-6cec4edc67f2",
+    "data": [
+      {
+        "text": "Can I receive emergency assistance from hurricane zeta?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eb1c3ada-352f-4bf3-9957-b3b70c80b1ed",
+    "data": [
+      {
+        "text": "im  trying to find zeta form for foodstmps",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9351d2dd-9663-49c9-9a47-cbcac0cdc91b",
+    "data": [
+      {
+        "text": "Why go back need replacement application",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "87803c91-56f1-4b46-8027-82e634b8587d",
+    "data": [
+      {
+        "text": "The loss of food application",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bc114d3c-f3f8-4571-9c00-206dd73fc221",
+    "data": [
+      {
+        "text": "Emergency assistance snap",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "293b5d81-2813-45b3-a79b-78933dccf8a2",
+    "data": [
+      {
+        "text": "hurricane relief",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0c5d661b-2096-4697-95a0-d9c73de94a65",
+    "data": [
+      {
+        "text": "I trying to find out where i can apply for assistance for the food that I lost from hurricane zeta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3487801d-1f3a-494c-89b2-d21125f0273e",
+    "data": [
+      {
+        "text": "I\u0027m looking to apply for hurricane zeta replacement grocery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cbbf796b-2cee-43ae-a7f6-ebe44efb5d28",
+    "data": [
+      {
+        "text": "Replacement Snap Benefit Application",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "236718d6-7165-4ec9-880c-41d7176e7ea4",
+    "data": [
+      {
+        "text": "Loss of food application",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b4cc39dc-a3d2-447f-a332-519562349647",
+    "data": [
+      {
+        "text": "How can apply for benefits to replace food loss during hurricane Zeta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "81209f09-9f7a-4a6b-bee8-1fdf907c5402",
+    "data": [
+      {
+        "text": "I lost all of my good from a hurricane",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "135c4f99-6262-4bd0-868f-13e1f41f7512",
+    "data": [
+      {
+        "text": "Hurricane  zeta relief",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "57ecec90-fef4-42e3-b9f0-00100622becb",
+    "data": [
+      {
+        "text": "Apply for disaster benefits",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d4bcc32e-18e1-43a4-a2cd-1a634f07689a",
+    "data": [
+      {
+        "text": "Hurricane relief",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "59ad8e90-75f8-43f3-b942-52c5cf9a0200",
+    "data": [
+      {
+        "text": "Replacement snap",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "74549188-5596-40d9-b487-f5316d21f62a",
+    "data": [
+      {
+        "text": "Storm hurricane",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8b080435-aedc-42e4-b246-575ac3951bad",
+    "data": [
+      {
+        "text": "Apply for loss",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "499df672-61c0-44a5-ade3-fbbce9f83964",
+    "data": [
+      {
+        "text": "food loss form",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a2674067-97f4-4984-8edd-06f9ba78890e",
+    "data": [
+      {
+        "text": "disaster ",
+        "userDefined": false
+      },
+      {
+        "text": "zeta",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "41b68454-be65-4e4c-b405-2a3266631605",
+    "data": [
+      {
+        "text": "I need help finding the application for emergency stamps from the storm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ee22860e-23f7-4fb4-89a0-b18faa9d8ebe",
+    "data": [
+      {
+        "text": "Zeta snap",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b07f77c2-821a-4261-814e-92dcdac6105c",
+    "data": [
+      {
+        "text": "How do I submit my loss food application",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2947c216-674e-4b4d-ab32-101dd104bbfe",
+    "data": [
+      {
+        "text": "I\u0027m try fill out paperwork for emergency stamp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "26cb6bf5-bd88-4d95-b0fd-7e12f507d769",
+    "data": [
+      {
+        "text": "How to fill out application for snap for loss of food during hurricane delta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a4b15387-45b9-46da-951f-b7e3d5d5bc1e",
+    "data": [
+      {
+        "text": "How do I apply for food loss due to the storm I was without lights for some three days from Friday night ",
+        "userDefined": false
+      },
+      {
+        "text": "until Monday",
+        "meta": "@sys.date-period",
+        "alias": "date-period",
+        "userDefined": false
+      },
+      {
+        "text": " afternoon around 315or",
+        "userDefined": false
+      },
+      {
+        "text": "320 pm",
+        "meta": "@sys.unit-length",
+        "alias": "unit-length",
+        "userDefined": false
+      },
+      {
+        "text": " that came back on  my case is closed right here will I be able to get help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "id": "32d071f8-f97b-4861-a7c1-eb7111e02c4c",
+  "name": "cse-pmtMethods-moneygram",
+  "auto": true,
+  "contexts": [
+    "waiting-pmtMethods-moneygram",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-pmtMethods-paynearme",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmtMethods-moneygram",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmtMethods-paynearme",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You can pay MDHS Child Support with cash at MoneyGram locations. Fees apply.\u003cbr/\u003e\u003cbr/\u003eSome locations also accept PIN based debit card payments.\u003cbr/\u003e\u003cbr/\u003eMoneyGram is available at Walmart, Kroger, CVS/Pharmacy, and Advance America locations.\u003cbr/\u003e\u003cbr/\u003ePayments may take 2-3 business days to be posted to your child support account.\u003cbr/\u003e\u003cbr/\u003e\u003ca href\u003d\"http://www.MoneyGram.com/BillPayLocations\" target\u003d\"_blank\"\u003eClick here\u003c/a\u003e to find the nearest location to you.\u003cbr/\u003e\u003cbr/\u003e\u003ca href\u003d\"http://www.mdhs.ms.gov/wp-content/uploads/2018/12/MoneyGram-Quick-Reference.pdf\" target\u003d\"_blank\"\u003eClick here\u003c/a\u003e for frequently asked questions."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "PayNearMe",
+              "Other Options"
+            ],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

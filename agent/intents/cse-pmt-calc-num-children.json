@@ -1,0 +1,70 @@
+{
+  "id": "36d0f83c-a3ed-43d2-8fec-64bcb395ee9b",
+  "name": "cse-pmt-calc-num-children",
+  "auto": true,
+  "contexts": [
+    "waiting-pmt-calc-num-children",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-pmt-calc-income-term",
+          "lifespan": 3,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmt-calc-num-children",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmt-calc-restart",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "First, how many children are part of this case?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

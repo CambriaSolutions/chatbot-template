@@ -1,0 +1,113 @@
+[
+  {
+    "id": "13f04c3c-d255-4d2a-912b-d001dac4bf1e",
+    "data": [
+      {
+        "text": "not sure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "121f7318-fad7-4cdd-8836-70586555c16e",
+    "data": [
+      {
+        "text": "I\u0027m not certain",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2c717168-7f6b-4512-9d3b-83e54fa6a7ff",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "dunno",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4b626860-6d7f-468a-86ba-4b74e1f44b64",
+    "data": [
+      {
+        "text": "i dont know",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7b83f850-bbdd-4083-a46c-53353ad37d20",
+    "data": [
+      {
+        "text": "no idea",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e0246925-71ea-433c-a44d-233e07de5425",
+    "data": [
+      {
+        "text": "I don\u0027t know",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      },
+      {
+        "text": " my income",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "666699dc-13b1-4fe0-9ff1-033e16fdcda0",
+    "data": [
+      {
+        "text": "dont know",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

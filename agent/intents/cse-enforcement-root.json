@@ -1,0 +1,65 @@
+{
+  "id": "eafad64e-52d8-4565-81e1-ddd4e963d4de",
+  "name": "cse-enforcement-root",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "MDHS has multiple enforcement tools to enforce child support orders. Click on one of the suggestions below to learn more."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "License Suspension/Reinstatement",
+              "Tax Offset",
+              "Liens",
+              "Settlements",
+              "Passport Revocation",
+              "Credit Bureau Reporting",
+              "Unemployment Benefits",
+              "Bankruptcy",
+              "Income Withholding Order Information",
+              "Contempt"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

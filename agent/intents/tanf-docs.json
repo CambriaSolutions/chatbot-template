@@ -1,0 +1,72 @@
+{
+  "id": "e22ef8a9-5173-4170-a11b-2ecd36180e00",
+  "name": "tanf-docs",
+  "auto": true,
+  "contexts": [
+    "tanf-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "tanf-subject-matter",
+          "lifespan": 99
+        },
+        {
+          "name": "waiting-maps-deliver-map",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "bf6e7e82-6cfa-4309-9edb-b1913b3347ba",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Some forms are available on the MDHS website located \u003ca target\u003d\"_blank\" href\u003d\"https://www.mdhs.ms.gov/economic-assistance/\"\u003ehere\u003c/a\u003e. If you do not see the form you are looking for or if you would like to request copies of forms, or documents, please contact your local office. If you need to find the closest office near you, type your address below."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "handleEndConversation": false,
+            "suggestions": []
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

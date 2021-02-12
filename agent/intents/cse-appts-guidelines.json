@@ -1,0 +1,95 @@
+{
+  "id": "fd669767-084c-4d45-9c9d-cb9a9fcffb91",
+  "name": "cse-appts-guidelines",
+  "auto": true,
+  "contexts": [
+    "waiting-appts-guidelines",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-feedback-root",
+          "lifespan": 2
+        },
+        {
+          "name": "waiting-restart-conversation",
+          "lifespan": 2
+        },
+        {
+          "name": "waiting-appts-guidelines",
+          "lifespan": 0
+        },
+        {
+          "name": "waiting-appts-office-locations",
+          "lifespan": 0
+        },
+        {
+          "name": "waiting-appts-schedule",
+          "lifespan": 0
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You generally aren\u0027t required to schedule an appointment on your own. If you need to visit us, you will receive a notice to appear at a District office."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you have urgent questions, you can contact support at \u003ca href\u003d\"tel:+18778824916\"\u003e1-877-882-4916\u003c/a\u003e."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Is there anything else I can help you with today?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Submit Feedback"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

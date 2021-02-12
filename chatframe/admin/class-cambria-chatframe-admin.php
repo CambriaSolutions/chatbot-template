@@ -24,7 +24,7 @@
 class Cambria_Chatframe_Admin {
 	function cambria_chatframe_menu() {
 
-		return add_submenu_page( 'options-general.php', '<<Bot>>',  '<<Bot>>', 'manage_options', 'cambria-webchat-admin', array($this, 'cambria_chatframe_options') );
+		return add_submenu_page( 'options-general.php', 'Gen',  'Gen', 'manage_options', 'cambria-webchat-admin', array($this, 'cambria_chatframe_options') );
 
     }
 	
@@ -63,7 +63,7 @@ class Cambria_Chatframe_Admin {
 
     function cambria_chatframe_options() {
 			echo '<div class="wrap">';
-			echo '<h2><<Bot>> Settings</h2>';
+			echo '<h2>Gen Settings</h2>';
 			echo '<p>To be discovered.</p>';
 			echo '</div>';
     }

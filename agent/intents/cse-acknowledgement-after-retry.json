@@ -1,0 +1,61 @@
+{
+  "id": "d92d2051-f742-4d27-9876-2999ba662cc9",
+  "name": "cse-acknowledgement-after-retry",
+  "auto": true,
+  "contexts": [
+    "waiting-acknowlegement-after-retry",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-acknowlegement-after-retry",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5ad683f2-1ad0-46b5-b572-23c6fc4500bf",
+          "name": "acknowledgement",
+          "required": false,
+          "dataType": "@acknowledgement",
+          "value": "$acknowledgement",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

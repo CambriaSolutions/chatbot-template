@@ -1,0 +1,38 @@
+[
+  {
+    "value": "change of employer",
+    "synonyms": [
+      "add employer",
+      "change of employer",
+      "change or add employer",
+      "change/add employer",
+      "got a new job"
+    ]
+  },
+  {
+    "value": "change of employment information",
+    "synonyms": [
+      "change of employment information"
+    ]
+  },
+  {
+    "value": "full time to part time",
+    "synonyms": [
+      "full time to part time"
+    ]
+  },
+  {
+    "value": "loss of employer",
+    "synonyms": [
+      "got fired",
+      "loss of employer",
+      "lost my job"
+    ]
+  },
+  {
+    "value": "part time to full time",
+    "synonyms": [
+      "part time to full time"
+    ]
+  }
+]

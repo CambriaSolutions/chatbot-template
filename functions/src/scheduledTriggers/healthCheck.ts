@@ -58,8 +58,49 @@ const testGoogleMaps = async (address) => {
   }
 }
 
+// Query the AutoML model to make sure everything is working correctly
+const testPredictCategories = async (query) => {
+  const admin = await import('firebase-admin')
+  const projectId = admin.instanceId().app.options.projectId
+  const db = admin.firestore()
+
+  const autoMlSettings = (await db.collection('subjectMatters').doc('cse').get()).data()
+  const { location, catModel } = autoMlSettings
+
+  const automl = await import('@google-cloud/automl')
+  // Instantiate autoML client
+  const client = new automl.v1beta1.PredictionServiceClient()
+
+  // Define the location of the category prediction model
+  const categoryModelPath = client.modelPath(
+    projectId,
+    location,
+    catModel
+  )
+
+  const payload = {
+    textSnippet: {
+      content: query,
+      mime_type: 'text/plain',
+    },
+  }
+
+  const catRequest = {
+    name: categoryModelPath,
+    payload: payload,
+  }
+
+  const catResponses = await client.predict(catRequest)
+
+  // If we don't get a response from the AutoML API, then there might be something wrong
+  if (!catResponses[0].payload[0].displayName || !catResponses[0].payload[0].classification.score) {
+    throw new Error('Unexpected results when using the AutoML prediction API. Please confirm that AutoML and related features are working properly.')
+  }
+}
+
 export const healthCheck = async () => {
   try {
+    await testPredictCategories('This is a test')
     await testGoogleMaps('201 South Lamar St., Jackson, MS 39201')
     await testJiraConnection()
   } catch (err) {

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "2a8e9ee3-8c85-49c1-b0bb-96f79161d61e",
+    "data": [
+      {
+        "text": "tell me about eppicard",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9d5c901f-d5fb-4044-a9c4-de9f56104a30",
+    "data": [
+      {
+        "text": "who do i contact using the eppicard",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fa4bf7c7-52d0-4353-bcff-63d2ac2ce027",
+    "data": [
+      {
+        "text": "eppi card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "67b51fa7-3d2f-4afc-b7b7-709fb2112c9a",
+    "data": [
+      {
+        "text": "eppicard",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b95c0c16-3fe3-49a4-86ea-a4b1db882d4a",
+    "data": [
+      {
+        "text": "who do i call about my payment card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ad307cbb-d619-4dc7-abf5-e5b0cd6222bb",
+    "data": [
+      {
+        "text": "who do i contact about my card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

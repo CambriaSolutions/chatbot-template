@@ -1,0 +1,67 @@
+[
+  {
+    "id": "ca8e389a-b94a-49cf-a597-03d69a71fbe2",
+    "data": [
+      {
+        "text": "Am I responsible for money that shows up in my account in error?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "43884c75-6e09-475a-b436-3cf5c9d55413",
+    "data": [
+      {
+        "text": "Am I responsible for money that shows up in my account accidentally?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "521fa20e-a4e5-451d-8313-7505e02fb3db",
+    "data": [
+      {
+        "text": "payments received in error",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "583a1a78-596e-42e6-88d1-454e62b2aa32",
+    "data": [
+      {
+        "text": "error in receiving payments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "61182d38-18b7-43df-b83d-56e215660fa0",
+    "data": [
+      {
+        "text": "What happens if I receive any money that was sent to me in error through direct deposit?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

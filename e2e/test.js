@@ -32,7 +32,7 @@ const startSessionsAndPreloadContexts = async (intents) => {
 }
 
 const askGen = async (intentName, phrase, intentData) => {
-  it(`<<Bot>> should reply with the [${intentName}] intent when asked [${phrase}] with input contexts [${intentData.inputContexts}]`, async () => {
+  it(`Gen should reply with the [${intentName}] intent when asked [${phrase}] with input contexts [${intentData.inputContexts}]`, async () => {
     const sessionId = sessions[intentName + "::" + phrase]
     const sessionPath = sessionClient.sessionPath(projectId, sessionId);
     if (intentData.inputContexts.length > 0) {
@@ -45,7 +45,7 @@ const askGen = async (intentName, phrase, intentData) => {
   })
 }
 
-describe('<<Bot>> Regression Testing', async () => {
+describe('Gen Regression Testing', async () => {
   const intents = parseIntentDataFromExcelDocument('./Master spreadsheet.xlsx', 'intent_context_content')
 
   before(async () => {

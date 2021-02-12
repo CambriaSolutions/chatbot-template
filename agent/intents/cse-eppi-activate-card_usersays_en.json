@@ -1,0 +1,28 @@
+[
+  {
+    "id": "6fe34712-9b7e-4540-9efb-a3a264e458c6",
+    "data": [
+      {
+        "text": "i need to activate my card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "529a93cd-64f0-4291-8659-be8e19c2ab73",
+    "data": [
+      {
+        "text": "activate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

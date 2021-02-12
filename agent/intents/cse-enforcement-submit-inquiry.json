@@ -1,0 +1,70 @@
+{
+  "id": "37a9b0ce-7598-4003-b856-314020fec6e1",
+  "name": "cse-enforcement-submit-inquiry",
+  "auto": true,
+  "contexts": [
+    "waiting-enforcement-submit-inquiry",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-support-collect-first-name",
+          "lifespan": 1,
+          "parameters": {}
+        },
+        {
+          "name": "ticketinfo",
+          "lifespan": 100,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-enforcement-submit-inquiry",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Got it. I have a few questions to make sure your request gets to the right place. What\u0027s your **first name**?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,11 +1,13 @@
 import fs from 'fs'
 import { globalIntentHandlers } from './intentHandlers/globalIntentHandlers'
 import { commonIntentHandlers } from './intentHandlers/commonIntentHandlers'
+import { childSupportIntentHandlers } from './intentHandlers/childSupportIntentHandlers'
 import { map, filter } from 'lodash'
 
 const intentHandlers = {
   ...globalIntentHandlers,
   ...commonIntentHandlers,
+  ...childSupportIntentHandlers,
   // Overriding the fallback intent so we don't extract the automl handler
   'Default Fallback Intent': () => { }
 }
@@ -201,7 +203,7 @@ const constructIntentFileContents = (intentData) => (
 const doExtract = async () => {
   const intents = getIntentFileNames('../../../agent')
 
-  const intentPartialName = 'mscj-dirDep'
+  const intentPartialName = 'cse-dirDep'
 
   await filter(intents, x => x.split('/').pop().split('.')[0].indexOf(intentPartialName) >= 0).forEach(async (intent) => {
     try {

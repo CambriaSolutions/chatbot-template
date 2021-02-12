@@ -1,4 +1,5 @@
 import { commonFallback, noneOfThese } from '../../intentHandlers/common/commonFallback'
+import { docUpload } from '../../intentHandlers/common/docUpload'
 
 // Feedback
 import {
@@ -11,6 +12,7 @@ import {
 export const commonIntentHandlers = {
   'none-of-these': noneOfThese,
   'Default Fallback Intent': commonFallback,
+  'doc-upload': docUpload,
 
   // Feedback intents
   'feedback-root': feedbackRoot,

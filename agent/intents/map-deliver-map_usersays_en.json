@@ -1,0 +1,136 @@
+[
+  {
+    "id": "031665c5-9943-46ca-b636-986369d11514",
+    "data": [
+      {
+        "text": "4503 Hwy 19 S Meridian, MS 39301",
+        "meta": "@sys.address",
+        "alias": "userAddress",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ec134d46-1c7c-4540-9325-3ab88e62dd74",
+    "data": [
+      {
+        "text": "95821",
+        "meta": "@sys.zip-code",
+        "alias": "userZip",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "578523df-cacd-4e5e-9898-983286d8a225",
+    "data": [
+      {
+        "text": "510 george street jackson",
+        "meta": "@sys.address",
+        "alias": "userAddress",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "132786b2-dbc6-4301-a453-63f70c92ab0a",
+    "data": [
+      {
+        "text": "718 E Fifteenth St Yazoo City",
+        "meta": "@sys.address",
+        "alias": "userAddress",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "21d5ef99-d070-4820-9ee3-2e34579c6814",
+    "data": [
+      {
+        "text": "1050 20th street",
+        "meta": "@sys.address",
+        "alias": "userAddress",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "45853df0-af88-44b5-b44b-0316ed58e2cf",
+    "data": [
+      {
+        "text": "sacramento",
+        "meta": "@sys.geo-city",
+        "alias": "userCity",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "317ff734-2a7f-4a5a-966c-99c83df7c592",
+    "data": [
+      {
+        "text": "my address is ",
+        "userDefined": false
+      },
+      {
+        "text": "1050 20th st sacramento",
+        "meta": "@sys.address",
+        "alias": "userAddress",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "55d5e15f-11b4-4fd5-bb59-119bd6456df6",
+    "data": [
+      {
+        "text": "1050 20th street",
+        "meta": "@sys.address",
+        "alias": "userAddress",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "sacramento",
+        "meta": "@sys.geo-city",
+        "alias": "userCity",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "id": "67b12f07-10ac-4652-9dd7-c3db40c48e97",
+  "name": "wfd-tanfworkprogram",
+  "auto": true,
+  "contexts": [
+    "wfd-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "wfd-subject-matter",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "52474093-e5ce-4f38-95fb-cc1a4b7204f7",
+          "name": "yes-no",
+          "required": false,
+          "dataType": "@yes-no",
+          "value": "$yes-no",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "TANF mandates participation in approved work activities for all adult TANF recipients who are work eligible and do not meet specific exemption criteria. Eligibility is determined by a caseworker at the local county office. All TWP applicants will complete the TWP Work Registration process. When it is determined that a TANF applicant is referable, a TWP appointment with a case management is scheduled."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "TANF benefits will not be paid to individuals who are not participating in approved work activities after being determined “work eligible” and referred to the TWP. Click \u003ca href\u003d\"https://www.mdhs.ms.gov/wp-content/uploads/2020/11/TWP-FINAL-for-Genbot.pdf\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e for more information on Mississippi’s TANF Work Program."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

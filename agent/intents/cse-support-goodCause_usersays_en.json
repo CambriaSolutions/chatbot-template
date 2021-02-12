@@ -1,0 +1,119 @@
+[
+  {
+    "id": "dca958ef-5e7f-48db-9b6c-aae499455d91",
+    "data": [
+      {
+        "text": "I am unable to take care of my child(ren) due to the other parent (him/her).",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ea832957-9c3f-45c6-9532-03fc492a1900",
+    "data": [
+      {
+        "text": "I have a protective order against the other parent (him/her).",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c50224b0-6a7c-442e-b0fa-8ded485f86f0",
+    "data": [
+      {
+        "text": "Do I have to open a child support case if the other parent (he/she) is a relative?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5d6e09c1-986f-4d21-b36b-378b5c9bc523",
+    "data": [
+      {
+        "text": "I was raped.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4f8eb6dd-6614-49ca-a5ac-22939f95423d",
+    "data": [
+      {
+        "text": "I\u0027m scared to put the other parent (him) on child support.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ab3c9a0a-4f8a-46ce-8949-56309ec323e5",
+    "data": [
+      {
+        "text": "I don\u0027t want to put the other parent (him) on child support.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f0964716-cbfc-4709-b2d4-7e43c6b3cf7e",
+    "data": [
+      {
+        "text": "I don\u0027t want to cooperate with child support.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "99af91c7-29e7-483b-849b-c7a63190b23e",
+    "data": [
+      {
+        "text": "What if my child(ren) is(are) being adopted?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "72577285-9d69-47a0-86a6-988d6e959614",
+    "data": [
+      {
+        "text": "Good Cause",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "id": "3e4f6014-a627-40f6-a5da-a917482419ed",
+  "name": "acknowledge-privacy-statement",
+  "auto": true,
+  "contexts": [
+    "waiting-acknowledge-privacy-statement"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-acknowledge-privacy-statement",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-enableHome",
+          "lifespan": 1
+        },
+        {
+          "name": "tanf-enableHome",
+          "lifespan": 1
+        },
+        {
+          "name": "snap-enableHome",
+          "lifespan": 1
+        },
+        {
+          "name": "wfd-enableHome",
+          "lifespan": 1
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 0
+        },
+        {
+          "name": "snap-subject-matter",
+          "lifespan": 0
+        },
+        {
+          "name": "tanf-subject-matter",
+          "lifespan": 0
+        },
+        {
+          "name": "wfd-subject-matter",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

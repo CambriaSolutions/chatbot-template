@@ -72,7 +72,9 @@ class ButtonBar extends PureComponent<Props> {
   }
 
   arrangeSubjectMatterSuggestions = suggestionElements => ([
-    [find(suggestionElements, x => x.label.toLowerCase() === 'MSCJ')],
+    [find(suggestionElements, x => x.label.toLowerCase() === 'child support')],
+    [find(suggestionElements, x => x.label.toLowerCase() === 'snap'), find(suggestionElements, x => x.label.toLowerCase() === 'tanf')],
+    [find(suggestionElements, x => x.label.toLowerCase() === 'workforce development')]
   ])
 
   playTetris = (buttons: Array<Suggestion>) => {
@@ -212,7 +214,10 @@ class ButtonBar extends PureComponent<Props> {
       const excludedBackAndStartOver = filter(suggestions, x => x.toLowerCase() !== 'go back' && x.toLowerCase() !== 'home' && x.toLowerCase() !== 'start over')
 
       if (excludedBackAndStartOver.length === 4
-        && find(excludedBackAndStartOver, x => x.toLowerCase() === 'mscj')) {
+        && find(excludedBackAndStartOver, x => x.toLowerCase() === 'child support')
+        && find(excludedBackAndStartOver, x => x.toLowerCase() === 'tanf')
+        && find(excludedBackAndStartOver, x => x.toLowerCase() === 'snap')
+        && find(excludedBackAndStartOver, x => x.toLowerCase() === 'workforce development')) {
         isSelectingSubjectMatter = true
       } else {
         homeButtonLabel = find(suggestions, x => x.toLowerCase() === 'home')

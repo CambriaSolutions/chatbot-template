@@ -1,0 +1,80 @@
+[
+  {
+    "id": "e9e96921-97fa-4ec0-8fc7-83cfb71d1ba8",
+    "data": [
+      {
+        "text": "MDHS Locations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "304ef5fa-dc01-4cb5-973f-62005d685f07",
+    "data": [
+      {
+        "text": "Offices in my area.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8df6c4fb-1ba1-4c83-b7ce-b4c2642d7dca",
+    "data": [
+      {
+        "text": "Skills2Work locations in my area?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f2696ca6-1092-412b-9e71-b39489e2c68f",
+    "data": [
+      {
+        "text": "Where can I go to talk to someone about the programs?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cb3fc9a6-659b-416d-b5a7-9f6620e9c486",
+    "data": [
+      {
+        "text": "Where to go for submitting the form?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b89c282b-c508-46d9-9565-a7fa57c17e11",
+    "data": [
+      {
+        "text": "Where can I find the closest office to my location?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -2,6 +2,8 @@ import * as actionTypes from '../actions/actionTypes'
 
 const initialState = {
   intents: [], // { id: '1234', name: 'support', occurrences: 3, sessions: 9 }
+  supportRequests: [],
+  supportRequestTotal: 0,
   loading: false,
   feedback: [],
   feedbackFiltered: [],
@@ -52,6 +54,7 @@ const reducer = (state = initialState, action) => {
       return {
         ...state,
         intents: action.intents,
+        supportRequests: action.supportRequests,
         feedback: action.feedback,
         feedbackSelected: action.feedbackSelected,
         feedbackFiltered: action.feedbackFiltered,

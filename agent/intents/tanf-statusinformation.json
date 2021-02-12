@@ -1,0 +1,53 @@
+{
+  "id": "186a2345-953d-4bf8-a058-9dbfa67ea92a",
+  "name": "tanf-statusinformation",
+  "auto": true,
+  "contexts": [
+    "tanf-subject-matter",
+    "waiting-tanf-applicationstatus"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "tanf-subject-matter",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cul\u003e\u003cli\u003eMinor Parents: Unmarried minor parents (under age 18) and their children are required to live with the minor’s parent or other adult caretaker relative in order to receive TANF.\u003c/li\u003e\n\u003cli\u003eRecipient of SSI: An individual who receives SSI is not eligible for TANF benefits. The SSI recipient will not have his/her needs, income or resources included to determine the family’s eligibility for TANF.\u003c/li\u003e\n\u003cli\u003eFamily Benefit Cap: The TANF benefit is limited to children existing or conceived at the time the parent or caretaker relative initially qualifies for assistance.\u003c/li\u003e\n\u003cli\u003eDeprivation: The child or children must be deprived of one or both parents due to: Incapacity, death, continued absence or unemployment of the principal wage earner.\u003c/li\u003e\n\u003cli\u003eResidence: Applicants for TANF must express the intent to reside in Mississippi, if not already a resident, in order to receive assistance.\u003c/li\u003e\n\u003cli\u003eEnumeration: The parent or other caretaker relative must provide a Social Security Number (SSN) or proof of SSN application for all members of the family. The TANF application will not be approved without the SSN or verification of the SSN application.\u003c/li\u003e\n\u003cli\u003eCitizenship and Alien Status: The State requires that an individual be a citizen of the United States or a qualified alien in order to be eligible for assistance.\u003c/li\u003e\u003c/ul\u003e"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

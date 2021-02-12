@@ -1,0 +1,203 @@
+[
+  {
+    "id": "79009100-b080-4050-be3b-bea6dfde29e2",
+    "data": [
+      {
+        "text": "How do I get information about emancipation in MS. I am a child, how can I emancipate?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "70387fec-bd1d-4776-be04-710fe425a48f",
+    "data": [
+      {
+        "text": "How do I know more about emancipation in other states?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bd0d6143-3332-4e2e-a94f-4176a2e33e79",
+    "data": [
+      {
+        "text": "why do i have to pay if my child leaves",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3d3d7478-145f-4f1e-9afd-b1939a110633",
+    "data": [
+      {
+        "text": "my child turned ",
+        "userDefined": false
+      },
+      {
+        "text": "18",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": ", why do i still have to pay child support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f6d45599-f492-474f-83be-cb16f7e29776",
+    "data": [
+      {
+        "text": "when am i done paying",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "18df180c-7f44-4d7b-87a3-4a5bac854872",
+    "data": [
+      {
+        "text": "when does the dad stop paying",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dba8a2f9-06d7-4b0a-868f-0da2a281d535",
+    "data": [
+      {
+        "text": "when can i stop paying",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "16d6a282-b3c8-401c-af40-131ea2cb7e1a",
+    "data": [
+      {
+        "text": "How old does my child have to be for my payments to stop?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "757d1306-d356-48c0-9aa7-6265e9d35329",
+    "data": [
+      {
+        "text": " When will my child support stop?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ccfec001-40ce-41cc-8a21-79d8a33b92dd",
+    "data": [
+      {
+        "text": "My child is ",
+        "userDefined": false
+      },
+      {
+        "text": "18",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ", why am I still paying?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "79f691c0-33fd-4ba5-a077-64c1a260bf4b",
+    "data": [
+      {
+        "text": "Child moved out of the house, why am I still paying support?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "39d55125-cdb6-4174-818c-7753597fa31b",
+    "data": [
+      {
+        "text": "When can I stop paying child support?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9c907529-2650-421a-998c-b281560e8dda",
+    "data": [
+      {
+        "text": "Age of emancipation?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5ec037ab-d428-49a2-9db6-673b6a98dc86",
+    "data": [
+      {
+        "text": "When do the child emancipates?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

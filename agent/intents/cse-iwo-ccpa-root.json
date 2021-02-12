@@ -1,0 +1,77 @@
+{
+  "id": "a9a567c5-4e4e-43e2-be4d-df46bfd36d6e",
+  "name": "cse-iwo-ccpa-root",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-iwo-wants-assistance",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-iwo-no-assistance",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The Consumer Credit Protection Act limits earnings that may be withheld. Earnings are subject to withholding limits that range between 50-65%. The withholding order will specify the CCPA cap amount based on information known to MDHS."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Would you like assistance estimating the CCPA percentage that may apply to a particular case?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Yes",
+              "No"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

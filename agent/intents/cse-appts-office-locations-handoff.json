@@ -1,0 +1,61 @@
+{
+  "id": "353fdba2-f674-4810-b1aa-41ca9a74c80d",
+  "name": "cse-appts-office-locations-handoff",
+  "auto": true,
+  "contexts": [
+    "waiting-appts-office-locations-handoff",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-appts-office-locations-handoff",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "14f9a89f-34d7-4fa8-849c-d25b91d2bb09",
+          "name": "wantsLocation",
+          "required": false,
+          "dataType": "@yes-no",
+          "value": "$wantsLocation",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -133,9 +133,9 @@ class ChatWindow extends PureComponent<any> {
     }
   }
 
-  // Sometimes <<Bot>>'s response is so long it exceeds the height of the
+  // Sometimes Gen's response is so long it exceeds the height of the
   // chat window and the window automatically scrolls to the bottom. This
-  // function identifies the index of the first content bubble in <<Bot>>'s latest
+  // function identifies the index of the first content bubble in Gen's latest
   // reply so we can use that index to auto scroll to the start of the response.
   findIndexFirstElementInLastResponse = (messages) => {
     let index: any = 0

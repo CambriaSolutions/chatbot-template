@@ -1,0 +1,65 @@
+{
+  "id": "62ffba87-baa8-4734-8c6f-71e8c2740d1a",
+  "name": "cse-contact-provide-phone-number",
+  "auto": true,
+  "contexts": [
+    "waiting-contact-provide-phone-number",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-contact-provide-phone-number",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-contact-support-handoff",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The contact number for child support customer service is \u003ca href\u003d\"tel:+18778824916\"\u003e1-877-882-4916\u003c/a\u003e."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,80 @@
+{
+  "id": "35586369-eec3-4523-b001-760852e3223c",
+  "name": "cse-support-no-new-employer",
+  "auto": true,
+  "contexts": [
+    "waiting-support-no-new-employer",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-support-no-new-employer",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-collect-new-employer-name",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5fa97bd7-78fd-43ba-830e-e92405d6b347",
+          "name": "employmentStatus",
+          "required": false,
+          "dataType": "@employmentStatus",
+          "value": "$employmentStatus",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e71e3363-3983-4fc2-b690-4d6db4db4e9c",
+          "name": "dont-know",
+          "required": false,
+          "dataType": "@dont-know",
+          "value": "$dont-know",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

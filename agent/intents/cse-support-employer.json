@@ -1,0 +1,72 @@
+{
+  "id": "a05369c1-4b27-4163-9aa5-e4602be702cc",
+  "name": "cse-support-employer",
+  "auto": true,
+  "contexts": [
+    "waiting-support-employer",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-support-employer",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-parent-receiving",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-parent-paying",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Click below to get started with a Lump Sum Notification."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Employer Report Lump Sum Notification"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

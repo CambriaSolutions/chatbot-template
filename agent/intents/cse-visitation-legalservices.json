@@ -1,0 +1,57 @@
+{
+  "id": "99aa0eca-7c8f-49e5-a708-52c82430148f",
+  "name": "cse-visitation-legalservices",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For assistance locating legal resources, please \u003ca href\u003d\"http://www.msatjc.org/legal-resources\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e. You may also access “Self-Help” videos \u003ca href\u003d\"http://www.msatjc.org/self-help-videos\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e if you are planning to represent yourself in court without a lawyer."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Pro Se Packets",
+              "Petition to cite"
+            ],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

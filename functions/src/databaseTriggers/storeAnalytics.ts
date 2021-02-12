@@ -13,6 +13,79 @@ const SUBJECT_MATTER_DEFAULT_TIMEZONE = {
 
 const fallbackIntents = ['Default Fallback Intent']
 
+// Inspect the query against suggestions in context to determine whether or
+// not the agent and ml models should be updated
+const inspectForMl = async (admin, store, query, intent, dfContext, context, timezoneOffset) => {
+  const suggestions = dfContext.parameters.suggestions
+  const userQuery = dfContext.parameters.originalQuery
+
+  // Ignore "go back" queries
+  if (userQuery.toLowerCase() !== 'go back') {
+    // Check to see if any of the presented selections match the current query
+    const queryMatchingSuggestions = suggestions.filter(suggestion => {
+      return suggestion.suggestionText.toLowerCase() === query
+    })
+
+    try {
+      if (queryMatchingSuggestions.length > 0) {
+        // The user has selected one of the presented suggestions
+        const { suggestionText, mlCategory } = queryMatchingSuggestions[0]
+
+        // Create a reference depending on the current subject matter
+        const queriesForTrainingRef = store.collection(
+          `${context}/queriesForTraining`
+        )
+
+        // Attempt to find a document where the userQuery and suggestion text match
+        const snap = await queriesForTrainingRef
+          .where('phrase', '==', userQuery)
+          .where('selectedSuggestion', '==', suggestionText)
+          .where('category', '==', mlCategory)
+          .get()
+
+        if (snap.empty) {
+          // The combination of the userQuery and the suggestion text has not occurred
+          // so we create a document
+          const document = {
+            phrase: userQuery,
+            occurrences: 1,
+            smModelTrained: false,
+            categoryModelTrained: false,
+            agentTrained: false,
+            intent: intent,
+            selectedSuggestion: suggestionText,
+            category: mlCategory,
+          }
+          queriesForTrainingRef.add(document)
+        } else {
+          // This combination has occurred before, so we increment the occurrences
+          const updatePromises = []
+          snap.forEach(doc => {
+            updatePromises.push(queriesForTrainingRef.doc(doc.id).update({
+              occurrences: admin.firestore.FieldValue.increment(1),
+            }))
+          })
+          await Promise.all(updatePromises)
+        }
+      } else {
+        // The user did not select any of our suggestions, so add the suggestions and
+        // query to a collection for human inspection
+        const createdAt = admin.firestore.Timestamp.now()
+        const docRef = await store.collection(`${context}/queriesForLabeling`).add({ suggestions, userQuery, createdAt })
+
+        const currentDate = getDateWithSubjectMatterTimezone(timezoneOffset)
+        const dateKey = format(currentDate, 'MM-dd-yyyy')
+        console.log(`Date Key ${dateKey}`)
+        await store.collection(`${context}/metrics`).doc(dateKey).update({
+          noneOfTheseCategories: admin.firestore.FieldValue.arrayUnion(docRef.id)
+        })
+      }
+    } catch (err) {
+      console.error(err.message, err)
+    }
+  }
+}
+
 // Regex to retrieve text after last "/" on a path
 const getIdFromPath = path => /[^/]*$/.exec(path)[0]
 
@@ -58,12 +131,14 @@ const aggregateRequest = async (admin, store, context, reqData, conversationId, 
 
 // Metrics:
 // - Store intent from conversation & increase occurrences in metric
+// - Store support request submitted & increase occurrences
 const storeMetrics = async (
   admin,
   store,
   context,
   conversationId,
   currIntent,
+  supportRequestType,
   timezoneOffset,
   newConversation,
   newConversationDuration,
@@ -147,6 +222,44 @@ const storeMetrics = async (
       }
       // Update the average conversations of the day
       updatedMetrics.averageConversationDuration = newAverageDuration
+    }
+
+    // Record support request only if it's been submitted
+    if (supportRequestType) {
+      // Add to number of conversations with support requests
+      // Check if the conversationId has already been included, i.e.
+      // a conversation has more than one request
+      const idInSupportRequests = currMetric.conversationsWithSupportRequests.includes(
+        conversationId
+      )
+      // If the conversation hasn't been accounted for, add the id to the conversations
+      // including support requests
+      if (!idInSupportRequests) {
+        updatedMetrics.conversationsWithSupportRequests = admin.firestore.FieldValue.arrayUnion(
+          conversationId
+        )
+        updatedMetrics.numConversationsWithSupportRequests = currMetric.numConversationsWithSupportRequests += 1
+      }
+
+      // Check if current supportRequest is already on the list
+      const supportMetric = currMetric.supportRequests.filter(
+        request => request.name === supportRequestType
+      )[0]
+
+      // Update support metric counters
+      if (supportMetric) {
+        supportMetric.occurrences++
+        updatedMetrics.supportRequests = currMetric.supportRequests
+      } else {
+        // Create new support request entry on the metric
+        const newSupportRequest = {
+          name: supportRequestType,
+          occurrences: 1,
+        }
+        updatedMetrics.supportRequests = admin.firestore.FieldValue.arrayUnion(
+          newSupportRequest
+        )
+      }
     }
 
     // Update the last intent based on conversationId
@@ -237,7 +350,7 @@ const storeMetrics = async (
     // Update the metrics collection for this request
     await metricsRef.update(updatedMetrics)
   } else {
-    // Create new metric entry with current intent
+    // Create new metric entry with current intent & supportRequest
     const currentExitIntent = {}
     currentExitIntent[conversationId] = {
       name: currIntent.name,
@@ -267,6 +380,7 @@ const storeMetrics = async (
       numConversations: 1,
       numConversationsWithDuration: 0,
       averageConversationDuration: 0,
+      numConversationsWithSupportRequests: 0,
       numFallbacks: 0,
       fallbackTriggeringQueries: [],
       noneOfTheseCategories: [],
@@ -274,7 +388,18 @@ const storeMetrics = async (
         [browser]: 1
       },
       mobileConversations: isMobile ? 1 : 0,
-      nonMobileConversations: !isMobile ? 1 : 0
+      nonMobileConversations: !isMobile ? 1 : 0,
+      supportRequests: supportRequestType
+        ? [
+          {
+            name: supportRequestType,
+            occurrences: 1,
+          },
+        ]
+        : [],
+      conversationsWithSupportRequests: supportRequestType
+        ? [conversationId]
+        : [],
     })
   }
 }
@@ -329,6 +454,47 @@ const calculateMetrics = async (admin, store, reqData: ConversationSnapshot, sub
   const browser = reqData.originalDetectIntentRequest.payload.browser
   const isMobile = reqData.originalDetectIntentRequest.payload.isMobile
 
+  // Check if the query has the should-inspect-for-ml parameter
+  if (reqData.queryResult.outputContexts) {
+    const inspections = []
+    for (const dfContext of reqData.queryResult.outputContexts) {
+      if (getIdFromPath(dfContext.name) === 'should-inspect-for-ml') {
+        inspections.push(inspectForMl(
+          admin,
+          store,
+          reqData.queryResult.queryText.toLowerCase(),
+          intent,
+          dfContext,
+          context,
+          timezoneOffset))
+      }
+    }
+
+    if (inspections.length > 0) {
+      await Promise.all(inspections)
+    }
+  }
+
+  // Check if conversation has a support request
+  const hasSupportRequest = intent.name.startsWith('cse-support')
+
+  // Get support type
+  let supportType = ''
+
+  if (hasSupportRequest && reqData.queryResult.outputContexts) {
+    // Loop through request output contexts array to find the ticket information
+    for (const context of reqData.queryResult.outputContexts) {
+      if (getIdFromPath(context.name) === 'ticketinfo') {
+        // Read the support type from the ticket
+        supportType = context.parameters.supportType.toLowerCase()
+
+        // Remove PII data from parameters before storing request data
+        context.parameters = { supportType: supportType }
+        break
+      }
+    }
+  }
+
   // Store aggregate used on export: conversations with requests
   const aggregateRef = store
     .collection(`${context}/aggregate`)
@@ -371,6 +537,9 @@ const calculateMetrics = async (admin, store, reqData: ConversationSnapshot, sub
   let shouldCalculateDuration = true
 
   const isFallbackIntent = fallbackIntents.includes(intent.name)
+
+  // The conversation has a support request only if it has been submitted
+  const supportRequestSubmitted = intent.name === 'cse-support-submit-issue'
   if (conversationDoc.exists) {
     const currConversation = conversationDoc.data()
     // Calculate conversation duration (compare creation time with current)
@@ -396,6 +565,19 @@ const calculateMetrics = async (admin, store, reqData: ConversationSnapshot, sub
     conversation.duration = duration
     newConversationDuration = duration
     previousConversationDuration = currConversation.duration
+    // Change support request flag only if it's true
+    if (hasSupportRequest) {
+      conversation.hasSupportRequest = supportRequestSubmitted
+      conversation.supportRequests = currConversation.supportRequests
+
+      // Add current support request to list if not already there
+      if (
+        supportType !== '' &&
+        !conversation.supportRequests.includes(supportType)
+      ) {
+        conversation.supportRequests.push(supportType)
+      }
+    }
 
     if (isFallbackIntent) {
       if (reqData.queryResult.queryText.length > 0) {
@@ -415,6 +597,9 @@ const calculateMetrics = async (admin, store, reqData: ConversationSnapshot, sub
     // Create new conversation doc
     conversation.createdAt = admin.firestore.Timestamp.now()
     conversation.calcMetric = false
+    conversation.hasSupportRequest = supportRequestSubmitted
+    conversation.supportRequests =
+      hasSupportRequest && supportType !== '' ? [supportType] : []
     conversation.fallbackTriggeringQuery = ''
     conversation.feedback = []
     conversation.browser = browser
@@ -423,14 +608,16 @@ const calculateMetrics = async (admin, store, reqData: ConversationSnapshot, sub
     await conversationRef.set(conversation)
   }
 
+  const supportRequestType = supportRequestSubmitted ? supportType : null
 
-  // Keep record of intents 
+  // Keep record of intents & support requests usage
   await storeMetrics(
     admin,
     store,
     context,
     conversationId,
     intent,
+    supportRequestType,
     timezoneOffset,
     newConversation,
     newConversationDuration,

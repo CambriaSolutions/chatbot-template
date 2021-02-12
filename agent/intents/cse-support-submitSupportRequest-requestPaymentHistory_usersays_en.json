@@ -1,0 +1,145 @@
+[
+  {
+    "id": "20b9d3a6-6ed1-4a34-abd6-a603847796bf",
+    "data": [
+      {
+        "text": "Can I get a print of the CS emailed to me or do I have to go to office?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "00fdb530-7073-4b9f-9691-0fc3359ced46",
+    "data": [
+      {
+        "text": "I need a statement saying how much I receive a ",
+        "userDefined": false
+      },
+      {
+        "text": "month",
+        "meta": "@cadence",
+        "alias": "cadence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b4a5f4e2-7486-4f17-941f-eb9c377df49a",
+    "data": [
+      {
+        "text": "Trying to get a ",
+        "userDefined": false
+      },
+      {
+        "text": "month",
+        "meta": "@cadence",
+        "alias": "cadence",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "month",
+        "meta": "@cadence",
+        "alias": "cadence",
+        "userDefined": false
+      },
+      {
+        "text": " print out of owed child support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f275f1e7-6902-41e6-9b05-333c513f447c",
+    "data": [
+      {
+        "text": "I need a printout of child support payments from the last ",
+        "userDefined": false
+      },
+      {
+        "text": "year",
+        "meta": "@cadence",
+        "alias": "cadence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f819f3a0-e853-4af5-91aa-9f67336c7ac5",
+    "data": [
+      {
+        "text": "I need a printout of the child support I received during the ",
+        "userDefined": false
+      },
+      {
+        "text": "month",
+        "meta": "@cadence",
+        "alias": "cadence",
+        "userDefined": false
+      },
+      {
+        "text": " of June DIGITS",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3e68615f-19c0-44dc-93de-dd69f0dd0873",
+    "data": [
+      {
+        "text": "Trying to get a copy of 1 ",
+        "userDefined": false
+      },
+      {
+        "text": "year",
+        "meta": "@cadence",
+        "alias": "cadence",
+        "userDefined": false
+      },
+      {
+        "text": " payments of child support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fff0eebf-336e-48ac-a854-718760f100d9",
+    "data": [
+      {
+        "text": "Trying to see how can I get a print out of my child support payments: payment record",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

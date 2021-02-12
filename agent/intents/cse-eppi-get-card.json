@@ -1,0 +1,75 @@
+{
+  "id": "9d53906a-1321-4fc3-bb36-3cade00d875a",
+  "name": "cse-eppi-get-card",
+  "auto": true,
+  "contexts": [
+    "waiting-eppi-get-card",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The default payment method for all Child Support cases is the EPPICard. To activate the EPPICard, you can either call \u003ca href\u003d\"tel:+18778824916\"\u003e1-877-882-4916\u003c/a\u003e or visit a local Child Support office."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you are receiving payments by paper check, you can change it to the EPPICard."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "To learn more about EPPICards, \u003ca href\u003d\"https://www.eppicard.com/\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e to visit the EPPICard website or call their support line at \u003ca href\u003d\"tel:+18664614095\"\u003e1-866-461-4095\u003c/a\u003e."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

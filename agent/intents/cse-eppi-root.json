@@ -1,0 +1,91 @@
+{
+  "id": "c13f0dcb-ba3d-4bdd-a1c8-e51177b182c2",
+  "name": "cse-eppi-root",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-eppi-get-card",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-eppi-activate",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-eppi-replace-report",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-eppi-fees",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-eppi-notifications",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-eppi-faq",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sure, I can help with the following topics regarding your payment card."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Get EPPICard",
+              "Activate",
+              "Fees",
+              "Set Up Notifications",
+              "FAQ",
+              "Replace, Report Stolen, Lost or Fraud"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

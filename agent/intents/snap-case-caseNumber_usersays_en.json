@@ -1,0 +1,184 @@
+[
+  {
+    "id": "66c19aaf-f57a-411d-af06-10e9a348098e",
+    "data": [
+      {
+        "text": "Where would I find my case number?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d0bd06ff-7fd3-4837-a09f-5046fd6c9cad",
+    "data": [
+      {
+        "text": "What is my case number?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e271aa5b-13c4-4753-9cb4-ae75ae516828",
+    "data": [
+      {
+        "text": "Where do i get my case number?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "798fa0ff-859b-4668-abca-47f3f103db13",
+    "data": [
+      {
+        "text": "How do I find out what the case number is",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cc58293b-d01f-4af0-81b3-0202e324fab6",
+    "data": [
+      {
+        "text": "I\u0027m trying to get my case number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "793606da-b7df-4715-bff4-4ca8ea218c9c",
+    "data": [
+      {
+        "text": "Find my case number and make payments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f82c225b-fef5-4813-aabd-3fca2a07832c",
+    "data": [
+      {
+        "text": "I don\u0027t have my case number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4ed89ef1-17b4-4da6-89a0-3154dc451f41",
+    "data": [
+      {
+        "text": "Do ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " know my case#.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0d83ada3-cc5b-498a-bdf3-b292492a20fd",
+    "data": [
+      {
+        "text": "how do I find my case number?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9b725d9d-f0d3-4f45-a7d3-f3fb9fd482ac",
+    "data": [
+      {
+        "text": "no",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " can i   get my case number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "08501787-8433-40bb-ba27-76d6bfce0765",
+    "data": [
+      {
+        "text": "What if I don\u0027t have a case number?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "17acb353-eaff-46c1-8195-7ae8ef75e8cc",
+    "data": [
+      {
+        "text": "Also I do ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " have a case number as yet?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

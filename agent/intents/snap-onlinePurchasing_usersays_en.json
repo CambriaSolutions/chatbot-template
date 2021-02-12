@@ -1,0 +1,301 @@
+[
+  {
+    "id": "58b699c9-80ec-4372-ae82-4342033d7c1c",
+    "data": [
+      {
+        "text": "Can I pay the delivery fee with my food stamps benefits?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "af65a305-d0ef-4d01-9bd8-310c5e7b4113",
+    "data": [
+      {
+        "text": "What is food stamps Online Purchasing?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4c66442c-f70e-4945-bd26-aaa75f9d7294",
+    "data": [
+      {
+        "text": "What is SNAP Online Purchasing?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5edccaf9-a8e9-486a-8817-c55bfeb4ef87",
+    "data": [
+      {
+        "text": "Can I use my benefits at any retailer?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7d3d8def-671e-49f9-b00c-d64d8cce8525",
+    "data": [
+      {
+        "text": "How will I know if these retailers can deliver to my home?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f863fdbc-720b-47e2-b4a8-403725c1a405",
+    "data": [
+      {
+        "text": "Is using my EBT card online secure?\u2028Is there a fee?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "64eef6b0-ec9f-4aa8-9e30-3604a1ad58d4",
+    "data": [
+      {
+        "text": "Can I pay the delivery fee with my SNAP benefits?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3a4edc23-2316-4218-9aec-c4eb630d1ddc",
+    "data": [
+      {
+        "text": "store",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "65897b16-de50-49eb-85d8-6558fe0d60b9",
+    "data": [
+      {
+        "text": "market",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5e1922dc-9cc0-4b00-a775-a94569a22912",
+    "data": [
+      {
+        "text": "shopping",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7d18b479-031a-4063-bb63-0277eb3bdecc",
+    "data": [
+      {
+        "text": "groceries",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a2203507-22c4-43f1-981a-4168ce79ffee",
+    "data": [
+      {
+        "text": "food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e5efc60a-49cb-4edd-896c-5f672e6b34a5",
+    "data": [
+      {
+        "text": "fresh",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "159700a2-1e00-4927-8cc5-f6fd481304e5",
+    "data": [
+      {
+        "text": "Amazon pantry delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f32dcd7c-5fce-49e1-999d-12c310653903",
+    "data": [
+      {
+        "text": "Amazon Fresh delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f05fb4e0-81b0-490c-ae76-58b1e7af6051",
+    "data": [
+      {
+        "text": "Walmart Delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "55d59261-2639-4324-b867-de04e4e44ae9",
+    "data": [
+      {
+        "text": "Wal-mart delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "da24b997-085e-4652-bb3b-2acfe8900b5c",
+    "data": [
+      {
+        "text": "purchase food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c5248bc4-b22d-40a0-82c2-247c7b618cee",
+    "data": [
+      {
+        "text": "buy food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "185d6470-e267-4bc8-b1eb-3aefbbebc2c6",
+    "data": [
+      {
+        "text": "get food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "df7a8988-5038-4494-98d9-9c7de4294e1f",
+    "data": [
+      {
+        "text": "SNAP Online Purchasing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "69d4d072-93e0-472f-a8fd-70c16c8d3d87",
+    "data": [
+      {
+        "text": "Can I buy food online?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3c97cc52-2abc-4136-b890-3cd075e415ff",
+    "data": [
+      {
+        "text": "Can I buy food from Amazon?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "id": "341e919e-57ad-46ae-b89d-8441357a3418",
+  "name": "cse-visitation-prosepackets",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you do not have a divorce decree or court-ordered visitation, pro se litigation may be an option for you. If you would like to represent yourself in court without an attorney, you will be responsible for completing and filing all legal forms with the court."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please \u003ca href\u003d\"https://www.mdhs.ms.gov/wp-content/uploads/2018/09/Petition-to-Establish-Visitation-Rights-Pro-Se-9-18.pdf\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e to download the Pro Se Information Packet. You may access “Self-Help” videos \u003ca href\u003d\"http://www.msatjc.org/self-help-videos\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e if you plan to represent yourself without a lawyer."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Petition to cite",
+              "Legal Services"
+            ],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

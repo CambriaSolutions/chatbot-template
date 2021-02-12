@@ -1,0 +1,220 @@
+[
+  {
+    "id": "72a4c82f-1b9c-4650-a087-f257a26149fa",
+    "data": [
+      {
+        "text": "none",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2e32a8ea-4670-4978-a46d-704b78da4641",
+    "data": [
+      {
+        "text": "don\u0027t have one",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0f2ea9bc-acdb-40d7-9ea1-73286ee62f0f",
+    "data": [
+      {
+        "text": "dont have one",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2799a75c-8e47-4e41-abf3-5af413c36f40",
+    "data": [
+      {
+        "text": "skip",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d27b6b68-6108-405a-b21b-ba3ba83ef8e8",
+    "data": [
+      {
+        "text": "next",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d4769e21-8d73-419f-84a9-33c7cbf92d35",
+    "data": [
+      {
+        "text": "na",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "34af88b4-7fbe-4154-8437-5572b1cecc60",
+    "data": [
+      {
+        "text": "n/a",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fe7e589a-e983-42bf-a139-8d5444e4df43",
+    "data": [
+      {
+        "text": "nope",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "20f4c8f9-7d12-42e9-9a11-8a809dc94b5a",
+    "data": [
+      {
+        "text": "no",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " way",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b91bdb8d-36bf-4585-ba9a-363ef5618a86",
+    "data": [
+      {
+        "text": "i don\u0027t want to",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fecca411-485d-4fd2-b9f1-1c234a76dd8a",
+    "data": [
+      {
+        "text": "i dont want to give it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f277bf57-620f-4484-b37e-dff774af324c",
+    "data": [
+      {
+        "text": "why would i give you that",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8d8e6d5c-4f98-4ff9-ab38-0af9ac646831",
+    "data": [
+      {
+        "text": "i dont want you to call me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fdbc6fd3-4007-43a0-92c4-fc59ed4966ff",
+    "data": [
+      {
+        "text": "i dont want to do that",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "430ac1a8-b872-4f54-a5a5-cb001330db69",
+    "data": [
+      {
+        "text": "no",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d95c99ce-618c-45e6-82a7-44461f306bd1",
+    "data": [
+      {
+        "text": "I dont have one",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

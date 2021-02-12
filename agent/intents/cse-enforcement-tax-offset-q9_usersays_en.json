@@ -1,0 +1,168 @@
+[
+  {
+    "id": "58dc85fb-5517-433b-9e13-251da988edf9",
+    "data": [
+      {
+        "text": "I filed with my wife, is she responsible for my child support?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "976cf7e5-79aa-4f4f-9aec-d3a0bf97edee",
+    "data": [
+      {
+        "text": "I filed with my wife, does she have to pay my child support?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "85c0d71a-00cd-4cdb-896a-e6b6e08dd004",
+    "data": [
+      {
+        "text": "If we filed injured spouse form will my wife receive her state refund back?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "64d644d2-e129-48c7-885b-400173043d7b",
+    "data": [
+      {
+        "text": "Am I, are we able to get my spouses refund portion back?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0117457f-2b8f-4ebf-9cbe-b12ad5d084d5",
+    "data": [
+      {
+        "text": "Can they take my taxes if I am ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " responsible for the debt?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "233a66a2-6c5e-4f82-989b-16c00528b0a7",
+    "data": [
+      {
+        "text": "If I filed a joint return, but I am ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " responsible for child support, will they take my refund?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dc765248-0a5f-489a-81a0-44957cfda9e7",
+    "data": [
+      {
+        "text": "If I appeal, how long will it take to get my spouses refund back from the Federal government?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7873e180-502d-47af-bc1a-e328527267e6",
+    "data": [
+      {
+        "text": "If I appeal, how long will it take to get my spouses money back from the state?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c2dd057d-8a1b-4981-b88e-41ec6f897802",
+    "data": [
+      {
+        "text": "If I am a spouse of the person responsible for child support (",
+        "userDefined": false
+      },
+      {
+        "text": "NCP",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ") why does my refund have to be taken for child support?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "271c42dc-a956-4838-beab-d5fe19713c4d",
+    "data": [
+      {
+        "text": "What if I filed a joint tax return, but I am ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " responsible for the past-due child support debt?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

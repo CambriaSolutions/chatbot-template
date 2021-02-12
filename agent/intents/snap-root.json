@@ -1,0 +1,67 @@
+{
+  "id": "148c25f3-35ff-4e5c-b2cd-db031a119d15",
+  "name": "snap-root",
+  "auto": true,
+  "contexts": [
+    "snap-enableHome"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "snap-subject-matter",
+          "lifespan": 999
+        },
+        {
+          "name": "tanf-subject-matter",
+          "lifespan": 0
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 0
+        },
+        {
+          "name": "wfd-subject-matter",
+          "lifespan": 0
+        },
+        {
+          "name": "wfd-enableHome",
+          "lifespan": 0
+        },
+        {
+          "name": "tanf-enableHome",
+          "lifespan": 0
+        },
+        {
+          "name": "cse-enableHome",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "home"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

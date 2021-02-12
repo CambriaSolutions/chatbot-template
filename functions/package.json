@@ -1,6 +1,7 @@
 {
   "name": "functions",
   "description": "Cloud Functions for Firebase",
+  "main": "lib/index.js",
   "scripts": {
     "serve": "firebase serve --only functions --port=9000",
     "shell": "firebase functions:shell",
@@ -8,15 +9,19 @@
     "build": "./node_modules/.bin/tsc",
     "emulator-dev": "firebase emulators:start --only functions --project dev",
     "emulator-dev-debug": "firebase emulators:start --inspect-functions --only functions --project dev",
+    "deploy": "firebase deploy --only functions",
+    "deploy-dev": "firebase deploy --only functions --project dev",
+    "deploy-dev-beta": "firebase deploy --only functions --project dev-beta",
+    "deploy-stage": "firebase deploy --only functions --project stage",
+    "deploy-dev-dialogflow": "firebase deploy --only functions:dialogflowFirebaseFulfillment --project dev",
+    "deploy-dev-beta-dialogflow": "firebase deploy --only functions:dialogflowFirebaseFulfillment --project dev-beta",
+    "deploy-stage-dialogflow": "firebase deploy --only functions:dialogflowFirebaseFulfillment --project stage",
+    "deploy-prod": "firebase deploy --only functions --project prod",
     "logs": "firebase functions:log",
     "test": "jest",
     "lint": "npx eslint '**/*.ts'",
     "lint-fix": "npx eslint '**/*.ts' --fix"
   },
-  "engines": {
-    "node": "12"
-  },
-  "main": "lib/index.js",
   "dependencies": {
     "@google-cloud/automl": "^2.3.1",
     "@google-cloud/dialogflow": "^3.3.0",
@@ -28,7 +33,7 @@
     "canvas": "^2.5.0",
     "cors": "^2.8.5",
     "date-fns": "^2.16.1",
-    "dialogflow-fulfillment": "^0.6.1",
+    "dialogflow-fulfillment": "github:dialogflow/dialogflow-fulfillment-nodejs",
     "dotenv": "^8.0.0",
     "firebase-admin": "^9.4.2",
     "firebase-functions": "^3.13.0",
@@ -41,7 +46,7 @@
     "parse-address": "^1.1.2",
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
-    "sanitize-html": "^2.3.0",
+    "sanitize-html": "^1.27.5",
     "utf-8-validate": "^5.0.2",
     "validator": "^13.1.1"
   },
@@ -62,5 +67,8 @@
     "fs": "0.0.1-security",
     "jest": "^26.4.2",
     "typescript": "^4.0.3"
+  },
+  "engines": {
+    "node": "10"
   }
 }

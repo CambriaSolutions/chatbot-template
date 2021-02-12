@@ -1,0 +1,67 @@
+[
+  {
+    "id": "367bab4c-443f-4b50-81b6-56bfddae86bb",
+    "data": [
+      {
+        "text": "how do i schedule an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9e76f29d-2525-4622-bc6b-88c48cca7a13",
+    "data": [
+      {
+        "text": "how do i make an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "25749dd5-d0e1-4502-a5e6-5ec5e34796b0",
+    "data": [
+      {
+        "text": "make an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f42d0abc-141c-4fe8-9567-ecee5aabc5e6",
+    "data": [
+      {
+        "text": "i need to set up an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6bbd8350-7c94-46fe-b4aa-cce27aa2352e",
+    "data": [
+      {
+        "text": "appointments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

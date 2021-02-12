@@ -1,0 +1,88 @@
+{
+  "id": "d8f496fd-91a0-477f-ace8-cf9b28a463ec",
+  "name": "tanf-transitionalservices",
+  "auto": true,
+  "contexts": [
+    "tanf-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "tanf-subject-matter",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [
+        {
+          "id": "61c8d1c9-8315-4cb9-927d-538755eb5ece",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you stop receiving TANF because you are making too much money to be eligible, you may still qualify for TANF Supportive Services.  MS currently offers Transitional Child Care and Transitional Work Transportation Assistance."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Transitional Child Care allows you to continue receiving a child care certificate for up to 24 months. You must submit a TANF Child Care Application, MDHS-EA-379, within 30 days from the day your TANF case closes. A MDHS-EA-379 can be found by clicking \u003ca href\u003d\"https://www.mdhs.ms.gov/wp-content/uploads/2020/05/MDHS-EA-379-Fillable.pdf\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e. The MDHS-EA-379 must be submitted along with a TANF Transitional Work Assistance Application, MDHS-EA-357G, within 30 days from the day your TANF case closes."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Transitional Work Transportation Assistance allows you to continue receiving transportation stipends for a total of 18 months in your lifetime.  You must complete a TANF Transitional Work Assistance Application, MDHS-EA-357G, within 30 days from the day your TANF case closes."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "handleEndConversation": true,
+            "suggestions": []
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

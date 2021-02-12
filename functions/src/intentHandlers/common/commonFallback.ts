@@ -9,5 +9,11 @@ export const noneOfThese = async (agent: Agent) => {
 }
 
 export const commonFallback = async (agent: Agent) => {
-  return defaultFallback(agent)  
+  if (agent.context.get('cse-subject-matter') !== undefined) {
+    const { autoMlFallback } = await import('./categorizeAndPredict')
+
+    return autoMlFallback(agent)
+  } else {
+    return defaultFallback(agent)
+  }
 }

@@ -1,0 +1,78 @@
+{
+  "id": "51dead96-d820-43dc-8985-51750fc532af",
+  "name": "wfd-s2w-root",
+  "auto": true,
+  "contexts": [
+    "wfd-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "wfd-subject-matter",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The Supplemental Nutrition Assistance Program’s (SNAP) Employment \u0026 Training (E\u0026T) program is an invaluable resource in assisting eligible SNAP recipients to become work and/or career ready in a middle-skill occupation. To maximize limited resources and expand E\u0026T services, MDHS forms partnerships with other agencies and organizations to provide education, training, and supportive services to eligible SNAP E\u0026T participants."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Able Bodied Adults without Dependents (ABAWD) have an opportunity to participate in Skills2Work and certain SNAP populations are eligible to volunteer for SNAP E\u0026T services. The goal of Skills2Work (S2W) is to help eligible SNAP recipients gain access to education and/or training opportunities in order to earn credentials that will help them compete for employer-driven, middle-skill jobs. Skills2Work will focus on career/technical and/or workforce skills training programs."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What can I help you with?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "PROVIDERS LOCATION",
+              "DO I QUALIFY?",
+              "MDHS LOCATIONS",
+              "MY RESOURCES",
+              "HOW CAN I APPLY?"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

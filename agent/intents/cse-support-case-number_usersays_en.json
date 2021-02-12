@@ -1,0 +1,183 @@
+[
+  {
+    "id": "6b10cbbc-7e2e-410c-a55d-14ed8f589196",
+    "data": [
+      {
+        "text": "i dont have one",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "46d3ff27-269f-4e55-93b9-2205c3821739",
+    "data": [
+      {
+        "text": "i havent ",
+        "userDefined": false
+      },
+      {
+        "text": "gotten one",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "312c7942-b607-4a51-b1ee-76d5e96559e0",
+    "data": [
+      {
+        "text": "i dont know",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "16ad109a-f828-4943-8fc8-8d8a69d5a857",
+    "data": [
+      {
+        "text": "i guess ",
+        "userDefined": false
+      },
+      {
+        "text": "i dont know it",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eff26bad-fe1f-463f-aa4f-69091874a7bc",
+    "data": [
+      {
+        "text": "123456",
+        "meta": "@sys.any",
+        "alias": "caseNumber",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f2609a6f-0661-4e7e-abb5-23ab96b16dd8",
+    "data": [
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "098765",
+        "meta": "@sys.any",
+        "alias": "caseNumber",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e6f25372-a190-4829-ab25-26b5483a1323",
+    "data": [
+      {
+        "text": "62345678a",
+        "meta": "@sys.any",
+        "alias": "caseNumber",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "55b1553f-fd29-4ff9-a76d-9b5625849d21",
+    "data": [
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "123456",
+        "meta": "@sys.any",
+        "alias": "caseNumber",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "487a71e2-57a2-4e2b-aab3-df370568c3da",
+    "data": [
+      {
+        "text": "612345678a",
+        "meta": "@sys.any",
+        "alias": "caseNumber",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9acad519-9066-490a-a58d-e0172c27f842",
+    "data": [
+      {
+        "text": "123",
+        "meta": "@sys.any",
+        "alias": "caseNumber",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c5b5ceff-6a74-48ef-bb87-3c3ce5e137d5",
+    "data": [
+      {
+        "text": "556677",
+        "meta": "@sys.any",
+        "alias": "caseNumber",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

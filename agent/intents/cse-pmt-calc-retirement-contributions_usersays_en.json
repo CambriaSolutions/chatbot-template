@@ -1,0 +1,70 @@
+[
+  {
+    "id": "ff683c77-e809-4409-8af3-02e0393dab1d",
+    "data": [
+      {
+        "text": "5000",
+        "meta": "@sys.number",
+        "alias": "ssDeductions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4f9311f4-b297-4cd8-a4c8-6d5f9b434084",
+    "data": [
+      {
+        "text": "$",
+        "userDefined": false
+      },
+      {
+        "text": "90",
+        "meta": "@sys.number",
+        "alias": "ssDeductions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9bf328b7-fb76-433f-9c52-9e9dedddc8b9",
+    "data": [
+      {
+        "text": "250",
+        "meta": "@sys.number",
+        "alias": "ssDeductions",
+        "userDefined": false
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a139aa22-de3d-441e-85c8-c8298e6f7e30",
+    "data": [
+      {
+        "text": "fifty",
+        "meta": "@sys.number",
+        "alias": "ssDeductions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

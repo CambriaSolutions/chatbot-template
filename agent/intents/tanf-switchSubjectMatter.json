@@ -1,0 +1,64 @@
+{
+  "id": "ed826f88-16e2-4066-b05a-488df7008b31",
+  "name": "tanf-switchSubjectMatter",
+  "auto": true,
+  "contexts": [
+    "tanf-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-enableHome",
+          "lifespan": 1
+        },
+        {
+          "name": "snap-enableHome",
+          "lifespan": 1
+        },
+        {
+          "name": "wfd-enableHome",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I\u0027m sorry, were you referring to one of the topics below?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Child Support",
+              "SNAP",
+              "WORKFORCE DEVELOPMENT"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

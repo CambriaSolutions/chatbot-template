@@ -1,0 +1,73 @@
+{
+  "id": "54419142-fe42-4d7d-ae91-1456d9484e7d",
+  "name": "cse-pmts-general-root",
+  "auto": true,
+  "contexts": [
+    "waiting-payment-calc",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-pmts-general-receive-payments",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmts-general-non-custodial",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-payment-calc",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Are you the parent who is or will be receiving payments?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Yes",
+              "No"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

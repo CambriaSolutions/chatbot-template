@@ -1,0 +1,288 @@
+[
+  {
+    "id": "9c259815-2776-4cf8-a27a-7433392dd79f",
+    "data": [
+      {
+        "text": "I need to know about my child support case?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b964e2ae-1678-4e13-90b1-4e2308286e8a",
+    "data": [
+      {
+        "text": "Case Number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5fe0b90f-76a2-48da-8ceb-043039a38dd7",
+    "data": [
+      {
+        "text": "Case Status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e46c2bc8-df4c-4f0c-a53b-e5064fb072be",
+    "data": [
+      {
+        "text": "Case Details",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b67209b3-7fbc-4137-95ff-61a50850ac5c",
+    "data": [
+      {
+        "text": "whats the status of my case",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "81302c99-79de-41cb-b966-95e930ce6976",
+    "data": [
+      {
+        "text": "is money being taking out of his check",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3ee15077-0025-41b5-a85a-c4587b0ae415",
+    "data": [
+      {
+        "text": "what is my case number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4c8e41b8-c621-47c0-bc17-774433415792",
+    "data": [
+      {
+        "text": "when will my case end",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d7f9634c-842a-4140-819f-7a37bfb6c9bc",
+    "data": [
+      {
+        "text": "when will my case close",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8eedfecb-7383-4c79-8e90-f2184e53141a",
+    "data": [
+      {
+        "text": "is my daddy required to pay child support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f5f179e6-bb65-41ba-bb2b-6a676b12082d",
+    "data": [
+      {
+        "text": "is my mom required to pay child support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "11686883-116b-4397-a113-418e6df008a0",
+    "data": [
+      {
+        "text": "why is my case still open",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a6880fcf-2ebe-4b55-809f-0cfa4e88c5c4",
+    "data": [
+      {
+        "text": "is my case closed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "de8be136-94f7-4d1a-9bb0-547da107d65f",
+    "data": [
+      {
+        "text": "Has a Withholding Order been sent to the Employer?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7e4acf43-71dc-4afe-894c-7ee43a1f8874",
+    "data": [
+      {
+        "text": "Is my child support case close?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b8fa9a5f-1f7b-4c13-95f3-7116f3e1e2a4",
+    "data": [
+      {
+        "text": "Find case number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "55d4ee5c-9fd1-47d2-a08c-f9793a226300",
+    "data": [
+      {
+        "text": "Is my case pending closure?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "63b8aab9-0375-4fd8-845a-4341b91e4c7c",
+    "data": [
+      {
+        "text": "Is the absent parent ordered to pay child support?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2941e247-27bc-4eee-82a6-debcafcdfb0d",
+    "data": [
+      {
+        "text": "Does my case have an order attached?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "26304bef-1ff7-4bfc-b011-df7f2cdc53f8",
+    "data": [
+      {
+        "text": "Has a court date been schedule for my child support case?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f7b74dbb-1de0-4116-8e9d-e98b15426e77",
+    "data": [
+      {
+        "text": "Has my case been scheduled for court?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "340552fd-5d8c-4848-abe5-cf4d7dd93956",
+    "data": [
+      {
+        "text": "Has an appointment been schedule for the absent parent?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "id": "b1dc93d6-5e58-4f0c-aa58-a5b76d60d940",
+  "name": "tanf-doc-confirm",
+  "auto": true,
+  "contexts": [
+    "tanf-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "tanf-subject-matter",
+          "lifespan": 99
+        },
+        {
+          "name": "waiting-tanf-county-office",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "08396793-c620-4dec-90bd-5d7c0184b469",
+          "name": "phone-number",
+          "required": false,
+          "dataType": "@sys.phone-number",
+          "value": "$phone-number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You have the option to upload documentation to your SNAP and TANF cases."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please \u003ca href\u003d\"https://ea-upload.mdhs.ms.gov/\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e to upload documents for your case."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Is this the service you want?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "YES",
+              "NO"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

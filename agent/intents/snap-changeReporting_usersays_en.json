@@ -1,0 +1,747 @@
+[
+  {
+    "id": "e04c228e-d019-4cf1-8652-daf8262f46a0",
+    "data": [
+      {
+        "text": "food stamps income change",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "89ef419c-6752-4855-9229-87e0854f6d42",
+    "data": [
+      {
+        "text": "How do I report income change for food stamps",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6d6856fd-7b6f-4409-9eba-faac9e45aac2",
+    "data": [
+      {
+        "text": "change form for food stamps",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2e88fbb0-3a97-4781-9726-cad1614fa3d5",
+    "data": [
+      {
+        "text": "food stamps report change form.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8289dd87-4d34-48ad-ad89-51025b2f22b5",
+    "data": [
+      {
+        "text": "food stamps form for a change in household.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a3a9ba8a-f835-4431-b98b-055decff146c",
+    "data": [
+      {
+        "text": "I need to change my address on my food stamps case",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f9993714-2008-456c-b67c-683a0cc4346d",
+    "data": [
+      {
+        "text": "Update address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7618504b-a1e3-4d43-a0aa-161425bce6b2",
+    "data": [
+      {
+        "text": "Update information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6a87d504-8ee3-4b16-8747-2cd19c18999e",
+    "data": [
+      {
+        "text": "I need to let ",
+        "userDefined": false
+      },
+      {
+        "text": "someone",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " know that ",
+        "userDefined": false
+      },
+      {
+        "text": "there",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " has been a change in my household my grandson is ",
+        "userDefined": false
+      },
+      {
+        "text": "no",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " longer in here",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9be96c69-58b0-4e0a-8ae4-69fd9ebfdb00",
+    "data": [
+      {
+        "text": "Hi. How do I update my address on the website?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "824ec8c9-7b84-43ae-9307-7f6fb95f3e9a",
+    "data": [
+      {
+        "text": "Adding a child to my SNAP case",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c638002d-04aa-44a4-89ff-0f027a131913",
+    "data": [
+      {
+        "text": "I need to ",
+        "userDefined": false
+      },
+      {
+        "text": "change the address",
+        "meta": "@action-requests",
+        "alias": "action-requests",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e0a49c01-bbc9-471c-855b-c2b59ffe8482",
+    "data": [
+      {
+        "text": "ADDRESS CHANGE",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d4b94229-ac53-4b46-8445-0747193bc21a",
+    "data": [
+      {
+        "text": "Change of address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "66a53832-379c-4aff-be45-593fbe6ae5c8",
+    "data": [
+      {
+        "text": "I need to change my address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6b992191-34be-444d-ad6f-5f75b9886607",
+    "data": [
+      {
+        "text": "Change reporting form",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bbbd2f58-cc89-42f4-a159-b2f680c11977",
+    "data": [
+      {
+        "text": "I need the form to add a person to my case.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "89cebbd4-fbfd-47ad-a793-ef31cfd3a172",
+    "data": [
+      {
+        "text": "Address change",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ed9decb6-c629-4ef7-9823-21e5511f7a91",
+    "data": [
+      {
+        "text": "Change address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "20a07485-8f22-4d61-a7b5-b908ccd42cba",
+    "data": [
+      {
+        "text": "Change Reporting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e427ead8-19aa-4287-a762-cf826452608d",
+    "data": [
+      {
+        "text": "Do I have to report a change in my household?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4f4d5856-f625-4525-9da3-d72d18add1ef",
+    "data": [
+      {
+        "text": "How can I report a change?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ea24baa3-6b51-4003-a963-56507e4e431b",
+    "data": [
+      {
+        "text": "My income changed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1d1c1c18-eebb-4911-8fc2-a26be39f0e86",
+    "data": [
+      {
+        "text": "I have an ",
+        "userDefined": false
+      },
+      {
+        "text": "increase",
+        "meta": "@action-requests",
+        "alias": "action-requests",
+        "userDefined": false
+      },
+      {
+        "text": " in my income",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2bb57f30-73aa-492e-ae30-27d5bf60fa84",
+    "data": [
+      {
+        "text": "What happens if I don\u0027t report a change on my income?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "226840de-b0ff-4ac7-908d-2f61434c59a9",
+    "data": [
+      {
+        "text": "Report a change",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "294712c5-e3ee-4cef-a832-f1b86116dc70",
+    "data": [
+      {
+        "text": "i am trying to do a change of address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "daebe819-359b-49b0-a26c-2226ee75d8a0",
+    "data": [
+      {
+        "text": "How can I update my address?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1d418fd5-c16c-4dda-852f-c67c44ed3e6b",
+    "data": [
+      {
+        "text": "I need address change an lose card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0a30f276-2916-4160-8325-ac9d39f01098",
+    "data": [
+      {
+        "text": "Also i need to change my address.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "83c1e1ad-a23d-4f58-b923-53e501d1b58e",
+    "data": [
+      {
+        "text": "I need to change my address on my snap case",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "17110748-2bf5-4259-acf1-6b4fcce68c53",
+    "data": [
+      {
+        "text": "I need to change my phone number.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "470c9b4f-3a46-447a-932e-63920e1ee6fd",
+    "data": [
+      {
+        "text": "TANF form for a change in household",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2267610d-ab3e-4463-948a-50c9caef843e",
+    "data": [
+      {
+        "text": "How can I update my address.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "47d36167-bf78-4054-97a4-48c5e4df23a5",
+    "data": [
+      {
+        "text": "How can I update my address for PEBT",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0891e830-4a89-4f0b-b906-51507d7cc755",
+    "data": [
+      {
+        "text": "I NEED A CHANGE FORM.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "73b79a06-4a5f-4009-9a94-424d406aec24",
+    "data": [
+      {
+        "text": "i am trying to do a change of address.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0780ff74-345c-4da3-b23e-caa9988db2fb",
+    "data": [
+      {
+        "text": "How can I do a address change?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b90b43fb-c341-4b45-9ab3-5f2c028ed8eb",
+    "data": [
+      {
+        "text": "update phone number.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6f2b6132-6656-4f80-a6a2-fdace4c55303",
+    "data": [
+      {
+        "text": "Change in household form",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1f93bcdd-314a-4efa-8b2b-d1a82d54dfb0",
+    "data": [
+      {
+        "text": "I\u0027m trying to change my address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2782c14d-1577-4c83-8609-18143bbeb1cd",
+    "data": [
+      {
+        "text": "SNAP report change form.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7da89fad-8589-411c-b1d9-3b393736afe2",
+    "data": [
+      {
+        "text": "change form for SNAP",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b2bfba24-d09d-402d-9e11-e4e59bc49123",
+    "data": [
+      {
+        "text": "I need to change my address im ",
+        "userDefined": false
+      },
+      {
+        "text": "no",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " longer at my old address.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e4f9abf3-cf50-438d-ba51-a386daccf500",
+    "data": [
+      {
+        "text": "Is there a way for me to update my address?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "703b8cee-a462-46f9-9e29-7ced867aa997",
+    "data": [
+      {
+        "text": "Change of address form",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "26346cd3-a7d5-46e1-9fd7-78ffb227c8ca",
+    "data": [
+      {
+        "text": "Like to change my contact number so my social worker can get in contact with me.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "314c20e6-a78f-4403-91a5-29577bc9b995",
+    "data": [
+      {
+        "text": "How can I change my address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "acb86f3b-7cd7-4948-9909-8f2bd019e237",
+    "data": [
+      {
+        "text": "How can I change my address online ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2759eba8-44e3-4181-a884-1095eceee854",
+    "data": [
+      {
+        "text": "How do I report a change?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e33f01d6-f394-4ac9-8a3a-971ca1d633e8",
+    "data": [
+      {
+        "text": "How do I change my address information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "969ca94a-fcd9-4c44-aef2-b71a6c439641",
+    "data": [
+      {
+        "text": "How do I report income change for SNAP",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3d310725-1a59-428f-a11f-c1e406fd872a",
+    "data": [
+      {
+        "text": "SNAP income change",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

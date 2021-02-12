@@ -1,0 +1,52 @@
+{
+  "id": "727b9bea-de7c-46c4-9e23-7caa2298e7a5",
+  "name": "tanf-drugtest",
+  "auto": true,
+  "contexts": [
+    "tanf-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "tanf-subject-matter",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Any adult applicant age 18 or older (including any disqualified individual) included in the application will be subject to a substance abuse screening questionnaire to determine the reasonable likelihood of a substance abuse disorder. Minor heads of household (under 18) are excluded from the drug screening and testing policy."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

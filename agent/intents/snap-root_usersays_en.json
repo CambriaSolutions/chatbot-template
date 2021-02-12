@@ -1,0 +1,28 @@
+[
+  {
+    "id": "f6512f37-f705-450a-b2a1-3e72bb187d59",
+    "data": [
+      {
+        "text": "food stamps",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "79102585-6204-4c5e-bbfe-714a97980160",
+    "data": [
+      {
+        "text": "SNAP",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

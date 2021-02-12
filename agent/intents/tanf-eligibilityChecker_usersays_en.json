@@ -1,0 +1,93 @@
+[
+  {
+    "id": "80d7e8c2-173b-4498-b310-81a6d0ef1c31",
+    "data": [
+      {
+        "text": "I\u0027m here for tanf.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4eb86a8d-ed25-4867-b75a-2e9931c4bd89",
+    "data": [
+      {
+        "text": "Can I get TANF going to school?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "88b58216-9347-4abf-b5f9-198e41ceb962",
+    "data": [
+      {
+        "text": "How can I check if I can get TANF?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5e755275-a612-4ae1-bbc1-85165291604b",
+    "data": [
+      {
+        "text": "What do I need to provide?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "901805a5-5eb9-4ebb-acb7-7a9b05c2aed5",
+    "data": [
+      {
+        "text": "Can I get TANF for my grand children?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2b65c0ba-e9bb-4005-aed1-80695d7dd125",
+    "data": [
+      {
+        "text": "Can I work and get TANF?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "da686fe4-2ae4-42ab-9875-ebffe33fc065",
+    "data": [
+      {
+        "text": "Eligibility Checker",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

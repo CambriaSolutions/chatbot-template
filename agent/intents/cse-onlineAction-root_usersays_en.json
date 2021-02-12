@@ -1,0 +1,964 @@
+[
+  {
+    "id": "2d797f9f-2067-4b62-b65c-5c5348419006",
+    "data": [
+      {
+        "text": "How do i log in to my child support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "136305de-6c92-46f2-b8bb-cff8f9dddd05",
+    "data": [
+      {
+        "text": "I need the website or the app to download so I can look at my account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "33901062-9c0e-45b0-8810-ec96b19f389c",
+    "data": [
+      {
+        "text": "Hi My name is ",
+        "userDefined": false
+      },
+      {
+        "text": "Ebony",
+        "meta": "@sys.given-name",
+        "alias": "given-name",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Thomas",
+        "meta": "@sys.last-name",
+        "alias": "last-name",
+        "userDefined": false
+      },
+      {
+        "text": " someone keeps hacking into my account and using different pictures making it hard for me to get into my account.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7af23f77-5f6f-4cd5-8414-9b31313e1839",
+    "data": [
+      {
+        "text": "Why am I not able to access the website?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d20c3ab1-0564-44fa-9c33-4f4bf1de9922",
+    "data": [
+      {
+        "text": "Whatâ€™s wrong with the website when trying to login info",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "00b25c69-9581-4280-9699-3b806fb4b95c",
+    "data": [
+      {
+        "text": "I have tried logging in and the page is messed up is there another way to login",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c511a77e-0d69-45c9-9bfb-a6794172cec9",
+    "data": [
+      {
+        "text": "How  do I login",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "24a2960e-cbe9-4c8e-b2b1-c426d18b2ff8",
+    "data": [
+      {
+        "text": "My zip code",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1646dbd2-ac7c-4743-aea2-ccbca3543d5e",
+    "data": [
+      {
+        "text": "Is something wrong with the eppicard login page to check my statements ? I havenâ€™t been able to get in mine for ",
+        "userDefined": false
+      },
+      {
+        "text": "the past week",
+        "meta": "@sys.date-period",
+        "alias": "date-period",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "74c229ce-b2d8-4327-a107-c35ae5f0e57f",
+    "data": [
+      {
+        "text": "Can\u0027t log into website",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "13aef3da-2513-4ec0-9ab2-666e931a92b3",
+    "data": [
+      {
+        "text": "I am having trouble logging in",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2fea2a04-e712-4362-9e32-e1d6204dfb58",
+    "data": [
+      {
+        "text": "I canâ€™t access the website to check for payments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cc82fee9-4b6c-4e15-a88e-17eb2e1ab9dd",
+    "data": [
+      {
+        "text": "Why can\u0027t I log in?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e10206a8-dbe9-4a99-9daa-52ad6426374a",
+    "data": [
+      {
+        "text": "How can I login to the system",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6f7c3847-7650-459f-8b14-cc490901b66e",
+    "data": [
+      {
+        "text": "I am having log in problem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a1950502-c27c-4825-8c6c-1f2d49c0725b",
+    "data": [
+      {
+        "text": "i cant log in",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d303f3f1-031a-4a91-8dab-ec6baa202de0",
+    "data": [
+      {
+        "text": "I can\u0027t get in my eppicard account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1294c157-a6eb-42fe-9421-32d57a5eaa60",
+    "data": [
+      {
+        "text": "Logon",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d0499bde-abae-40f0-a28e-2fde36c63188",
+    "data": [
+      {
+        "text": "saracarolmorrow@gmail.com",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ecb04666-8683-4723-b3a7-03fe7e59a686",
+    "data": [
+      {
+        "text": "Alszmm@gmail.com",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "423ec902-f38b-4874-9887-a5c8bb2ecdd4",
+    "data": [
+      {
+        "text": "anthonymedcalf2000@gmail.com",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0d40c1ed-54ab-479e-97bb-b7bb9431e003",
+    "data": [
+      {
+        "text": "Login",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fc86d345-4d61-4394-b04b-8cf0f457ec6a",
+    "data": [
+      {
+        "text": "Just curious if I could check the balance of my child support card online?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "85b714a8-d519-45db-8331-1a20e3055a24",
+    "data": [
+      {
+        "text": "forgot log in information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "70dbeb1a-8400-4be7-83fb-d4c9316c7444",
+    "data": [
+      {
+        "text": "why can I not access the child support web-based bills/notices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "de1c028f-ef1b-4df8-a2d0-bb2f2637da1b",
+    "data": [
+      {
+        "text": "I forgot my MDHS login information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3677886f-2b46-46fa-843c-89409f846665",
+    "data": [
+      {
+        "text": "I forgot my password and cant log in",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0c85634a-376f-4ff4-a905-787b9be07075",
+    "data": [
+      {
+        "text": "How can I get help with login information on the EppiCard website?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0a13e6c3-6a2c-4d65-996c-1a29f70942e5",
+    "data": [
+      {
+        "text": "login",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7fe9b2c6-976b-4ddf-9d03-5fada825c1f0",
+    "data": [
+      {
+        "text": "I receive child support is there any way I can review my account online?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a1331df5-e350-4660-bdf3-819993c63508",
+    "data": [
+      {
+        "text": "I can\u0027t login to the site",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8a46fed8-2b54-4569-bc97-be2be35d1339",
+    "data": [
+      {
+        "text": "I\u0027m trying to get in my account online but I\u0027ve been lock out",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fc014578-5bbc-4daf-8951-2aa4994fc602",
+    "data": [
+      {
+        "text": "How to go online and access my account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1d5d43fc-8287-4e71-bef6-e6cbcceed49b",
+    "data": [
+      {
+        "text": "Online site to login",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5dbc709b-8d96-4884-bc77-6f514bf7066e",
+    "data": [
+      {
+        "text": "I can\u0027t log into my account. There is a charge in my card that takes place every month that I don\u0027t know anything about.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "34419d38-3304-48a6-9fde-98d0eb0b629d",
+    "data": [
+      {
+        "text": "Cant log in",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2d10a946-54ba-48dd-9146-27ca3bdd12ed",
+    "data": [
+      {
+        "text": "How to log in I pay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "233ea14a-c278-460c-bc5f-a2a31efa6505",
+    "data": [
+      {
+        "text": "Sign in to check my account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5d2b5fe1-e2be-4b60-ab1c-d197c2873c01",
+    "data": [
+      {
+        "text": "I am just trying to see why I cannot log into my account to pay child support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ed36fc20-19b1-4f2b-8410-0f3894ed3048",
+    "data": [
+      {
+        "text": "I can\u0027t access the I pay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "84afb4d8-254c-4546-a411-f3b83111d7fc",
+    "data": [
+      {
+        "text": "can i submit an application online?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "36190417-2845-4def-bcad-1da25cb0d13c",
+    "data": [
+      {
+        "text": "May I get printout online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ed83759c-ac86-4f11-9950-a12d3274c84e",
+    "data": [
+      {
+        "text": "Make online account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fd99ed81-a879-4b65-aa52-d947f3eec62a",
+    "data": [
+      {
+        "text": "How can I fill out a application for child support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0f59e4e1-2176-4d2e-acec-11f396009276",
+    "data": [
+      {
+        "text": "I need to sign a comply form",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7cab65f5-5730-4ae5-93a6-7f39d31d233c",
+    "data": [
+      {
+        "text": "Hey is there anyway I can access family contribution forms online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6f41d8bc-cd87-4b3e-87cd-f8009ed9534f",
+    "data": [
+      {
+        "text": "Are there any online services I can get to help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0d3a1d06-8e7b-4194-811f-21937febe294",
+    "data": [
+      {
+        "text": "How do i view the online billing page",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8aa2b529-9a8c-4627-aa8a-70dab8d0f505",
+    "data": [
+      {
+        "text": "I want to open a online account. I\u0027m the payee",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "08efe261-26c7-44cc-8949-d119c92b00dc",
+    "data": [
+      {
+        "text": "How can i set up my child support online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "58501d1a-3e49-4fcd-9a15-f72766d121be",
+    "data": [
+      {
+        "text": "Ia there a way to fill it out online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d1a37dfd-95e4-47ce-acea-52809abd494a",
+    "data": [
+      {
+        "text": "why i can\u0027t go online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "77debb66-d28b-444d-b739-8784bbee120d",
+    "data": [
+      {
+        "text": "Start a online account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5fa0e4d1-59ee-4a26-a6e7-d4b14f9ba764",
+    "data": [
+      {
+        "text": "Can it be completed online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ccd3bd43-9027-4451-9cc5-ff796254cd91",
+    "data": [
+      {
+        "text": "online services",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ef144767-41be-48df-a7b7-7258c49fba9e",
+    "data": [
+      {
+        "text": "Account online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "df729506-93d1-4c76-a387-e7cb866eae2c",
+    "data": [
+      {
+        "text": "Can you do it online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b6a2c93f-2d2c-4da1-a6ce-09426eb91a81",
+    "data": [
+      {
+        "text": "Do u have a web site?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "79f09157-1c37-44dc-872b-f98a5d766149",
+    "data": [
+      {
+        "text": "yes. Can I send my info or I have to come in?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6b07a719-229c-4527-b00c-dd8f8628e29f",
+    "data": [
+      {
+        "text": "can I look it up online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2c91ce44-6d07-47eb-82c4-16c5ceef3305",
+    "data": [
+      {
+        "text": "can I fill out these papers online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "23221ce7-9b0e-40e6-a8e8-dff0131666b2",
+    "data": [
+      {
+        "text": "ISN\u0027T THERE A WAY TO LOOK FROM MDHS\u0027S SITE?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5a502b55-a72d-4f64-9ac5-18f50ec6b2f5",
+    "data": [
+      {
+        "text": "View child support order online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bd9e3fd3-c84e-479e-8bb2-1c1d305c6645",
+    "data": [
+      {
+        "text": "can I submit online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0fdef3dc-6508-4446-b1af-c0aaeff94824",
+    "data": [
+      {
+        "text": "Online action",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2cc13511-4260-4fce-b5a0-233fdf4111f7",
+    "data": [
+      {
+        "text": "Can I fill out child support paperwork online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dbde5fdb-0b85-4b13-ba4c-12cfca9e58cf",
+    "data": [
+      {
+        "text": "Enrollment online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5e3f9f3e-4c0e-493d-a949-8a9e800a1e74",
+    "data": [
+      {
+        "text": "How do I access it online?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "93f8b7c6-f645-4f20-8188-da13080ad348",
+    "data": [
+      {
+        "text": "how can I get this done online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5d18e5b9-f40f-4a90-ab46-3c69d80695eb",
+    "data": [
+      {
+        "text": "Trying to setup online account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d5886a43-a40a-4195-a6c4-89850e909852",
+    "data": [
+      {
+        "text": "I\u0027m trying to get to where I can view my child support letters online.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c7294808-a51d-4b3c-97dd-63c820c4d986",
+    "data": [
+      {
+        "text": "Online issue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

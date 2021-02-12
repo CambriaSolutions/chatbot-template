@@ -1,0 +1,78 @@
+{
+  "id": "c1b8658a-eccb-484b-b125-ddfa42d7cdb8",
+  "name": "cse-visitation-root",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "MDHS does provide limited visitation services through the Mississippi Access and Visitation Program also known as MAV-P. Generally, the services offered through this program to parents who have an existing child support case include assistance with developing visitation agreements, parent education, mediation, and access to pro se documents that assist an individual in representing themselves in court. Services may vary based on funding."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "MDHS cannot represent parties in establishing visitation or custody rights, and the information provided by me or the MDHS website does not constitute legal advice."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please click on the options below to access pro se information if you are interested in representing yourself in court without an attorney. You may also call the MAV-P hotline at \u003ca href\u003d\"tel:+18005900818\"\u003e1-800-590-0818\u003c/a\u003e for assistance."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Pro Se Packets",
+              "Petition to cite",
+              "Legal Services"
+            ],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,108 @@
+[
+  {
+    "id": "62bb94eb-3aa5-4d8c-b8d3-2e0592ead251",
+    "data": [
+      {
+        "text": "nope",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "65f0e18b-7488-4a1f-9a4a-59caf75a9c50",
+    "data": [
+      {
+        "text": "i didnt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "67e6d78f-043f-4a6d-9ac0-e5739e62e286",
+    "data": [
+      {
+        "text": "i was not",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8dc5b0ea-e13a-4e6f-b0f6-966b27666ac4",
+    "data": [
+      {
+        "text": "i wasnt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8446d95e-d13b-4d6d-87cf-d87c3d1ff655",
+    "data": [
+      {
+        "text": "i dont think so",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "150aa8f9-801a-4747-84ca-5505c80b9582",
+    "data": [
+      {
+        "text": "nobody contacted me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6b925d58-3652-4e08-aa31-9dce58a2d85d",
+    "data": [
+      {
+        "text": "i did not",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ab02ca92-f651-4bbb-ac7f-c7da18fe43de",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

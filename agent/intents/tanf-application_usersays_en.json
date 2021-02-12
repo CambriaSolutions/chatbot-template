@@ -1,0 +1,145 @@
+[
+  {
+    "id": "473ec3ab-0fef-4060-8b37-38f2ab6f26ad",
+    "data": [
+      {
+        "text": "what\u0027s tanf?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ff8c4096-a226-4008-a33f-3b1575945160",
+    "data": [
+      {
+        "text": "tanf please.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e4b9ff58-295d-4d0d-b1de-8d62e0484c5d",
+    "data": [
+      {
+        "text": "What information do I need to apply?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "96c9195a-2e0e-4f8e-851f-47a2e7315dc8",
+    "data": [
+      {
+        "text": "Can I apply online for TANF?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dc88d9c9-6f13-49ce-aa5a-beff0e0735c2",
+    "data": [
+      {
+        "text": "How old do I have to be to get TANF?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "521703a9-276e-4383-91f2-64dbeec7ee77",
+    "data": [
+      {
+        "text": "Can I get tanf?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5221e26d-7a23-4c3d-9b08-ad33329b9c13",
+    "data": [
+      {
+        "text": "Can pregnant women get tanf?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "358bf31a-20b9-4f5a-bde9-03f3e9ce89cc",
+    "data": [
+      {
+        "text": "Can I start a new application?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5bf9d876-3a12-4ec2-b3b0-185066b5bdd7",
+    "data": [
+      {
+        "text": "New application",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1c0b9d28-e1b7-4453-9fdf-086b41090336",
+    "data": [
+      {
+        "text": "How can I apply?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "05af6de5-cf8e-471b-a07b-5d73b27d53a4",
+    "data": [
+      {
+        "text": "Application",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

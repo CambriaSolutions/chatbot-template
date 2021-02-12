@@ -1,0 +1,64 @@
+{
+  "id": "d6fb3a47-6748-47cf-ab04-91dabb49f79d",
+  "name": "cse-employer-guide",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "An Employer Guide was created to assist employers in learning more about topics such as reporting new hires, handling income withholding orders, or handling medical support notices. This guide provides resources, contact information, and links to forms."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please \u003ca href\u003d\"https://www.mdhs.ms.gov/wp-content/uploads/2020/06/MDHS_CSE_Reference-guide-for-employers.pdf\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e to open the Employer Guide for more information"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

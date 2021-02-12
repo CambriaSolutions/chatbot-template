@@ -1,0 +1,9 @@
+{
+  "id": "41a78c24-3efc-4aa1-b1d8-ad14ec385e46",
+  "name": "acknowledgement",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

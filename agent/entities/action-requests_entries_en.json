@@ -1,0 +1,81 @@
+[
+  {
+    "value": "Add Authorized User",
+    "synonyms": [
+      "add authorized user"
+    ]
+  },
+  {
+    "value": "Change Personal Information",
+    "synonyms": [
+      "change address",
+      "change of personal information",
+      "change personal information"
+    ]
+  },
+  {
+    "value": "Child Support Increase or Decrease",
+    "synonyms": [
+      "Child Support Increase/Decrease",
+      "child support increase or decrease",
+      "child support increase/decrease",
+      "child support payment increase or decrease",
+      "decrease",
+      "increase",
+      "increase decrease",
+      "increase or decrease",
+      "increase payments",
+      "increase support"
+    ]
+  },
+  {
+    "value": "Employer Report Lump Sum Notification",
+    "synonyms": [
+      "employer report lump",
+      "employer report lumpSum notification",
+      "lump sum",
+      "lumpsum",
+      "report lump sum"
+    ]
+  },
+  {
+    "value": "Inquiry",
+    "synonyms": [
+      "Inquiries",
+      "Questions",
+      "i have a question",
+      "inquiry"
+    ]
+  },
+  {
+    "value": "Request Case Closure",
+    "synonyms": [
+      "request case closure"
+    ]
+  },
+  {
+    "value": "Request Contempt Action",
+    "synonyms": [
+      "request contempt action"
+    ]
+  },
+  {
+    "value": "Request Payment History or Record",
+    "synonyms": [
+      "request payment history",
+      "request payment history or record"
+    ]
+  },
+  {
+    "value": "information about the parent who pays child support",
+    "synonyms": [
+      "information about the parent who pays child support"
+    ]
+  },
+  {
+    "value": "Report Information About the Parent who Pays Support",
+    "synonyms": [
+      "Report Information About the Parent who Pays Support"
+    ]
+  }
+]

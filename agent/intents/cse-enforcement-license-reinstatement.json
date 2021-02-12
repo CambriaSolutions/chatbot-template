@@ -1,0 +1,72 @@
+{
+  "id": "872749be-9e90-4964-a044-cc7f822d3ef9",
+  "name": "cse-enforcement-license-reinstatement",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter",
+    "waiting-license-reinstatement-learn-more"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-enforcement-submit-inquiry",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-license-reinstatement-learn-more",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-license-suspension-learn-more",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "To reinstate a suspended license, the parent who owes support either has to become current on support owed, or enter into a payment agreement with MDHS."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Submit Inquiry for Reinstatement"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

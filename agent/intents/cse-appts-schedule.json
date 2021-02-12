@@ -1,0 +1,76 @@
+{
+  "id": "7756c41e-e183-4594-99ff-efeba32563ac",
+  "name": "cse-appts-schedule",
+  "auto": true,
+  "contexts": [
+    "waiting-appts-schedule",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-appts-yes-contacted",
+          "lifespan": 2
+        },
+        {
+          "name": "waiting-appts-not-contacted",
+          "lifespan": 2
+        },
+        {
+          "name": "waiting-appts-schedule",
+          "lifespan": 0
+        },
+        {
+          "name": "waiting-appts-guidelines",
+          "lifespan": 0
+        },
+        {
+          "name": "waiting-appts-office-locations",
+          "lifespan": 0
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Have you been contacted by a Child Support office, or asked to appear at a Child Support office?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Yes",
+              "No"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

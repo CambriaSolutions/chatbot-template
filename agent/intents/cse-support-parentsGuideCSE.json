@@ -1,0 +1,79 @@
+{
+  "id": "43dff9ae-5500-43e5-9539-f286ce9dc6be",
+  "name": "cse-support-parentsGuideCSE",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "38ffc3c6-fa7f-4f72-b97c-f69fc3375d74",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The purpose of the child support program is to secure financial, medical and emotional support for children and families, thereby, contributing to a family’s ability to become self-sufficient and maintain self-sufficiency. The Mississippi Department of Human Services, Division of Child Support Enforcement exists to provide these services to the families of Mississippi."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please \u003ca href\u003d\"https://www.mdhs.ms.gov/wp-content/uploads/2019/08/MDHS_CSE_Parents-Handbook_V2.pdf\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e to open the Parent\u0027s Guide to CSE for more information"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -20,17 +20,17 @@ export const mapConfig: any = {
   },
 }
 
-export const activationText = 'Talk to <<Bot>>'
+export const activationText = 'Talk to Gen'
 
 
 class App extends Component {
   render() {
     return (
       <Chatframe
-        primaryColor='#5995de'
-        secondaryColor='#5995de'
-        headerColor='#5995de'
-        title='<<Bot>>'
+        primaryColor='#6497AD'
+        secondaryColor='#6497AD'
+        headerColor='#6497AD'
+        title='Gen'
         client='Dialogflow'
         clientOptions={dfWebhookOptions}
         fullscreen={false}

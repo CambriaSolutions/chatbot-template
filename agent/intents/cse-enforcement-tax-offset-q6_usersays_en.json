@@ -1,0 +1,77 @@
+[
+  {
+    "id": "bfee706d-c37c-439e-b884-c4d1946e6973",
+    "data": [
+      {
+        "text": "Will you take my taxes if I am making my ",
+        "userDefined": false
+      },
+      {
+        "text": "monthly",
+        "meta": "@cadence",
+        "alias": "cadence",
+        "userDefined": false
+      },
+      {
+        "text": " payments?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "09999bf5-c277-4d7c-99aa-626e2c541ed5",
+    "data": [
+      {
+        "text": "If I file my taxes are you going to take my refund?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5101f91d-ab7f-4fba-a299-2e67f44e9e22",
+    "data": [
+      {
+        "text": "How would I know if my taxes will be taken for child support?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "236b305a-0700-4d28-9e0d-f6b13fec3b77",
+    "data": [
+      {
+        "text": "How would I know if my taxes were taken for child support?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d3fd56d0-74f1-4b24-9dd0-eb4a960ce6aa",
+    "data": [
+      {
+        "text": "How do I know if my tax refund was offset for past-due child support?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

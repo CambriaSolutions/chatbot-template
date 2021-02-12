@@ -1,0 +1,220 @@
+[
+  {
+    "id": "7ff4646b-978c-4e80-afb0-c072305fe782",
+    "data": [
+      {
+        "text": "Am I going to have an interview?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "06487176-7a62-4032-ab9c-a0ccc65ecf5b",
+    "data": [
+      {
+        "text": "Will I get a notification?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "95f8873f-aff7-484d-8297-f59a9009d3ab",
+    "data": [
+      {
+        "text": "What\u0027s the process after submitting an application?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b19692ad-568b-4097-a617-4141d609c62a",
+    "data": [
+      {
+        "text": "What happens after I submit my application?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7a582b5c-e41e-4814-ac70-6bd134bd1a91",
+    "data": [
+      {
+        "text": "Checking my application status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ffb9340a-5ecb-4fba-9191-2c9ebd472e87",
+    "data": [
+      {
+        "text": "Check my status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7fa19cb7-fdfa-4cbb-8b34-57f7a746bd1c",
+    "data": [
+      {
+        "text": "Status of applications",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0682735b-96c0-471e-8106-7eec5bf2f13a",
+    "data": [
+      {
+        "text": "Status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "567249d7-d048-475e-925c-16b0142d028b",
+    "data": [
+      {
+        "text": "Checking status of application",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6ae459da-7b6d-422b-985f-0b22596b7175",
+    "data": [
+      {
+        "text": "How do I check my status?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eb776e24-7e8d-4296-b0bd-0c465beb4a9e",
+    "data": [
+      {
+        "text": "Checking my application",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b73e4945-fc53-44a2-87b7-45f565b15c5a",
+    "data": [
+      {
+        "text": "To check Tanf status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d2a201c2-7c8a-494f-a23b-f216b32525d0",
+    "data": [
+      {
+        "text": "How to check to see if I\u0027m approved",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "61a8e64e-4dba-43c2-8246-f08d72767816",
+    "data": [
+      {
+        "text": "If I\u0027ve already applied can I make an account to login to see my status?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "613ae71f-b0ce-46d9-b5d2-446f33d26b06",
+    "data": [
+      {
+        "text": "I was checking on my application",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1cdafd76-58d1-43e0-b65c-bd45cf9249b1",
+    "data": [
+      {
+        "text": "I already applied for tanf have ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " heard back from anyone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

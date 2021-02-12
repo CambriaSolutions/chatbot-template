@@ -1,0 +1,93 @@
+[
+  {
+    "id": "63898649-7a8d-48f5-801e-f6db34a237bb",
+    "data": [
+      {
+        "text": "not sure",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ea91a435-5b1e-400d-bbd2-bcf87f9f5cae",
+    "data": [
+      {
+        "text": "i dont know",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      },
+      {
+        "text": " my federal taxes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f53c5128-70c0-4313-8055-ad8e12beefbc",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "haven\u0027t received",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": true
+      },
+      {
+        "text": " my taxes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9aae2277-845f-49d4-a90b-f3d477685448",
+    "data": [
+      {
+        "text": "I have ",
+        "userDefined": false
+      },
+      {
+        "text": "no idea",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c92bc0c0-ecbd-4d11-b501-b1e1b8189f71",
+    "data": [
+      {
+        "text": "don\u0027t know",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

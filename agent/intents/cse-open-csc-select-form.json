@@ -1,0 +1,80 @@
+{
+  "id": "6a80949a-0c09-4c0a-a779-a2c4c629cbd8",
+  "name": "cse-open-csc-select-form",
+  "auto": true,
+  "contexts": [
+    "waiting-open-csc-select-form",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-open-csc-select-form",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-open-csc-no-service",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8958bece-5b96-4846-a81a-9c461b76c5f2",
+          "name": "yes-no",
+          "required": false,
+          "dataType": "@yes-no",
+          "value": "$yes-no",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Click \u003ca href\u003d\"http://www.mdhs.ms.gov/wp-content/uploads/2018/11/CSE_675-Application-11-2-18.pdf\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e to access the Child Support Service Application form. The form will open in a web browser and you can print it off from there."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

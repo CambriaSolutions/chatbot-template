@@ -1,0 +1,41 @@
+[
+  {
+    "id": "83453231-a452-4f07-a4c3-93db6e2be825",
+    "data": [
+      {
+        "text": "Legal Services",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cbdd8f6b-7c14-48e1-9139-b42d285351df",
+    "data": [
+      {
+        "text": "How can I get legal help?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "429bc087-df90-4d26-916f-75820769e95d",
+    "data": [
+      {
+        "text": "I need legal help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

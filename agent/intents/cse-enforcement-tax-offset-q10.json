@@ -1,0 +1,54 @@
+{
+  "id": "e67cc5aa-d504-4e09-a137-160e09dda600",
+  "name": "cse-enforcement-tax-offset-q10",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Yes. If a joint tax return is filed and the spouse of the parent who owes support agrees to voluntarily waive his or her right to claim a portion of the federal income tax return, the parent who owes support and his/her spouse must complete the \u003ca href\u003d\"https://www.mdhs.ms.gov/wp-content/uploads/2020/03/Revised-Injured-Spouse-Form-Instructions-Final-03.24.20.pdf\" target\u003d\"_blank\"\u003eInjured Spouse Waiver\u003c/a\u003e to release a joint IRS tax refund. Once completed, this form shall be emailed or mailed to:\n      \u003cbr/\u003eEmail:\u0026nbsp;mdhs.childsupport@mdhs.ms.gov\n      \u003cbr/\u003eMail: MS Department of Human Services\n      \u003cbr/\u003eAttention: Child Support Tax Offset\n      \u003cbr/\u003eP.O. Box 352\n      \u003cbr/\u003eJackson, MS 39205"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

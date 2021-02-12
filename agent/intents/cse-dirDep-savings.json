@@ -1,0 +1,105 @@
+{
+  "id": "2afdd811-d1ba-4d9f-a288-7a46d76df392",
+  "name": "cse-dirDep-savings",
+  "auto": true,
+  "contexts": [
+    "waiting-dirDep-savings",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-dirDep-savings",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-dirDep-checking",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You must submit a current letter from your bank, savings and loan or credit union (on bank letterhead) which includes the name of the account holder and account and routing bank numbers with this agreement."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Make sure that the account and routing numbers are identifiable and clearly visible on the document to prevent processing delays. If the account and/or routing bank numbers are not identifiable, the authorization agreement will not be processed!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "These numbers are often found on the bottom of the check or bank issued deposit slip."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Finally, don\u0027t forget, you MUST send the form to the proper location! Send to:  \n       MDHS Child Support Enforcement Direct Deposit Unit  \n       PO Box 352  \n       Jackson, MS 39205-0352  \n      "
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Click \u003ca href\u003d\"http://www.mdhs.ms.gov/wp-content/uploads/2018/08/Direct-Deposit-Agreement-Form-687-5-2-18.pdf\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e to access the Direct Deposit Authorization Form."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

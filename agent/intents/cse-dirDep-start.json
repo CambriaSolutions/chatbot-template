@@ -1,0 +1,93 @@
+{
+  "id": "8936b26e-960c-4445-a7b2-de229017ff8a",
+  "name": "cse-dirDep-start",
+  "auto": true,
+  "contexts": [
+    "waiting-dirDep-start",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-dirDep-checking",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-dirDep-savings",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-dirDep-start",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-dirDep-change",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-dirDep-stop",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you do not currently have direct deposit set up, then be sure to check START at the top of the form."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What type of account do you want to set up a direct deposit for?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Checking",
+              "Savings"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

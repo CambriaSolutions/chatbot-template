@@ -1,0 +1,28 @@
+[
+  {
+    "id": "a6f1448e-f690-4fa0-b503-c3327d755d47",
+    "data": [
+      {
+        "text": "Is the TANF benefits limited to children existing?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "38f8aa7d-ea3f-4393-a047-9e5b87dd2573",
+    "data": [
+      {
+        "text": "YES",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

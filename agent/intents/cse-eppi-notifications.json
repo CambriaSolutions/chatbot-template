@@ -1,0 +1,65 @@
+{
+  "id": "230f63b0-4fb5-4636-9723-4b9f04a6275d",
+  "name": "cse-eppi-notifications",
+  "auto": true,
+  "contexts": [
+    "waiting-eppi-notifications",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You can register your mobile phone to receive deposit notifications and balance alerts at \u003ca href\u003d\"https://www.eppicard.com\" target\u003d\"_blank\"\u003ewww.EPPICard.com\u003c/a\u003e or call \u003ca href\u003d\"tel:+18664614095\"\u003e1-866-461-4095\u003c/a\u003e."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Remember, you are allowed five (5) calls per calendar month to the Mississippi EPPICard Customer Service at no cost. The sixth and subsequent calls per month cost $0.50."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

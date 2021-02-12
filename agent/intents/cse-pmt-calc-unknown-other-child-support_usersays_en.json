@@ -1,0 +1,102 @@
+[
+  {
+    "id": "f6f0656a-50c5-43b0-834d-c73a10eadd26",
+    "data": [
+      {
+        "text": "i dont know",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      },
+      {
+        "text": " i can\u0027t remember",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "49ac747d-9b40-4be0-b157-4f51ea2787ef",
+    "data": [
+      {
+        "text": "not sure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1cba2a82-00c5-4c57-9774-2d0fb217792f",
+    "data": [
+      {
+        "text": "no idea",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6bf64d2c-382e-4973-a82f-5db35cbb79b8",
+    "data": [
+      {
+        "text": "I don\u0027t know",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      },
+      {
+        "text": " this information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d48f8908-f392-424d-a122-024abc179aac",
+    "data": [
+      {
+        "text": "I\u0027m not sure",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      },
+      {
+        "text": " how much",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3493b2e3-652d-4ed5-97d2-8ecd029ae081",
+    "data": [
+      {
+        "text": "I dont know",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

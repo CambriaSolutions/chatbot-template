@@ -1,0 +1,79 @@
+{
+  "id": "c3af5228-3b73-4cc7-a1ac-a8776aba28e3",
+  "name": "wfd-workDevelopmentPartners",
+  "auto": true,
+  "contexts": [
+    "wfd-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "wfd-subject-matter",
+          "lifespan": 99
+        },
+        {
+          "name": "waiting-wfd-trainingEducation",
+          "lifespan": 1
+        },
+        {
+          "name": "waiting-wfd-parenthoodResources",
+          "lifespan": 1
+        },
+        {
+          "name": "waiting-wfd-afterSchool",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The Temporary Assistance for Needy Families (TANF) Program provides benefits for needy families. Workforce Training and Education Programs help prepare recipients for a job by providing job readiness training, job skills training, vocational training, other educational training programs and assisting recipients in finding and keeping a job. MDHS provides education, training and supportive services to eligible TANF and SNAP participants for youth ages 16 to 24 and adults age 18 to 59."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For more information, select one of the programs below"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "handleEndConversation": false,
+            "suggestions": [
+              "WORKFORCE TRAINING \u0026 EDUCATION",
+              "AFTER SCHOOL PROGRAM ACTIVITIES",
+              "PARENTHOOD RESOURCES"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

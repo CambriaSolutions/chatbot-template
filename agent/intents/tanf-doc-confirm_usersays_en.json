@@ -1,0 +1,779 @@
+[
+  {
+    "id": "e2c39233-695f-46d6-b5c6-02c3ffa2cbac",
+    "data": [
+      {
+        "text": "whats the address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8319cd6e-a56b-4702-b192-e587d653459e",
+    "data": [
+      {
+        "text": "address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8484a59e-e667-4ac2-a008-4efa46e13282",
+    "data": [
+      {
+        "text": "locations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d4c15bbf-4c69-46e3-9904-d88db2438eb0",
+    "data": [
+      {
+        "text": "where do i find an office",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1a90c0cc-8358-4664-a0f8-a3622ebc656a",
+    "data": [
+      {
+        "text": "can you tell me where the offices are",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bf9ded4e-e6b4-411d-b188-f6534a9c4ecb",
+    "data": [
+      {
+        "text": "wheres a support office",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d1b7718e-7b68-4e79-8453-a9b754442325",
+    "data": [
+      {
+        "text": "where\u0027s an office",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "80007c35-a0b1-4c3f-820f-79a1d6c08b31",
+    "data": [
+      {
+        "text": "find me an office",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5bb48c7d-c74b-4823-91d3-839f2b5147d5",
+    "data": [
+      {
+        "text": "where is the nearest office location to me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9769bb63-c529-434e-991e-1df2cdce527d",
+    "data": [
+      {
+        "text": "office locations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4e93321b-2491-4d30-b02b-7cfac21de0ec",
+    "data": [
+      {
+        "text": "Where can I find the closest office to my location?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "33987327-7d0b-4671-b9eb-0e57c51bd6ce",
+    "data": [
+      {
+        "text": "Where to go?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "91806738-709d-44e8-91ca-1953edb66a3e",
+    "data": [
+      {
+        "text": "Where can I go to talk to someone about TANF?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e7c4d0d8-f655-4f23-8c40-c5b8e3fb4116",
+    "data": [
+      {
+        "text": "locations in my area?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "086ae905-05f5-4f63-9025-9141dd1c16f5",
+    "data": [
+      {
+        "text": "Offices in my area.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "17266822-7a52-4d3a-80bb-2529198ecd2b",
+    "data": [
+      {
+        "text": "map",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ea862843-280b-424e-937e-fe031605db83",
+    "data": [
+      {
+        "text": "Where can I send my check stubs to?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fb3edb41-ce67-4c44-ba58-31caadce8114",
+    "data": [
+      {
+        "text": "How can I turn in information?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "14e1e12c-4b7b-4539-8fb6-11f6fa19026f",
+    "data": [
+      {
+        "text": "Can I upload online?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "641e3ce3-3af7-4d52-bf27-8e1d8c2a0b01",
+    "data": [
+      {
+        "text": "How can I upload documents?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dc8659f8-34b1-42c9-b197-51f546db2918",
+    "data": [
+      {
+        "text": "Can u help me send documents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c3a4fba6-8b8b-4935-b225-0dd2455180e3",
+    "data": [
+      {
+        "text": "do you have a valid fax number or email address that i can send my information to?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "155752e9-270f-4b55-ae91-a004d5b3f7f4",
+    "data": [
+      {
+        "text": "i tried to fax my n4 at ",
+        "userDefined": false
+      },
+      {
+        "text": "601-364-3024",
+        "meta": "@sys.phone-number",
+        "alias": "phone-number",
+        "userDefined": false
+      },
+      {
+        "text": " but the number is not valid?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bd9fc94d-7a17-4aea-813a-02704bd95a3e",
+    "data": [
+      {
+        "text": "I need the email address for mrs. Crystal chandler please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "393739dd-68a9-4cbe-bd9e-1d61a73ec7e5",
+    "data": [
+      {
+        "text": "I need an email",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c8ee9166-2759-4574-b515-7644f21f12b1",
+    "data": [
+      {
+        "text": "Need help with my documents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "17486a37-b53e-4c97-b267-f1e678f5e13c",
+    "data": [
+      {
+        "text": "I provide documents in my Caseworker don\u0027t have any information about my documents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "db053ec3-d972-4dd1-ba6e-3e6ab560361f",
+    "data": [
+      {
+        "text": "I need a email for tunica dhs so I can submit documents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d32e8afb-3aec-4f11-8138-f9037071ef54",
+    "data": [
+      {
+        "text": "Need email address to email information into my case worker",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ec6713de-bf0d-4a7c-af5f-244511041dbc",
+    "data": [
+      {
+        "text": "I need mdhs fax number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "45b30d14-df52-43c8-8a78-468e8edef727",
+    "data": [
+      {
+        "text": "Fax number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d5fabfd4-8c6f-47d5-8a6a-b5ac775f72ce",
+    "data": [
+      {
+        "text": "Yes what us the email address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f96a9867-10e5-44c5-9f16-bfa478749110",
+    "data": [
+      {
+        "text": "fax number to jackson county food stamps",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "257164f9-82aa-41e8-85ac-518282678d81",
+    "data": [
+      {
+        "text": "Email address for customer service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fce93ade-9d9e-42fb-8122-83632f8fe571",
+    "data": [
+      {
+        "text": "A general email address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d230ec00-9e87-4a34-b254-0137f7c10523",
+    "data": [
+      {
+        "text": "Does hinds county dhs-main office have a phone number?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4d764ce3-484b-4f10-ba32-91922cd199aa",
+    "data": [
+      {
+        "text": "Phone number for office needed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6ae65047-bf89-42c9-b438-440f79733743",
+    "data": [
+      {
+        "text": "What\u0027s the email?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aecd8f6e-cd71-4143-927f-4a015336f7b0",
+    "data": [
+      {
+        "text": "can we email documents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7b6f82b9-d285-42a2-85be-255f35c89921",
+    "data": [
+      {
+        "text": "what is your email",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "315ec626-0ef0-4be4-813a-131910d58401",
+    "data": [
+      {
+        "text": "What\u0027s y\u0027all email address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "74dd10d8-db3d-40ca-b14c-345edabcd859",
+    "data": [
+      {
+        "text": "Need fax number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "379a1331-6db7-4300-9dda-25439b34e493",
+    "data": [
+      {
+        "text": "what is the fax number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9a9b81d0-7cc3-49c1-b41d-ebd3bc4d599f",
+    "data": [
+      {
+        "text": "what is mailing address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b9e474a0-23b9-48e0-b8bd-648bc5563b5e",
+    "data": [
+      {
+        "text": "Washington county email address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "47aec1be-7e2f-432d-9416-34a7338ff8a0",
+    "data": [
+      {
+        "text": "What is the email that i serve my documents to?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "963a7871-260e-4ce4-b240-69a02677c2db",
+    "data": [
+      {
+        "text": "Need correct email",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fd360f26-a66c-4b0a-967f-306734f0437b",
+    "data": [
+      {
+        "text": "Email address for Jackson County",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d1c6885a-86f4-4f7d-9c32-f7687bf4bda9",
+    "data": [
+      {
+        "text": "Their fax number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3ba1e4ff-2341-4cc1-b78e-ac2fb3602ea0",
+    "data": [
+      {
+        "text": "I need local fax number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5e55e007-80a1-4580-b251-e9efce9d11ff",
+    "data": [
+      {
+        "text": "I\u0027m trying tomail my renewl application but they didn\u0027t send me anything with the mailing address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5c3c93cb-bc00-4ec4-a212-3137385b80bf",
+    "data": [
+      {
+        "text": "I need a fax number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "604b1b2d-47cc-4b48-8eaf-5061f97ab208",
+    "data": [
+      {
+        "text": "Email documents to ms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9bd44245-e0fb-48fe-8685-ae5c60a5e768",
+    "data": [
+      {
+        "text": "I need a fax number to send info over please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "88d61faa-de78-4370-bf4a-4521fe1426a4",
+    "data": [
+      {
+        "text": "Need to send proof of tesidence + cash receipts to county 470",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a5fb597e-f27f-47be-96b4-cf13694def2f",
+    "data": [
+      {
+        "text": "How do I send info to mdhs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f477766e-94b3-4ce8-b372-9f4338ea8793",
+    "data": [
+      {
+        "text": "I need an email address so that I can scan and email some info",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "703c7cee-dfd6-4c22-8401-45ae3136721d",
+    "data": [
+      {
+        "text": "Email address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "36ba64c2-a29e-41e0-b1bc-5064ba2794a6",
+    "data": [
+      {
+        "text": "What is the email address?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

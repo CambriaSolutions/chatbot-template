@@ -1,0 +1,62 @@
+[
+  {
+    "id": "8525b9ea-1069-440f-b500-c55a2a88998e",
+    "data": [
+      {
+        "text": "jack in the box",
+        "meta": "@sys.any",
+        "alias": "newEmployerName",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "74783244-f52a-4798-9bb4-3299126a4434",
+    "data": [
+      {
+        "text": "mcdonals",
+        "meta": "@sys.any",
+        "alias": "newEmployerName",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "faccb478-3f1d-4d05-a5a0-2e3697748669",
+    "data": [
+      {
+        "text": "denny\u0027s",
+        "meta": "@sys.any",
+        "alias": "newEmployerName",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d860c0cc-fcc3-46ad-9989-2ed4e37c6009",
+    "data": [
+      {
+        "text": "hamburger palace",
+        "meta": "@sys.any",
+        "alias": "newEmployerName",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

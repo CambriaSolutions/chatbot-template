@@ -1,0 +1,61 @@
+{
+  "id": "ac6090e4-135d-43ed-b163-39d1c330dee5",
+  "name": "snap-statusinformation",
+  "auto": true,
+  "contexts": [
+    "snap-subject-matter",
+    "waiting-snap-applicationstatus"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "snap-subject-matter",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "At the time of your interview, bring verification of your income and expenses. If you cannot get all the information together by your interview date, come for the interview because you will have additional time to provide this information. If you need assistance in obtaining this information, please discuss this with your caseworker at the time of the interview. The following are examples of what to bring:\n\u003cul\u003e\u003cli\u003eProof of identity (driver’s license, etc.)\u003c/li\u003e\n\u003cli\u003eSocial Security Numbers for all household members\u003c/li\u003e\n\u003cli\u003eIf employed, proof of income (wage stubs, earning statements, etc.) for the four weeks prior to your interview or last filed tax return if self-employed\u003c/li\u003e\n\u003cli\u003eProof of residency (utility bills, rent/mortgage payments, lot rent, taxes)\u003c/li\u003e\n\u003cli\u003eLiquid assets (Checking or savings account, bank statement, trust funds, stocks or savings bonds)\u003c/li\u003e\n\u003cli\u003eMedical expenses for anyone age 60 or older or disabled\u003c/li\u003e\u003c/ul\u003e"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "handleEndConversation": true,
+            "suggestions": []
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

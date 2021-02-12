@@ -1,0 +1,127 @@
+{
+  "id": "3f216e01-24be-4e5f-bc73-8b92cb8f96c0",
+  "name": "cse-interstate-root",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-submitSupportRequest-interstate",
+          "lifespan": 1
+        },
+        {
+          "name": "waiting-feedback-root",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "bb9bc076-7319-4a30-8543-2657ff21e876",
+          "name": "geo-state",
+          "required": false,
+          "dataType": "@sys.geo-state",
+          "value": "$geo-state",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "40f666f1-d587-4337-a06b-442e0ccb9057",
+          "name": "geo-city",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "value": "$geo-city",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4f171690-7c16-40b4-9c61-a4f131eefd07",
+          "name": "date-time",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "value": "$date-time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sometimes, parents live in different states, or an order for support was established in Mississippi and then one or both parents have moved, or maybe an order was established in another state and one of the parents moved to Mississippi. Based on the unique facts and circumstances of your situation, Mississippi may be able to open a case and work with the other states involved to establish and/or enforce an order, or to provide information to the other state so that state may establish and/or enforce an order."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you have an existing interstate case, have more questions about interstate cases, or have received information from Mississippi and your child support case is in another state, please submit a request below, and someone will reach out to you to answer your questions or you may call 1-877-882-4916."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you are state child support worker from another state attempting to contact Mississippi, you may also use the request button below to submit a ticket if you have been unsuccessful in reaching us through other communication tools such as the federal child support portal."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "SUBMIT SUPPORT REQUEST",
+              "SUBMIT FEEDBACK"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

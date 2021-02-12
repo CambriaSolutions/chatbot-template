@@ -1,0 +1,102 @@
+[
+  {
+    "id": "a8e86111-73a1-402d-a38e-863e859e7ee2",
+    "data": [
+      {
+        "text": "i need to get more money",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0014c3ff-4a44-42af-a1c6-afa394956b73",
+    "data": [
+      {
+        "text": "how can i get more support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f4898982-ee5d-452a-be39-2def5c20605b",
+    "data": [
+      {
+        "text": "how can i get more money",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "11d57d8c-c285-4e41-9f0b-0651276af919",
+    "data": [
+      {
+        "text": "i want to request a review of my case",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1a4e34cb-8a4e-4419-98fb-f7a187743819",
+    "data": [
+      {
+        "text": "How can I request a review of my child support case?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dfc4fc3c-313a-43b6-99f4-113ea464545b",
+    "data": [
+      {
+        "text": "how can I request an ",
+        "userDefined": false
+      },
+      {
+        "text": "increase",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " on my case?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "efba951e-cd2a-4a73-bea5-b0e096091bb6",
+    "data": [
+      {
+        "text": "How often can a review be requested for your case?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

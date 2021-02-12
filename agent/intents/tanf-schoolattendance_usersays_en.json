@@ -1,0 +1,120 @@
+[
+  {
+    "id": "64560b74-83a6-428b-b5e9-2abe132cf2ce",
+    "data": [
+      {
+        "text": "Can I still get my benefits if my kids are ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " in school?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ccbe69cb-e3d2-423c-a080-8333877f4a05",
+    "data": [
+      {
+        "text": "If I don\u0027t make my kids got to school, can I lose my benefits?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "470e5b9b-45aa-48fb-ace3-a2a1cab0aa9d",
+    "data": [
+      {
+        "text": "How much of my benefits will I lose if my kids/child(",
+        "userDefined": false
+      },
+      {
+        "text": "ren",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      },
+      {
+        "text": ") are ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " in school?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "53da752a-18a4-4f03-9fed-94e5b80565c6",
+    "data": [
+      {
+        "text": "Will I lose my benefits if my kids are ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " in school?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3451a95b-bb76-42f3-ba93-9cc3cc8429fd",
+    "data": [
+      {
+        "text": "Do my kids have to go to school?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1610b399-807b-4020-acb4-8989b6a98b8c",
+    "data": [
+      {
+        "text": "Are my children required to attend school?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

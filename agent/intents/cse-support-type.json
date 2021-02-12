@@ -1,0 +1,155 @@
+{
+  "id": "418a742c-bd6c-48c0-a480-4d7cbe0f1305",
+  "name": "cse-support-type",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-support-employment-status",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-parent-paying-more",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-parent-receiving-more",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-iwo-no-assistance",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-iwo-faqs",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-iwo-wants-assistance",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "48f0d1b1-5220-4c1d-9656-04c13d9f8cf5",
+          "name": "duration",
+          "required": false,
+          "dataType": "@sys.duration",
+          "value": "$duration",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "82b06019-fd2c-4a7b-aae3-fc872fba3024",
+          "name": "date-period",
+          "required": false,
+          "dataType": "@sys.date-period",
+          "value": "$date-period",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "8a3bbabc-9947-48f2-9885-19cb907a5db7",
+          "name": "supportType",
+          "required": false,
+          "dataType": "@action-requests",
+          "value": "$supportType",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "02dc6aea-df6e-4196-ab26-04b4ec2b4bd1",
+          "name": "date-period1",
+          "required": false,
+          "dataType": "@sys.date-period",
+          "value": "$date-period1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "8d197dc6-f83e-4407-aa02-3957df4c84e1",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "bdaef747-d9be-473c-9044-c421ef393daa",
+          "name": "number1",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

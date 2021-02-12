@@ -1,0 +1,119 @@
+{
+  "id": "43998fca-ffea-4843-91b0-55198465e3c8",
+  "name": "cse-iwo-root",
+  "auto": true,
+  "contexts": [
+    "waiting-iwo-root",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-iwo-wants-assistance",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-iwo-no-assistance",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-iwo-faqs",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-yes-child-support",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-not-child-support",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-iwo-root",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Which of the following is most relevant to your inquiry?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "CCPA Calculator: These guidelines help you determine how much to withhold to be in compliance with the Consumer Credit Protection Act"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "FAQs: Regarding Income Withholding Orders"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Report Information About the Parent who Pays Support: Report information about the parent who provides support like change in their address, salary change, employment change, etc."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "CCPA Calculator",
+              "FAQs",
+              "Report Information About the Parent who Pays Support"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

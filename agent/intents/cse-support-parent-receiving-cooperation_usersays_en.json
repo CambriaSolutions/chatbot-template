@@ -1,0 +1,162 @@
+[
+  {
+    "id": "03da573b-df8d-4b70-aff1-a192f1ff3ba2",
+    "data": [
+      {
+        "text": "Why should I cooperate?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e76cad35-6b81-42ee-991b-fdc52dd67853",
+    "data": [
+      {
+        "text": "I don\u0027t want child support.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "299ef3d7-adb8-4dd8-9a01-e2d2c55eb0dd",
+    "data": [
+      {
+        "text": "Can I lose my benefits?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "21cb9846-98a5-4795-a10e-655ae60da528",
+    "data": [
+      {
+        "text": "What happens if I don\u0027t cooperate?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "60dca555-9ce7-4786-af33-cb893f6db54c",
+    "data": [
+      {
+        "text": "I was told I could ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " get a SNAP because child support stated that I have ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "meta": "@yes-no",
+        "alias": "yes-no1",
+        "userDefined": false
+      },
+      {
+        "text": " cooperated with them so I need an appointment to determine what\u0027s wrong.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e9640a6b-a411-4c33-a291-82e2704a2b8a",
+    "data": [
+      {
+        "text": "Do I have to put my child\u0027s father/mother on child support to receive food stamps/SNAP?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1caa11b7-52c9-4508-95dd-4cbc42f947b4",
+    "data": [
+      {
+        "text": "Do I still owe a fee?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cbce79d9-c2ca-4876-8855-7fee8f8dc7af",
+    "data": [
+      {
+        "text": "I am a part of the snap program and the automatic service said I would automatically qualify for child support.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7364ecaa-4920-4805-b3d0-e9eab696720b",
+    "data": [
+      {
+        "text": "If I receive snap the ",
+        "userDefined": false
+      },
+      {
+        "text": "non custodial parent",
+        "meta": "@guardianship",
+        "alias": "guardianship",
+        "userDefined": false
+      },
+      {
+        "text": " automatically goes on child support?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "580cbae6-72a8-492a-affc-9c41253793af",
+    "data": [
+      {
+        "text": "Cooperation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "id": "a0e45732-7e0b-4749-aec5-20d5d2712ebf",
+  "name": "tanf-applicationstatus",
+  "auto": true,
+  "contexts": [
+    "tanf-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "tanf-subject-matter",
+          "lifespan": 99
+        },
+        {
+          "name": "waiting-tanf-applicationstatus",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2820d871-8c69-4823-a7ef-e0f859ca6910",
+          "name": "yes-no",
+          "required": false,
+          "dataType": "@yes-no",
+          "value": "$yes-no",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The TANF application process is a maximum of 30 days. A notice will be provided to the parent or caretaker relative within 30 days of applying telling whether the family is approved for TANF benefits, the amount, start date, etc. To check the status of your case or view your notices, you can create a MyMDHS account \u003ca href\u003d\"https://my.mdhs.ms.gov/#/landing\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "During the TANF interview, a worker will determine if the family is eligible according to all TANF eligibility factors. Families must meet both financial and non-financial requirements established in state law. In general, families must include a child under age 18 and be residents of Mississippi. Families with children under age 17 must comply with TANF immunization requirements, and children ages 6 to 17 must attend school and have satisfactory attendance."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Do you want to check other Eligibility Factors and Requirements which must be met?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "YES",
+              "NO"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

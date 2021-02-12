@@ -1,0 +1,46 @@
+{
+  "id": "3723b06c-072c-4899-8f42-018801266d01",
+  "name": "cse-support-parent-receiving-cooperation-q3",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you participate in some public assistance programs, such as TANF or SNAP (food stamps), you are generally required       to cooperate with the child support program unless you have an approved good cause claim. To learn more about       cooperation, good cause, and family violence protections, please \u003ca href\u003d\"https://www.mdhs.ms.gov/wp-content/uploads/2019/08/MDHS_CSE_Parents-Handbook_V2.pdf\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

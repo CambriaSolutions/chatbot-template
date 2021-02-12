@@ -1,0 +1,61 @@
+{
+  "id": "f9a88a21-1da4-4859-84a4-43d818dece86",
+  "name": "cse-pmtQA-yes-employer-payment-status",
+  "auto": true,
+  "contexts": [
+    "waiting-pmtqa-yes-employer-payment-status",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-pmtqa-yes-employer-payment-status",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "601632af-59c0-4f58-ba23-6b2263d55aa2",
+          "name": "reportCSE",
+          "required": false,
+          "dataType": "@yes-no",
+          "value": "$reportCSE",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

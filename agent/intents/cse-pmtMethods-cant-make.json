@@ -1,0 +1,79 @@
+{
+  "id": "1e4ec7df-cbd9-437f-af02-e48789f2e82b",
+  "name": "cse-pmtMethods-cant-make",
+  "auto": true,
+  "contexts": [
+    "waiting-pmtMethods-cant-make",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-pmtMethods-cant-make-qualifying",
+          "lifespan": 1,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmtMethods-cant-make",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "First, click \u003ca href\u003d\"https://www.mississippiworks.org/\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e to visit MS Works for help with employment."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Second, have any of the following occurred?\n    \u003cbr/\u003e• Change in employment status\n    \u003cbr/\u003e• Recently incarcerated\n    \u003cbr/\u003e• Income reduced\n    \u003cbr/\u003e• Lost a job\n    \u003cbr/\u003e• Been injured"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Yes",
+              "No",
+              "Other Options"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

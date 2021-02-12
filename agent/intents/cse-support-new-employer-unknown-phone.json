@@ -1,0 +1,66 @@
+{
+  "id": "19495f7e-e566-4855-abac-c902c0f8271f",
+  "name": "cse-support-new-employer-unknown-phone",
+  "auto": true,
+  "contexts": [
+    "waiting-support-new-employer-unknown-phone",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-support-new-employer-unknown-phone",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-collect-new-employer-phone",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1d0fc5d5-3a67-4e4f-bf82-9d2bc9971464",
+          "name": "dontKnow",
+          "required": false,
+          "dataType": "@dont-know",
+          "value": "$dontKnow",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

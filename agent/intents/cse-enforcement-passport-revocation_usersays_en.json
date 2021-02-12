@@ -1,0 +1,41 @@
+[
+  {
+    "id": "512547c0-b731-47ee-bbb0-a66898f9c57b",
+    "data": [
+      {
+        "text": "i got my passport revoked",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b2d3a254-fcd7-4e7e-8048-8169deb8a6e0",
+    "data": [
+      {
+        "text": "passport revocation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7ec5eede-7c51-4a76-b07f-a8c6653d8214",
+    "data": [
+      {
+        "text": "Passport revoked",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

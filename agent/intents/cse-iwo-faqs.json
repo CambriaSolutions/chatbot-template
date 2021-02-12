@@ -1,0 +1,70 @@
+{
+  "id": "fc775287-1d1e-48d7-9373-b1cbac903224",
+  "name": "cse-iwo-faqs",
+  "auto": true,
+  "contexts": [
+    "waiting-iwo-faqs",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-iwo-faqs",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-iwo-wants-assistance",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-iwo-no-assistance",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sure, I can help answer general questions you might have about Income Withholding Orders. What is your question?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

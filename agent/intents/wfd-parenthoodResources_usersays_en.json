@@ -1,0 +1,181 @@
+[
+  {
+    "id": "e04f458e-355c-4a4e-9559-2267c6345b5e",
+    "data": [
+      {
+        "text": "Can you help me get my GED, or high school diploma?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9c58ef0a-9b7b-4379-8615-51a081744e3c",
+    "data": [
+      {
+        "text": "Do you do financial credit counseling?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "103f2c51-1499-4227-bec3-1d5eb91f5811",
+    "data": [
+      {
+        "text": "Do I have to be on SNAP or TANF?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "16ced011-be56-469d-9c7b-84901951edce",
+    "data": [
+      {
+        "text": "Can anyone attend?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d901f1c9-df9e-45fa-9aba-46cb458c5678",
+    "data": [
+      {
+        "text": "What about abortion?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d64901a0-9000-4660-a856-b98f7eee0bc5",
+    "data": [
+      {
+        "text": "We\u0027re thinking about having a baby, what should we do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b1af4343-7fa0-4a48-be0a-8e52c306bc88",
+    "data": [
+      {
+        "text": "Do I have to be married?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ad7e1848-df3f-4ed0-925a-cc224a9eafc7",
+    "data": [
+      {
+        "text": "What if I am married?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "811740da-204b-462c-b25b-86c30da1f8cd",
+    "data": [
+      {
+        "text": "How long are parent courses?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "db3c8d7f-812f-4c06-91f2-63fc5ccc2dba",
+    "data": [
+      {
+        "text": "What school in the district offers the program?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bf56976e-eaec-4dac-8340-fd7c024c84bd",
+    "data": [
+      {
+        "text": "Where is Save the Children or ",
+        "userDefined": false
+      },
+      {
+        "text": "Starkville",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "-Oktibbeha County School District?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e7f61e1b-ec65-44e2-bcbd-f40a94655c7a",
+    "data": [
+      {
+        "text": "Where do I sign up?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5f9e2166-b663-4f21-b24b-67fc2bc3ae52",
+    "data": [
+      {
+        "text": "PARENTHOOD RESOURCES",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

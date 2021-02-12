@@ -1,0 +1,73 @@
+{
+  "id": "90810287-7d92-40af-b375-8cbe22f6e232",
+  "name": "cse-dirDep-confirm-form",
+  "auto": true,
+  "contexts": [
+    "waiting-dirDep-confirm-form",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-dirDep-learn-more",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-dirDep-show-form",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-dirDep-confirm-form",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I want to help you make sure that you fill out the form correctly. Before proceeding, we recommend you get a little more informed about the Direct Deposit form. Would you like to do that?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Yes",
+              "No, take me to the form"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

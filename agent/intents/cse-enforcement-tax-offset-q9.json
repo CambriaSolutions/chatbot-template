@@ -1,0 +1,64 @@
+{
+  "id": "2f8c7829-904f-481a-9705-5a552ea73f07",
+  "name": "cse-enforcement-tax-offset-q9",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you are the spouse of the person responsible for child support, you may file an \u003ca href\u003d\"https://www.irs.gov/pub/irs-pdf/f8379.pdf\" target\u003d\"_blank\"\u003eIRS Form 8379\u003c/a\u003e with the IRS for federal taxes.      For state taxes, once you receive notification from the MS Department of Revenue, you may request a review by submitting a request in writing to:      \u003cbr/\u003eMS Department of Human Services Attention: Child Support Tax Offset      \u003cbr/\u003eP.O. Box 352      \u003cbr/\u003eJackson, MS 39205"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For more information, \u003ca href\u003d\"https://www.mdhs.ms.gov/wp-content/uploads/2020/04/MDHS_CSE_Tax-Offset-Guide.pdf\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

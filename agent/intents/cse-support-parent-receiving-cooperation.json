@@ -1,0 +1,126 @@
+{
+  "id": "f310a627-f9fa-4735-85d5-48942848cf32",
+  "name": "cse-support-parent-receiving-cooperation",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-support-submitSupportRequest-cooperation",
+          "lifespan": 1,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2ca05431-366f-4df5-9930-cc8934d1090d",
+          "name": "guardianship",
+          "required": false,
+          "dataType": "@guardianship",
+          "value": "$guardianship",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "59634e6d-1a93-4f1a-9c4a-6564033c8192",
+          "name": "yes-no",
+          "required": false,
+          "dataType": "@yes-no",
+          "value": "$yes-no",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d6bf553e-6d7b-49bb-9a5a-bb7e3d6897f0",
+          "name": "yes-no1",
+          "required": false,
+          "dataType": "@yes-no",
+          "value": "$yes-no1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Parents are generally required to cooperate with child support to be eligible to receive or continue receiving certain other benefits such as TANF, food stamps (SNAP), Medicaid, child-care, housing, and other types of benefits. The application fee for child support services does not apply to TANF, food stamps (SNAP) or Medicaid cases."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If cooperating with child support causes concern for your safety or the safety of your child(ren), please click an option below to learn how the child support program takes precautions to ensure your safety, or click on good cause to see if you may qualify to be exempt from cooperation requirements. You should report safety concerns to child support immediately at 1-877-882-4916 or by submitting a request through the options below."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "To learn more about cooperation and the benefits of cooperation, \u003ca href\u003d\"https://www.mdhs.ms.gov/wp-content/uploads/2019/08/MDHS_CSE_Parents-Handbook_V2.pdf\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e or ask me your questions."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Submit Support Request",
+              "Safety",
+              "Verification",
+              "Good Cause"
+            ],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

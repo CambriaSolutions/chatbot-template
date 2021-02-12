@@ -1,0 +1,90 @@
+{
+  "id": "64688f59-ec4b-4501-9545-d2b0e38aa775",
+  "name": "cse-pmt-calc-unknown-ss-deductions",
+  "auto": true,
+  "contexts": [
+    "waiting-pmt-calc-unknown-ss-deductions",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-pmt-calc-retirement-contributions",
+          "lifespan": 3,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmt-calc-unknown-deductions",
+          "lifespan": 3,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmt-calc-retirement-contributions",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmt-calc-unknown-ss-deductions",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "123f83ae-e157-4372-a760-615324e47f56",
+          "name": "dont-know",
+          "required": false,
+          "dataType": "@dont-know",
+          "value": "$dont-know",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please provide an estimate of your \u003cstrong\u003esocial security contributions\u003c/strong\u003e to continue with the estimation."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

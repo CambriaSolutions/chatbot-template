@@ -1,0 +1,52 @@
+{
+  "id": "69f1b79a-d00c-4900-a26f-a4205e2d9382",
+  "name": "snap-fns",
+  "auto": true,
+  "contexts": [
+    "snap-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "snap-subject-matter",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "FNS will determine which retailers may accept EBT benefits online. SNAP-eligible retailers who want to add online shopping to their eCommerce platform must meet online purchasing requirements. The online purchasing requirements are available \u003ca href\u003d\"https://www.fns.usda.gov/snap/retailer-requirements-provide-online-purchasing\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

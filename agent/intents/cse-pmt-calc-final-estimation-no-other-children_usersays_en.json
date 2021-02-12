@@ -1,0 +1,17 @@
+[
+  {
+    "id": "c0b7c27b-e64f-449e-8b37-74406c6b2b0f",
+    "data": [
+      {
+        "text": "No",
+        "meta": "@yes-no",
+        "alias": "otherChildren",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

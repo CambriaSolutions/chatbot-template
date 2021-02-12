@@ -1,0 +1,9 @@
+{
+  "id": "8a2dbc8c-46e4-4b3d-9931-cad41039173e",
+  "name": "child-support-requests",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

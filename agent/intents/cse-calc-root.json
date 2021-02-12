@@ -1,0 +1,70 @@
+{
+  "id": "d36ceb93-a04a-421a-b664-468470b80365",
+  "name": "cse-calc-root",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-payment-calc",
+          "lifespan": 2
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I offer two different calculators. The “Estimate Payments” calculator helps estimate child support payments on a single case involving one biological family. The “CCPA Calculator” provides an estimate to parents or employers regarding the maximum amount an employer may withhold pursuant to the federal Consumer Credit Protection Act."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You may select an option below to calculate an estimate based on your information. If you are a parent who is or will be receiving payments, you may select \"Payments\"."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "CCPA Calculator",
+              "Estimate Payments",
+              "Payments"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

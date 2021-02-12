@@ -1,0 +1,82 @@
+{
+  "id": "06aa58d3-3756-4523-b81c-460a0127fd1f",
+  "name": "cse-pmtMethods-withhold-payments",
+  "auto": true,
+  "contexts": [
+    "waiting-pmtMethods-withhold-payments",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-support-employment-status",
+          "lifespan": 3,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmtMethods-withhold-payments",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmtMethods-checkOrMoneyOrder",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmtMethods-eCheckDebit",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmtMethods-cant-make",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "MDHS can assist you with having your payments deducted from your pay. \u003cbr/\u003e\u003cbr/\u003eClick below to submit your employer information."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Employer Information"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

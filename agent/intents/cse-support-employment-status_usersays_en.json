@@ -1,0 +1,93 @@
+[
+  {
+    "id": "e1bc32f7-e66e-45e8-b8ca-e422f6e1e6f8",
+    "data": [
+      {
+        "text": "Employer Information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ad463e09-ace5-4e02-8e58-aedb897aaa8f",
+    "data": [
+      {
+        "text": "got a job",
+        "meta": "@employmentStatus",
+        "alias": "employmentStatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3e63532e-fd7d-49ba-8c1d-4df56366ba11",
+    "data": [
+      {
+        "text": "change of employment information",
+        "meta": "@employmentStatus",
+        "alias": "employmentStatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aafab5fb-68af-43da-9c14-4638c405a650",
+    "data": [
+      {
+        "text": "Change of Employment Status",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "727908b1-3375-48cb-9dc0-2c615bcc5a36",
+    "data": [
+      {
+        "text": "lost my job",
+        "meta": "@employmentStatus",
+        "alias": "employmentStatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8919602a-e505-46d0-b0ba-44f651c0e9aa",
+    "data": [
+      {
+        "text": "went ",
+        "userDefined": false
+      },
+      {
+        "text": "full time to part time",
+        "meta": "@employmentStatus",
+        "alias": "employmentStatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

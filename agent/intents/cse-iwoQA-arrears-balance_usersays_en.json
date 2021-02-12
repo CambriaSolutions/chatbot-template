@@ -1,0 +1,67 @@
+[
+  {
+    "id": "0be92e93-3bce-4235-a4ae-137c89d01f5f",
+    "data": [
+      {
+        "text": "Arrears",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "064ce239-ec7c-40da-9b23-08ef7628f4ab",
+    "data": [
+      {
+        "text": "how much do i owe in arrears",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f3a5f856-e784-4c45-b349-addfb1b224df",
+    "data": [
+      {
+        "text": "how much is my arrears",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1e05dca3-7e5d-4eec-8394-82b34316541b",
+    "data": [
+      {
+        "text": "what do i owe in back payments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3c2519f5-c8e0-4980-bbb9-e2076de4d65f",
+    "data": [
+      {
+        "text": "What is my arrears balance?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

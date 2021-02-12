@@ -1,0 +1,66 @@
+{
+  "id": "aa36882d-e34b-45df-a8f1-618372dc6eca",
+  "name": "cse-stimulusCheck-root",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-support-submitSupportRequest-inquiry",
+          "lifespan": 1,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-restart-conversation",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "To learn more about the Economic Impact (Stimulus) Payments and collecting child support arrears through the Treasury Offset Program, \u003ca href\u003d\"https://www.mdhs.ms.gov/faqs-on-economic-impact-stimulus-payments-and-the-treasury-offset-program/\" target\u003d\"_blank\"\u003eclick here.\u003c/a\u003e"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Submit Support Request"
+            ],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

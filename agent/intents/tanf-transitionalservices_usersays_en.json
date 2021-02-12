@@ -1,0 +1,155 @@
+[
+  {
+    "id": "7da52bca-1445-4321-bac5-a5b0d9101cc7",
+    "data": [
+      {
+        "text": "What to do to get transportation benefits?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1867e954-0f20-4af1-8406-fcaf94e97648",
+    "data": [
+      {
+        "text": "Can I get transportation stipends?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8bcf0ba2-c99e-4be7-b1ea-3acdc19a9d01",
+    "data": [
+      {
+        "text": "Transportation.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1162fddd-e56a-4fd7-967b-7b609007cac8",
+    "data": [
+      {
+        "text": "I need a form for child care services.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d9b8459e-123b-4fb1-8d11-56f94421a9e2",
+    "data": [
+      {
+        "text": "Form ",
+        "userDefined": false
+      },
+      {
+        "text": "379",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8ffd5866-207a-408f-ae44-2f770b516157",
+    "data": [
+      {
+        "text": "I\u0027m trying to apply for the emergency child care payments for essential workers.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a9e3eb71-e003-4b90-824d-c00a8b1de0a6",
+    "data": [
+      {
+        "text": "Can I apply for a child care program?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6c026cd7-19ae-46c6-8826-8904f38da04d",
+    "data": [
+      {
+        "text": "Do I qualify for child care programs?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c8a0be5e-00af-4a70-a990-3b8dc674e1c3",
+    "data": [
+      {
+        "text": "Child care assistance.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3d23ffff-d381-4638-9200-5abf2c484c2a",
+    "data": [
+      {
+        "text": "Child care services application.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "296cdf03-4cda-4cb5-9ca9-7715b3d480b4",
+    "data": [
+      {
+        "text": "Can I still get TANF if I make more money?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

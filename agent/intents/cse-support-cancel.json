@@ -1,0 +1,65 @@
+{
+  "id": "89f2fd35-e59b-4f07-aecd-f68b2ceee920",
+  "name": "cse-support-cancel",
+  "auto": true,
+  "contexts": [
+    "waiting-support-cancel-issue",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-support-cancel-issue",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-revise-issue",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-submit-issue",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-restart-conversation",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

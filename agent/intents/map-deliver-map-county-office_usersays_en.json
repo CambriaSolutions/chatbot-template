@@ -1,0 +1,121 @@
+[
+  {
+    "id": "c62fc652-0fd7-4cf7-bbcf-3e5a98e48b31",
+    "data": [
+      {
+        "text": "1050 20th street",
+        "meta": "@sys.address",
+        "alias": "address",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "sacramento",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6c9f5eb6-1cd2-4135-8ff1-1d0749f1c91f",
+    "data": [
+      {
+        "text": "my address is ",
+        "userDefined": false
+      },
+      {
+        "text": "1050 20th st sacramento",
+        "meta": "@sys.address",
+        "alias": "address",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ba9c5fd5-171b-429d-8693-3d8e2b0483da",
+    "data": [
+      {
+        "text": "sacramento",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eb114b28-adb6-416c-9dcc-fb713e633474",
+    "data": [
+      {
+        "text": "1050 20th street",
+        "meta": "@sys.address",
+        "alias": "address",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4c236080-3024-488d-838a-ac5dfe2e2c40",
+    "data": [
+      {
+        "text": "718 E Fifteeth St Yazoo City",
+        "meta": "@sys.address",
+        "alias": "address",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ab88c5b8-e519-4ab4-aeed-b31eb30834d5",
+    "data": [
+      {
+        "text": "510 george street jackson",
+        "meta": "@sys.address",
+        "alias": "address",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f9083adc-ca20-41d5-9ad3-ece9a70ead47",
+    "data": [
+      {
+        "text": "95821",
+        "meta": "@sys.zip-code",
+        "alias": "zip-code",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

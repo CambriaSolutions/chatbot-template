@@ -1,0 +1,98 @@
+{
+  "id": "012cd091-b575-4bd6-9873-e86918266335",
+  "name": "wfd-root",
+  "auto": true,
+  "contexts": [
+    "wfd-enableHome"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "wfd-subject-matter",
+          "lifespan": 999
+        },
+        {
+          "name": "tanf-subject-matter",
+          "lifespan": 0
+        },
+        {
+          "name": "snap-subject-matter",
+          "lifespan": 0
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 0
+        },
+        {
+          "name": "wfd-enableHome",
+          "lifespan": 99
+        },
+        {
+          "name": "cse-enableHome",
+          "lifespan": 0
+        },
+        {
+          "name": "tanf-enableHome",
+          "lifespan": 0
+        },
+        {
+          "name": "snap-enableHome",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Did you know receiving SNAP benefits may help you improve your chances of securing a rewarding job? As a SNAP recipient, you may be eligible for access to skill-building education and training programs to help you earn credentials employers are seeking. If eligible, you can even earn stackable credentials that lead to a career and self-sustaining wage!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Select the option below or ask me your question."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "SKILLS2WORK",
+              "WORK DEVELOPMENT PARTNERS",
+              "TANF WORK PROGRAM (TWP)"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "home"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

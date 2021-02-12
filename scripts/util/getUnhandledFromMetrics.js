@@ -32,7 +32,10 @@ const getMetrics = async (subjectMatter) => {
 }
 
 const run = async () => {
-  await getMetrics('mscj')
+  await getMetrics('cse')
+  await getMetrics('wfd')
+  await getMetrics('snap')
+  await getMetrics('tanf')
 }
 
 run()

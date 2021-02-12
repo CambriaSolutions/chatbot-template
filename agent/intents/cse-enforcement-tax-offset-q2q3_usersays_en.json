@@ -1,0 +1,141 @@
+[
+  {
+    "id": "007b2a1f-934a-4f34-a3d8-6ff4248fba28",
+    "data": [
+      {
+        "text": "Am I, are we able to get my spouses refund portion back If we filed the injured spouse form will my wife receive her state refund back?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bea2f9b3-7476-4ca6-8eeb-727142b71aae",
+    "data": [
+      {
+        "text": "Why are you taking my taxes even though I have been paying ",
+        "userDefined": false
+      },
+      {
+        "text": "every month",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d179b847-01f1-4034-9a48-d9be193fe2a5",
+    "data": [
+      {
+        "text": "Do you have to take all the refund?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "47c4642d-ec2a-456b-b4c7-fd9a86a8bc0b",
+    "data": [
+      {
+        "text": "Is there a way to take less than the entire refund?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "62786954-fee7-41ca-8a08-37d6abbb9d82",
+    "data": [
+      {
+        "text": "Are you going to take it all?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2c20b2cc-4e7f-4b58-8ecd-417f4768920b",
+    "data": [
+      {
+        "text": "Are both federal and state tax refunds taken?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ee45c950-2250-470e-9b6b-1f6db811e7cb",
+    "data": [
+      {
+        "text": "Are both federal and state tax refunds offset?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "75873f19-7794-479f-bffc-c5e39a5cd11b",
+    "data": [
+      {
+        "text": "How does the State Tax Refund Offset Program work?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7fcfe682-4c27-4ac1-8b2c-851c11a67f04",
+    "data": [
+      {
+        "text": "How does the Federal Tax Refund Offset Program work?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d43939cc-f9a6-40e3-985f-22317be16c93",
+    "data": [
+      {
+        "text": "They took my spouse taxes, do you take mine too?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  }
+]

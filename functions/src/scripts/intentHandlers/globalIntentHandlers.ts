@@ -3,6 +3,7 @@ import {
   acknowledgePrivacyStatement,
   globalRestart,
   restartConversation,
+  caseyHandoff,
   setContext,
 } from '../../intentHandlers/globalFunctions'
 
@@ -11,5 +12,6 @@ export const globalIntentHandlers = {
   'acknowledge-privacy-statement': acknowledgePrivacyStatement,
   'global-restart': globalRestart,
   'restart-conversation': restartConversation,
+  'casey-handoff': caseyHandoff,
   'set-context': setContext,
 }

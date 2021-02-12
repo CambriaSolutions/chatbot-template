@@ -1,0 +1,171 @@
+[
+  {
+    "id": "873d2075-5e31-4c09-97e1-8190eeb5dc0f",
+    "data": [
+      {
+        "text": "The other parent (he/she) has abused the child(ren).",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fa344aa0-52ad-4341-a945-d1248467a16d",
+    "data": [
+      {
+        "text": "The other parent (he/she) has abused me.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6c4b85af-f4b1-409b-a45c-708311c0a0a8",
+    "data": [
+      {
+        "text": "The other parent (he/she) will get mad if I open a case.?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "296ad2de-4990-45b9-8751-343bf9adc852",
+    "data": [
+      {
+        "text": "Does the other parent (he/she) have to know I moved?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "24d3393f-b9bd-4bb5-bf63-7b614226ec88",
+    "data": [
+      {
+        "text": "Will I have to go to court with the other parent (him/her)?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "15bae29b-92c4-4dc2-87b1-b26287a00a7e",
+    "data": [
+      {
+        "text": "Do I have to meet with the other parent (him/her)?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f53d159c-3da3-4888-87cb-8a74a4dbb097",
+    "data": [
+      {
+        "text": "I\u0027m worried about cooperating with child support.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5c6f123d-a767-4d6c-b287-c80642ced20a",
+    "data": [
+      {
+        "text": "Will the other parent (he/she) get my address and/or phone number?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c61aea88-59bb-4334-b456-3aebcdc4eeb6",
+    "data": [
+      {
+        "text": "I don\u0027t want to give my address.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5ead44f3-7b1a-4bf9-b295-800afc807e2f",
+    "data": [
+      {
+        "text": "I don\u0027t want the other parent (him/her) to find out that I put him/her on child support.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4714a228-c192-4c6b-b887-63cf8dc3586e",
+    "data": [
+      {
+        "text": "I\u0027m worried about my safety.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "86056f6a-8cb3-4f34-b827-b5091f73dd20",
+    "data": [
+      {
+        "text": "I\u0027m scared to put the other parent (him/her) on child support.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b0ca58c5-31c9-46c0-af8a-b65b91a2e2c0",
+    "data": [
+      {
+        "text": "Safety",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

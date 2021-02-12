@@ -1,0 +1,156 @@
+[
+  {
+    "id": "5a6abe0b-546e-412b-8a79-a29babba1de4",
+    "data": [
+      {
+        "text": "TANF time limits",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1840a152-0577-4872-9fec-2644d7715ac6",
+    "data": [
+      {
+        "text": "How many ",
+        "userDefined": false
+      },
+      {
+        "text": "years",
+        "meta": "@cadence",
+        "alias": "cadence",
+        "userDefined": false
+      },
+      {
+        "text": " can I get TANF benefits?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "72929c1a-537b-49fe-b19c-8c4dfa309b87",
+    "data": [
+      {
+        "text": "How many ",
+        "userDefined": false
+      },
+      {
+        "text": "years",
+        "meta": "@cadence",
+        "alias": "cadence",
+        "userDefined": false
+      },
+      {
+        "text": " can I get TANF?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e5d223f9-6140-4db4-bcb0-434f2479c940",
+    "data": [
+      {
+        "text": "Is ",
+        "userDefined": false
+      },
+      {
+        "text": "there",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " a time lime for TANF?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fe39b0d0-a4b1-4934-bc35-decbf80ca3d6",
+    "data": [
+      {
+        "text": "Can I get TANF when I\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " working?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b3b3bc57-38a7-42ab-8b8e-566d35336f80",
+    "data": [
+      {
+        "text": "How long can I get TANF?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7b6ce94c-537c-4df6-b2c0-0b371ec62e40",
+    "data": [
+      {
+        "text": "For how many ",
+        "userDefined": false
+      },
+      {
+        "text": "months",
+        "meta": "@cadence",
+        "alias": "cadence",
+        "userDefined": false
+      },
+      {
+        "text": " do I get TANF?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "02a0c4c1-c0a7-4e30-a36d-a6263ef44eba",
+    "data": [
+      {
+        "text": "How long can I receive TANF?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

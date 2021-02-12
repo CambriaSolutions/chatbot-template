@@ -1,0 +1,111 @@
+[
+  {
+    "id": "1047c288-f58e-4863-bd0c-9f81b11ee336",
+    "data": [
+      {
+        "text": "do i get child support if his daddy don\u0027t live in ",
+        "userDefined": false
+      },
+      {
+        "text": "mississippi",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dd51d845-1fc3-4bcc-8443-ff7df59d7312",
+    "data": [
+      {
+        "text": "do i get payed if he lives in ",
+        "userDefined": false
+      },
+      {
+        "text": "alabama",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "91ed1e3b-4669-47bd-8a33-7e6f5a38cb25",
+    "data": [
+      {
+        "text": "do i get money if he doesnt live in ",
+        "userDefined": false
+      },
+      {
+        "text": "ms",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "963a6f99-8e95-4eb7-a448-fa5736ded493",
+    "data": [
+      {
+        "text": "can i keep getting support if the dad moves out of the state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "74bb5610-623f-4b51-9e24-135419cc005e",
+    "data": [
+      {
+        "text": "what if the parent moves outside of the state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b4f56bcb-90fc-4588-86fe-0acfc7368ae5",
+    "data": [
+      {
+        "text": "will i continue to get child support if the parent lives in another state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c54bcbba-066b-4db2-9ebf-d37ff5965d8d",
+    "data": [
+      {
+        "text": "Will I be able to get child support if he lives in another State?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

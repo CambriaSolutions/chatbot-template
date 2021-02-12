@@ -1,0 +1,59 @@
+{
+  "id": "e86b8113-ee48-44f1-8553-27b49d84751b",
+  "name": "cse-account-balance",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-restart-conversation",
+          "lifespan": 2
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "To avoid fees, you may check the account balance of your debit card/EPPI card online by visiting \u003ca href\u003d\"http://www.eppicard.com\" target\u003d\"_blank\"\u003ewww.eppicard.com\u003c/a\u003e and creating an account. You may also check the balance on your debit card/EPPIcard 24 hours a day, 7 days a week by calling customer service at \u003ca href\u003d\"tel:+18664614095\"\u003e1-866-461-4095\u003c/a\u003e. Please note that fees may apply when calling customer service."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "handleEndConversation": true,
+            "suggestions": [
+              "Other Options"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

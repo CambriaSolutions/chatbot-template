@@ -1,0 +1,54 @@
+[
+  {
+    "id": "40115f1c-2ac3-4545-99ae-86afed8b1a20",
+    "data": [
+      {
+        "text": "Is there a guide on taxes?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fef546c9-51ef-445c-abe2-58415b236631",
+    "data": [
+      {
+        "text": "Tax offset",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "02891b6f-2dfc-4e41-bae9-52ee463fbb80",
+    "data": [
+      {
+        "text": "Where can I find a Tax offset guide?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1ff2959e-2ffb-4392-8553-c0343ead37a1",
+    "data": [
+      {
+        "text": "Taxes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

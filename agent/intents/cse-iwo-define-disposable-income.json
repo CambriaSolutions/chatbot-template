@@ -1,0 +1,85 @@
+{
+  "id": "61b23432-bbfe-4958-9aeb-252f1f83d04d",
+  "name": "cse-iwo-define-disposable-income",
+  "auto": true,
+  "contexts": [
+    "waiting-iwo-define-disposable-income",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-iwo-disposable-income",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-iwo-define-disposable-income",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Disposable income \u003d gross pay - mandatory deductions such as federal, state and local taxes, unemployment insurance, workers\u0027 compensation insurance, mandatory retirement deductions, and other deductions determined by state law. Health insurance premiums may be included in a state\u0027s mandatory deductions; they are mandatory deductions for federal employees."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Note: Disposable income is not necessarily the same as net pay. For more detailed information, \u003ca href\u003d\"https://www.acf.hhs.gov/css/resource/processing-an-income-withholding-order-or-notice\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e to access the U.S. Department of Health and Human Services, Office of Child Support Enforcement website."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What is the employee\u0027s disposable income?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

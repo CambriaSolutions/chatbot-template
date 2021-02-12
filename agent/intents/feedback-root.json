@@ -1,0 +1,43 @@
+{
+  "id": "8a4c1352-04ee-4be2-bb84-e24328d5e453",
+  "name": "feedback-root",
+  "auto": true,
+  "contexts": [
+    "waiting-feedback-root"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-restart-conversation",
+          "lifespan": 0
+        },
+        {
+          "name": "waiting-feedback-root",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

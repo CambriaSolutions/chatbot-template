@@ -1,0 +1,85 @@
+{
+  "id": "090cf684-c7a2-45c4-9de3-45d47ab944ef",
+  "name": "wfd-application-root",
+  "auto": true,
+  "contexts": [
+    "wfd-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "wfd-subject-matter",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If Skills2Work providers are available in your county, a partnering provider may be able to assist in determining your eligibility. If determined eligible, a referral may be made on your behalf to the local MDHS county office. In this situation, you will be contacted by an MDHS caseworker who can further discuss the S2W program."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If further interested and determined eligible, an MDHS caseworker interview and assessment must be completed, and the referral will be submitted back to the referring Skills2Work provider."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please \u003ca href\u003d\"https://www.mdhs.ms.gov/wp-content/uploads/2019/04/GF-504-SNAP-ET-Application-with-NDS-Statement-Final-Fillable.pdf\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e to open the  SNAP E\u0026T Skills2Work Application, and click the \"Providers Location\" below to find the appropriate submission location and contact information. Completed applications must be submitted to designated SNAP E\u0026T Provider Location contact  person(s) for eligibility determination. Application submissions do not guarantee S2W program acceptance and/or SNAP approval."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you are looking for services other than Skills2Work, you can access \u003ca target\u003d\"_blank\" href\u003d\"https://myresources.mdhs.ms.gov/\"\u003eMyResources\u003c/a\u003e"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "handleEndConversation": true,
+            "suggestions": [
+              "PROVIDERS LOCATION"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "170933b7-5d26-48ab-96d6-abab367a29a4",
+    "data": [
+      {
+        "text": "Can I still get my benefits if my kids don\u0027t have their shots?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f098518d-06fc-47e6-b1ce-ac0d5796affe",
+    "data": [
+      {
+        "text": "How much of my benefits will I lose if I don\u0027t turn in my kids/child(ren) shot records?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7e962cb6-0cdb-4156-97d4-47bc8e7a592a",
+    "data": [
+      {
+        "text": "Will I lose my benefits if my kids don\u0027t have their shots?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3ad614d9-95ec-411b-ab35-6f07b17af145",
+    "data": [
+      {
+        "text": "TANF shot records?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f4ead463-6b75-4b72-b532-0489cacaa3a6",
+    "data": [
+      {
+        "text": "What kind of shots my child got to have to get TANF?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6bcac939-528c-4084-9cf3-a4090e741059",
+    "data": [
+      {
+        "text": "Shot records.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "463bb2b2-3200-4241-9a79-3dab365ea1d2",
+    "data": [
+      {
+        "text": "Do my kids have to get shots?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ed04a6a0-e8c9-49da-88af-3bf8b7970072",
+    "data": [
+      {
+        "text": "Are my children required to be immunized?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "a6922415-7f94-4755-96d7-136d7a1934b9",
+    "data": [
+      {
+        "text": "I don\u0027t think my taxes should be taken, what do I do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "439fd501-a10e-4bfc-aa71-ef252932c8ab",
+    "data": [
+      {
+        "text": "Can we go to court to dispute?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "69c33c03-de5a-41e4-99ea-18b99633ec24",
+    "data": [
+      {
+        "text": "What if I think my refund should ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " have been offset?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

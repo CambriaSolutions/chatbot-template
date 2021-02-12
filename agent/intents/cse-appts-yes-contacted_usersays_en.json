@@ -1,0 +1,28 @@
+[
+  {
+    "id": "50d88181-71ce-47f9-95bd-382cab95fa0c",
+    "data": [
+      {
+        "text": "yes i have been contacted",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f463854e-18b5-4b0c-8b75-dea6a2a26524",
+    "data": [
+      {
+        "text": "yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

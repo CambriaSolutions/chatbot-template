@@ -1,0 +1,72 @@
+{
+  "id": "0e7d87ca-95f0-41ef-a6ca-c0c6695ba1f1",
+  "name": "cse-iwo-request-disposable-income",
+  "auto": true,
+  "contexts": [
+    "waiting-iwo-request-disposable-income",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-iwo-disposable-income",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-iwo-define-disposable-income",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-iwo-request-disposable-income",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What is the employee\u0027s disposable income?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Disposable Income Definition"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,79 @@
+{
+  "id": "663ceae7-65e3-4544-a1da-f84d42873f26",
+  "name": "wfd-switchSubjectMatter",
+  "auto": true,
+  "contexts": [
+    "wfd-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-enableHome",
+          "lifespan": 1
+        },
+        {
+          "name": "tanf-enableHome",
+          "lifespan": 1
+        },
+        {
+          "name": "snap-enableHome",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1f9ca3cb-2f28-431f-9c20-460cc2a594a9",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I\u0027m sorry, were you referring to one of the topics below?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "TANF",
+              "SNAP",
+              "Child Support"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

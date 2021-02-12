@@ -104,8 +104,8 @@ class FeedbackInput extends PureComponent<any> {
               <CardContent>
                 <Typography gutterBottom variant='h6'>
                   {feedbackInputs.wasHelpful
-                    ? 'Why was <<Bot>> helpful?'
-                    : 'Why was <<Bot>> not helpful?'}
+                    ? 'Why was Gen helpful?'
+                    : 'Why was Gen not helpful?'}
                 </Typography>
                 <FormControl component={'fieldset' as any}>
                   <FormGroup>
@@ -166,7 +166,7 @@ class FeedbackInput extends PureComponent<any> {
           :
           (
             <CardContent>
-              Thank you. Your feedback is important to us.
+              Thank you. Your feedback is important to us and will help improve Gen.
             </CardContent>
           )}
       </>

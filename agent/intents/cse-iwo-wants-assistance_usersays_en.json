@@ -1,0 +1,90 @@
+[
+  {
+    "id": "9aafdb29-b193-45ec-b66e-ddb5b7b0c8bf",
+    "data": [
+      {
+        "text": "i believe so",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e2d8fe59-7c55-4eeb-8735-2e75866b574b",
+    "data": [
+      {
+        "text": "yup",
+        "meta": "@yes-no",
+        "alias": "wantsAssistance",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c261351e-ce31-4ea7-9c82-ff6b6ce01aca",
+    "data": [
+      {
+        "text": "sure",
+        "meta": "@yes-no",
+        "alias": "wantsAssistance",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a473e150-5e7c-45d5-a03b-6e2d0e4379d9",
+    "data": [
+      {
+        "text": "i think so",
+        "meta": "@yes-no",
+        "alias": "wantsAssistance",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4dfa3deb-7881-4e00-90dd-07f3e183be4f",
+    "data": [
+      {
+        "text": "correct",
+        "meta": "@yes-no",
+        "alias": "wantsAssistance",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "86d82caf-5fae-4fa4-81bc-2c12bed7214e",
+    "data": [
+      {
+        "text": "yes",
+        "meta": "@yes-no",
+        "alias": "wantsAssistance",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

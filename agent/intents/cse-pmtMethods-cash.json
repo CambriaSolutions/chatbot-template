@@ -1,0 +1,94 @@
+{
+  "id": "cc7fa96f-d49c-43a8-b8c8-537b605451dd",
+  "name": "cse-pmtMethods-cash",
+  "auto": true,
+  "contexts": [
+    "waiting-pmtMethods-cash",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-pmtMethods-paynearme",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmtMethods-moneygram",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmtMethods-checkOrMoneyOrder",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmtMethods-cash",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmtMethods-eCheckDebit",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmtMethods-withhold-payments",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmtMethods-cant-make",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You can pay with cash with MoneyGram and PayNearMe. Which would you like to learn more about?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "MoneyGram",
+              "PayNearMe",
+              "Other Options"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

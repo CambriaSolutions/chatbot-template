@@ -1,0 +1,69 @@
+[
+  {
+    "id": "2c60c5a9-3dfb-4e7a-96eb-61b4a769e961",
+    "data": [
+      {
+        "text": "EPPI Card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8e78467a-865d-4986-b49d-6654b0cd6642",
+    "data": [
+      {
+        "text": "learn more",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "09412a55-1fdf-4281-b731-e8834b21c2ba",
+    "data": [
+      {
+        "text": "sure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cd03a8e8-70ba-445a-a113-faa274b7d92f",
+    "data": [
+      {
+        "text": "i want to know more",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5dcbb899-6023-4e8e-97ca-7a31638a5b90",
+    "data": [
+      {
+        "text": "yes",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

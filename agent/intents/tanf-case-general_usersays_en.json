@@ -1,0 +1,570 @@
+[
+  {
+    "id": "efc4fbe9-b17c-4ecb-9b99-2f3e89e7af14",
+    "data": [
+      {
+        "text": "Can I look at my case on the internet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "91f8d49f-de5c-4859-a593-e21d7b828768",
+    "data": [
+      {
+        "text": "I need to close my TANF in ",
+        "userDefined": false
+      },
+      {
+        "text": "MS",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ddfb96f1-6cee-4af1-b7df-95456cbb072c",
+    "data": [
+      {
+        "text": "how do i close my case?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d38fce7f-2330-48aa-b7fc-4191df22e674",
+    "data": [
+      {
+        "text": "Want to check if my case is closed with you guys",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fc08bb83-0d3d-4dc6-9788-63aadf48a3f2",
+    "data": [
+      {
+        "text": "I have a question",
+        "meta": "@action-requests",
+        "alias": "action-requests",
+        "userDefined": false
+      },
+      {
+        "text": " about my case",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "738e5eb8-1668-4b66-b82a-02047ced215e",
+    "data": [
+      {
+        "text": "Can I check on my specific case?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "27299a76-04b7-4a8d-8535-002202e59770",
+    "data": [
+      {
+        "text": "How to look ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      },
+      {
+        "text": " my case",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7c0ec6cb-01af-447e-bb78-77da5db9fa0d",
+    "data": [
+      {
+        "text": "Trying to check updates for my case",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5ddf3d27-1d69-41b8-a73a-b8e1d6f94d87",
+    "data": [
+      {
+        "text": "Information on my case",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a6b03948-8b73-495b-acc1-5f83eaa66691",
+    "data": [
+      {
+        "text": "how can i check on my case through the website?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9b50d386-99c2-408d-a132-a745e27b92bb",
+    "data": [
+      {
+        "text": "I have a open case that I need to check info.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4674c6be-9c23-4b0f-97f1-32efba4d1cfd",
+    "data": [
+      {
+        "text": "Yes",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " my case look ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "313f33bb-8063-464b-99a8-eb4aec146a92",
+    "data": [
+      {
+        "text": "I have a case checking on payments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b30048ab-a802-4214-8bd0-bac291b3489f",
+    "data": [
+      {
+        "text": "I need information on my case.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fcfe6c45-88ca-4235-8a63-65e2ddc575e3",
+    "data": [
+      {
+        "text": "Can I look at my case on the internet?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "45d7a7c5-f9ad-4fa0-9626-32c9ffe14e1a",
+    "data": [
+      {
+        "text": "I have a case already.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a575d134-c122-4e4f-8481-d66dffabe387",
+    "data": [
+      {
+        "text": "Trying to get info on an open case tht.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bfedbf9d-fc7f-422f-af60-f3d3bd2823d7",
+    "data": [
+      {
+        "text": "Trying  too find out how much case number ",
+        "userDefined": false
+      },
+      {
+        "text": "614984414",
+        "meta": "@sys.phone-number",
+        "alias": "phone-number",
+        "userDefined": false
+      },
+      {
+        "text": " owes ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f1b5af4d-dd1f-4222-8cb7-9464df2b1299",
+    "data": [
+      {
+        "text": "HOW TO CHECK THE STATUS OF CHILD SUPPORT.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "afde49bb-8ada-4a9b-875f-122d4d9788dd",
+    "data": [
+      {
+        "text": "I\u0027m trying to see about my case for my son dad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e225a992-4413-4a23-acf0-c76679292003",
+    "data": [
+      {
+        "text": "I am looking for my case on here and ",
+        "userDefined": false
+      },
+      {
+        "text": "don\u0027t know",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      },
+      {
+        "text": " where to go.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "23b8498e-4928-4a5b-9201-6cac8e32bc74",
+    "data": [
+      {
+        "text": "How do I find information on my case?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "610aac4c-a692-4818-8bf6-27c6713ef843",
+    "data": [
+      {
+        "text": "What case am i still?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "72453e0b-13ae-44d7-91ac-627cb1b9706a",
+    "data": [
+      {
+        "text": "How do I check on the status of my enforcement account?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fa002f8c-631d-4ab6-a74c-21daa9c764c6",
+    "data": [
+      {
+        "text": "I need to know why I ",
+        "userDefined": false
+      },
+      {
+        "text": "haven\u0027t received",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      },
+      {
+        "text": " any updates on my case.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "23bc83ca-d7d8-4a82-84a0-2e9a6dd7b665",
+    "data": [
+      {
+        "text": "I trying to found out about a case.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8105a60b-be7d-4068-bf53-c99a1da924e8",
+    "data": [
+      {
+        "text": "How can I check the status of my case in ",
+        "userDefined": false
+      },
+      {
+        "text": "Mississippi",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9d30e093-e8ea-40fb-ab94-a7b7fb71ccdb",
+    "data": [
+      {
+        "text": "Look ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      },
+      {
+        "text": " my case.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ca79b4a1-2dee-4624-9d8e-1b558372f565",
+    "data": [
+      {
+        "text": "I need to check another case.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "396a6e78-031c-4b89-bcec-358183d16d17",
+    "data": [
+      {
+        "text": "I have questions",
+        "meta": "@action-requests",
+        "alias": "action-requests",
+        "userDefined": false
+      },
+      {
+        "text": " about my case.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "55cc3322-46cd-4c6b-a19a-bd24a0d3174f",
+    "data": [
+      {
+        "text": "Checking on case.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b142b713-e04e-4037-98c0-ce5ddd0d6ee9",
+    "data": [
+      {
+        "text": "How do I ",
+        "userDefined": false
+      },
+      {
+        "text": "correct",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " information on my case?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d6c52d2c-e4a0-4843-af7a-af21c60d35e8",
+    "data": [
+      {
+        "text": "I need to check on my child support case.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e5180490-1694-4d9e-bf64-4d5a06f87533",
+    "data": [
+      {
+        "text": "Check status on my case.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "68fe9c5c-7ad0-4bf3-9a52-2c483227fc96",
+    "data": [
+      {
+        "text": "I just need to go online to check the status.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0a8fb00e-489a-4e89-9fe2-a01045e9d97d",
+    "data": [
+      {
+        "text": "Checking my case.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

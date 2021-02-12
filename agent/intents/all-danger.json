@@ -1,0 +1,65 @@
+{
+  "id": "bed631bc-42e2-4b71-8d00-f5879038aa38",
+  "name": "all-danger",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If someone is in immediate danger, please call 911 right away."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "To report child abuse or neglect, call 1-800-222-8000, or report online \u003ca target\u003d\"_blank\" href\u003d\"https://reportabuse.mdcps.ms.gov\"\u003ehere\u003c/a\u003e."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "To report abuse or neglect of a vulnerable adult, call 1-844-437-6282 or report online \u003ca target\u003d\"_blank\" href\u003d\"https://fw2.harmonyis.net/MSLiveIntake/\"\u003ehere\u003c/a\u003e."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "To speak with a counselor about suicide, please call the National Suicide Prevention Lifeline at 1-800-273-TALK (8255). You can also chat with a counselor \u003ca target\u003d\"_blank\" href\u003d\"https://suicidepreventionlifeline.org/chat/\"\u003ehere\u003c/a\u003e."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

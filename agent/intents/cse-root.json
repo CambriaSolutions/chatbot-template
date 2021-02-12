@@ -1,0 +1,98 @@
+{
+  "id": "a31c4ed2-5950-4b9d-8610-a11e3926106f",
+  "name": "cse-root",
+  "auto": true,
+  "contexts": [
+    "cse-enableHome"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 999
+        },
+        {
+          "name": "tanf-subject-matter",
+          "lifespan": 0
+        },
+        {
+          "name": "snap-subject-matter",
+          "lifespan": 0
+        },
+        {
+          "name": "wfd-subject-matter",
+          "lifespan": 0
+        },
+        {
+          "name": "tanf-enableHome",
+          "lifespan": 0
+        },
+        {
+          "name": "snap-enableHome",
+          "lifespan": 0
+        },
+        {
+          "name": "wfd-enableHome",
+          "lifespan": 0
+        },
+        {
+          "name": "waiting-subjectMatter",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What can I help you with?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "COMMON REQUESTS",
+              "APPOINTMENTS",
+              "PAYMENTS",
+              "EMPLOYER",
+              "OPENING A CHILD SUPPORT CASE",
+              "OFFICE LOCATIONS",
+              "POLICY MANUAL",
+              "ENFORCEMENT ACTION",
+              "STIMULUS CHECK",
+              "VISITATION",
+              "VERIFICATION",
+              "COOPERATION",
+              "INTERSTATE CASES"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "home"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

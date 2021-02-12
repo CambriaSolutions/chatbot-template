@@ -1,0 +1,115 @@
+{
+  "id": "ae5051b3-5887-4621-8442-251f6b5888e7",
+  "name": "cse-dirDep-learn-more-eppicard",
+  "auto": true,
+  "contexts": [
+    "waiting-dirdep-learn-more-eppicard",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-eppi-get-card",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-eppi-activate",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-eppi-replace-report",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-eppi-fees",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-eppi-notifications",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-eppi-faq",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-dirDep-no-learn-more-eppicard",
+          "lifespan": 0
+        },
+        {
+          "name": "waiting-dirdep-learn-more-eppicard",
+          "lifespan": 0
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "fc2e65a6-e309-4e25-b2c9-1ef4fcd788d6",
+          "name": "yes-no",
+          "required": false,
+          "dataType": "@yes-no",
+          "value": "$yes-no",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sure, I can help with the following topics regarding your payment card."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Get EPPICard",
+              "Activate",
+              "Fees",
+              "Set Up Notifications",
+              "FAQ",
+              "Replace, Report Stolen, Lost or Fraud"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

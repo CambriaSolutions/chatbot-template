@@ -1,0 +1,130 @@
+[
+  {
+    "id": "ab90ba7f-8657-41e4-b946-bd002f6ad488",
+    "data": [
+      {
+        "text": "change or ",
+        "userDefined": false
+      },
+      {
+        "text": "add employer",
+        "meta": "@employmentStatus",
+        "alias": "employmentStatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0667097a-4f85-4a38-8ca6-671216590786",
+    "data": [
+      {
+        "text": "change/",
+        "userDefined": false
+      },
+      {
+        "text": "add employer",
+        "meta": "@employmentStatus",
+        "alias": "employmentStatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bc4c33e0-abe0-4788-b6f1-fbe185404791",
+    "data": [
+      {
+        "text": "change of employer",
+        "meta": "@employmentStatus",
+        "alias": "employmentStatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7b2051f7-0734-43bb-915a-c3e2cdf528b8",
+    "data": [
+      {
+        "text": "part time to full time",
+        "meta": "@employmentStatus",
+        "alias": "employmentStatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "54aea9c5-307e-4897-bb6f-7c9dd8f15dba",
+    "data": [
+      {
+        "text": "change of employment information",
+        "meta": "@employmentStatus",
+        "alias": "employmentStatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "22b7c3be-20e7-4064-a66d-5c3f19cc40de",
+    "data": [
+      {
+        "text": "full time to part time",
+        "meta": "@employmentStatus",
+        "alias": "employmentStatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "79f73c05-6b24-49f3-81b8-bc92ee05cd1a",
+    "data": [
+      {
+        "text": "add employer",
+        "meta": "@employmentStatus",
+        "alias": "employmentStatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ec162062-0ba1-4cf8-972e-cff579f3bcf5",
+    "data": [
+      {
+        "text": "loss of employer",
+        "meta": "@employmentStatus",
+        "alias": "employmentStatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

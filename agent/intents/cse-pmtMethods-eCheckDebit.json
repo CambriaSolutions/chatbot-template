@@ -1,0 +1,57 @@
+{
+  "id": "bbb8f350-3ac1-4243-9ca8-fff2f63e8f3f",
+  "name": "cse-pmtMethods-eCheckDebit",
+  "auto": true,
+  "contexts": [
+    "waiting-pmtMethods-eCheckDebit",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You can make payments online using Mississippi iPayOnline. \u003ca href\u003d\"https://ipayonline.mssdu.net/iPayOnline/\" target\u003d\"_blank\"\u003eClick here\u003c/a\u003e to get started."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Other Options"
+            ],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

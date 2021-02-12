@@ -6,6 +6,7 @@ const fs = require('fs')
 admin.initializeApp()
 
 const store = admin.firestore()
+const subjectMatter = 'cse'
 // Default fallback intent ID - DEV and PROD
 //const intentId = 'd832e961-7c6c-4b00-a608-88a5c1c3f3f5'
 

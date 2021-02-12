@@ -1,0 +1,54 @@
+[
+  {
+    "id": "0848e4b0-b6d6-4405-a466-ae3817185123",
+    "data": [
+      {
+        "text": "how do i replace my eppicard",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "028654c2-9bcb-4770-bc04-f916d3b22cd4",
+    "data": [
+      {
+        "text": "i need to report my card stolen",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "93274332-b4c7-4f6b-b201-627a619b63dc",
+    "data": [
+      {
+        "text": "replace my card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "087294ee-a776-42b8-8ac9-af8f26e6eebf",
+    "data": [
+      {
+        "text": "replace, report stolen, lost or fraud",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

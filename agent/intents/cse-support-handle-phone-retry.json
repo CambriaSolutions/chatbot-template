@@ -1,0 +1,66 @@
+{
+  "id": "27e5c340-c70a-4665-8b75-4a4f527c1756",
+  "name": "cse-support-handle-phone-retry",
+  "auto": true,
+  "contexts": [
+    "waiting-support-handle-phone-retry",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-support-handle-phone-retry",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-handle-email-retry",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c1ef7c49-ab7c-474d-9836-56eef57166df",
+          "name": "phoneNumber",
+          "required": false,
+          "dataType": "@sys.phone-number",
+          "value": "$phoneNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "id": "4883e30c-b7c8-44e3-a0ed-e34840d48c2a",
+    "data": [
+      {
+        "text": "Yes",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "08d9ab76-08f4-4865-986c-518d8d84917a",
+    "data": [
+      {
+        "text": "Do you have information about a workman\u0027s comp or personal injury settlement?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "94a06886-7af9-4060-8ef2-d33d0ce66b60",
+    "data": [
+      {
+        "text": "Update case settlements",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

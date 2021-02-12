@@ -1,0 +1,70 @@
+{
+  "id": "03fad87e-182f-4310-b237-c4a047f91036",
+  "name": "cse-support-retry-email",
+  "auto": true,
+  "contexts": [
+    "waiting-support-retry-email",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-support-handle-email-retry",
+          "lifespan": 3,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-retry-email",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-retry-phone",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What is your **email address**?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

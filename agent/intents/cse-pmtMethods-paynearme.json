@@ -1,0 +1,73 @@
+{
+  "id": "4289a589-0ee5-4b7d-b0e6-89c9f38865eb",
+  "name": "cse-pmtMethods-paynearme",
+  "auto": true,
+  "contexts": [
+    "waiting-pmtMethods-paynearme",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-pmtMethods-moneygram",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmtMethods-paynearme",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmtMethods-moneygram",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You can pay MDHS Child Support with cash at PayNearMe locations. A small fee applies.\u003cbr/\u003e\u003cbr/\u003ePayNearMe is available at CVS/Pharmacy, Family Dollar, Fidelity Express, ACE Cash Express and 7-Eleven.\u003cbr/\u003e\u003cbr/\u003ePayments may take 3 to 4 banking days to be posted to your child support account.\u003cbr/\u003e\u003cbr/\u003e\u003ca href\u003d\"http://paynearme.com/mississippi\" target\u003d\"_blank\"\u003eClick here\u003c/a\u003e to find the nearest location to you.\u003cbr/\u003e\u003cbr/\u003e\u003ca href\u003d\"http://www.mdhs.ms.gov/wp-content/uploads/2018/01/Mississippi-Child-Support-MDHS-FAQ.pdf\" target\u003d\"_blank\"\u003eClick here\u003c/a\u003e for frequently asked questions."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "MoneyGram",
+              "Other Options"
+            ],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

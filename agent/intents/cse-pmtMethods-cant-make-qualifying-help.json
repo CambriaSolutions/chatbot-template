@@ -1,0 +1,61 @@
+{
+  "id": "8b99c954-fff4-4f48-94e0-ba8876ed5300",
+  "name": "cse-pmtMethods-cant-make-qualifying-help",
+  "auto": true,
+  "contexts": [
+    "waiting-pmtMethods-cant-make-qualifying-help",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-pmtMethods-cant-make-qualifying-help",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f962e579-22ce-4653-8273-b2b2aa427ada",
+          "name": "needsHelp",
+          "required": false,
+          "dataType": "@yes-no",
+          "value": "$needsHelp",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

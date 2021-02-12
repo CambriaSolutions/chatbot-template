@@ -1,0 +1,17 @@
+[
+  {
+    "id": "d88e9b44-ddd1-4387-a197-4affdf601011",
+    "data": [
+      {
+        "text": "i acknowledge",
+        "meta": "@acknowledgement",
+        "alias": "acknowledgement",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  }
+]

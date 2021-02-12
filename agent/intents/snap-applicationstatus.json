@@ -1,0 +1,108 @@
+{
+  "id": "a0734a08-0341-49bf-8fc2-19d7c62d7684",
+  "name": "snap-applicationstatus",
+  "auto": true,
+  "contexts": [
+    "snap-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "snap-subject-matter",
+          "lifespan": 99
+        },
+        {
+          "name": "waiting-snap-applicationstatus",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "001e2ac8-5b53-4cfd-8a9d-911e9bf6d5e1",
+          "name": "yes-no",
+          "required": false,
+          "dataType": "@yes-no",
+          "value": "$yes-no",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "13b04cf0-9085-40a9-a1c6-3a19c9049a74",
+          "name": "cadence",
+          "required": false,
+          "dataType": "@cadence",
+          "value": "$cadence",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Most applications are processed within 30 days from the date it is received. You should receive an appointment within 10 days of submitting your application. To check the status of your case or view your notices, you can create a MyMDHS account \u003ca href\u003d\"https://my.mdhs.ms.gov/#/landing\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Additional information may be required, based on the household’s circumstances. After the interview and collection of needed information for eligibility determination, the worker will send the household a notice. If the household does not qualify for SNAP, a notice will be provided giving the reasons for ineligibility. If the household is determined to be eligible, the notice will provide the monthly benefit amount and length of the certification period."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Do you want to check what information will be verified?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "YES",
+              "NO"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

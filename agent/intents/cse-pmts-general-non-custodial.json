@@ -1,0 +1,73 @@
+{
+  "id": "e92c5714-8e46-430e-99ee-fa79c9613bf4",
+  "name": "cse-pmts-general-non-custodial",
+  "auto": true,
+  "contexts": [
+    "waiting-pmts-general-non-custodial",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-restart-conversation",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmts-general-non-custodial",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmts-general-receive-payments",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What can I help you with regarding payments?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Make Payments",
+              "Estimate Payments"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -3,7 +3,17 @@ import { handleEndConversation } from '../globalFunctions'
 
 export const mapRoot = (subjectMatter) => async (agent: Agent) => {
   try {
-    agent.add(
+    if (subjectMatter === 'wfd') {
+      await agent.add('You may contact a MDHS county office between 8:00 am and 5:00 pm, Monday through Friday, excluding holidays, to obtain additional information about S2W.')
+    } else {
+      await agent.add('You may visit any office between 8:00 am and 5:00 pm, Monday through Friday, excluding holidays, to obtain information about your case.')
+    }
+
+    if (subjectMatter !== 'cse') {
+      await agent.add('Due to COVID-19, all our county offices are closed to the public until further notice.')
+    }
+
+    await agent.add(
       'I can help locate the nearest office to you, what is your address?'
     )
     await agent.context.set({
@@ -71,9 +81,14 @@ export const mapDeliverMap = (subjectMatter, locations) => async (agent: Agent) 
       )
       const mapInfo = { locations, currentGeocode, nearestLocations }
       const mapPayload = JSON.stringify(mapInfo)
-      agent.add('Here is an interactive map of all of our locations!')
+      await agent.add('Here is an interactive map of all of our locations!')
 
-      agent.add(
+      if (subjectMatter === 'tanf' || subjectMatter === 'snap') {
+        await agent.add('You may visit any office between 8:00 am and 5:00 pm, Monday through Friday, excluding holidays, to obtain information about your case.')
+        await agent.add('Due to COVID-19, all our county offices are closed to the public until further notice.')
+      }
+
+      await agent.add(
         new Payload(
           agent.UNSPECIFIED,
           { mapPayload },
@@ -85,7 +100,7 @@ export const mapDeliverMap = (subjectMatter, locations) => async (agent: Agent) 
       )
       await handleEndConversation(agent)
     } else {
-      agent.add(
+      await agent.add(
         'Sorry, I couldn\'t find that address. Could you say that again?'
       )
       await agent.context.set({
@@ -114,10 +129,15 @@ export const mapDeliverMapAndCountyOffice = (subjectMatter, locations) => async 
       const mapInfo = { locations, currentGeocode, nearestLocations }
       const mapPayload = JSON.stringify(mapInfo)
       if (countyInformation) {
-        agent.add(`${currentGeocode.county.toUpperCase()} COUNTY \u003cbr\u003e - Phone Number: <a href="tel:+${countyInformation.phone.replace('.', '').replace('.', '')}">${countyInformation.phone}</a> \u003cbr\u003e - Email Address: <a href="mailto:${countyInformation.email}">${countyInformation.email}</a> \u003cbr\u003e - Fax Number: ${countyInformation.fax}`)
+        await agent.add(`${currentGeocode.county.toUpperCase()} COUNTY \u003cbr\u003e - Phone Number: <a href="tel:+${countyInformation.phone.replace('.', '').replace('.', '')}">${countyInformation.phone}</a> \u003cbr\u003e - Email Address: <a href="mailto:${countyInformation.email}">${countyInformation.email}</a> \u003cbr\u003e - Fax Number: ${countyInformation.fax}`)
       }
 
-      agent.add(
+      if (subjectMatter === 'tanf' || subjectMatter === 'snap') {
+        await agent.add('You may visit any office between 8:00 am and 5:00 pm, Monday through Friday, excluding holidays, to obtain information about your case.')
+        await agent.add('Due to COVID-19, all our county offices are closed to the public until further notice.')
+      }
+
+      await agent.add(
         new Payload(
           agent.UNSPECIFIED,
           { mapPayload },
@@ -129,7 +149,7 @@ export const mapDeliverMapAndCountyOffice = (subjectMatter, locations) => async 
       )
       await handleEndConversation(agent)
     } else {
-      agent.add(
+      await agent.add(
         'Sorry, I couldn\'t find that address. Could you say that again?'
       )
       await agent.context.set({

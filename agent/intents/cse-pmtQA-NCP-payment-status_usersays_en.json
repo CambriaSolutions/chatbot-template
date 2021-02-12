@@ -1,0 +1,136 @@
+[
+  {
+    "id": "271f84ac-ba82-450d-b1a2-e4ee8c421790",
+    "data": [
+      {
+        "text": "how can i tell if i got paid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a00cf6af-37a2-4c15-9ff8-86be593d9bfd",
+    "data": [
+      {
+        "text": "when did i get paid last",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2e034584-d8bf-40ab-8462-e47f97b2865e",
+    "data": [
+      {
+        "text": "when did i get my money last",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "242dd74f-22b5-40c3-917c-b8432ee913e8",
+    "data": [
+      {
+        "text": "checking to see if the payments are being made",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4ff33090-cf0a-48ec-b18a-0fb6e95ae2d8",
+    "data": [
+      {
+        "text": "did the baby daddy make a payment?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "86fcb31e-2162-433e-abd0-5782d5745f8d",
+    "data": [
+      {
+        "text": "When the last time I receive a payment?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a253926c-bab2-4acc-b725-ff581295d2d3",
+    "data": [
+      {
+        "text": "Is the ",
+        "userDefined": false
+      },
+      {
+        "text": "NCP",
+        "meta": "@guardianship",
+        "alias": "guardianship",
+        "userDefined": false
+      },
+      {
+        "text": " making ",
+        "userDefined": false
+      },
+      {
+        "text": "monthly",
+        "meta": "@cadence",
+        "alias": "cadence",
+        "userDefined": false
+      },
+      {
+        "text": " payments?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "554d4db1-0a54-4958-a39e-76a6d85f1ee4",
+    "data": [
+      {
+        "text": "Did the ",
+        "userDefined": false
+      },
+      {
+        "text": "NCP",
+        "meta": "@guardianship",
+        "alias": "guardianship",
+        "userDefined": false
+      },
+      {
+        "text": " make a payment to child support?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

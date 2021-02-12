@@ -1,0 +1,41 @@
+[
+  {
+    "id": "4f1bec7b-663f-406d-bfbd-eed31b4bc5ae",
+    "data": [
+      {
+        "text": "add a new one",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2a48009e-5963-479f-aa20-bae8abf73682",
+    "data": [
+      {
+        "text": "open a new account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0a17fab1-aeae-4f51-8f9f-0ec5878683a2",
+    "data": [
+      {
+        "text": "start",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

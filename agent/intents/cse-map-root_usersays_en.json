@@ -1,0 +1,210 @@
+[
+  {
+    "id": "7b469658-ff2e-4274-9933-febca2958c83",
+    "data": [
+      {
+        "text": "whats the address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "99b0af98-56d0-4e38-bf65-a324bcda0bd2",
+    "data": [
+      {
+        "text": "address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3cc3b3d4-0afc-4f77-a3ce-915c17c90618",
+    "data": [
+      {
+        "text": "locations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "289205c0-7a4f-49d4-aa75-4709280029d6",
+    "data": [
+      {
+        "text": "where do i find an office",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2e1c3334-3d65-4af9-b806-187710d16b92",
+    "data": [
+      {
+        "text": "can you tell me where the offices are",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3c687600-32d1-4863-994a-16a40636f020",
+    "data": [
+      {
+        "text": "wheres a support office",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dafd1990-914b-42d0-af0c-e16309dff2e6",
+    "data": [
+      {
+        "text": "where\u0027s an office",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c1a5f535-6b96-4834-bd85-4c8d49c5247a",
+    "data": [
+      {
+        "text": "find me an office",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "273b7a0f-3eb4-40ec-b284-ddeb0a5bf818",
+    "data": [
+      {
+        "text": "where is the nearest office location to me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3ddbf619-e4b3-4c7e-8cb8-2a7a08cd1190",
+    "data": [
+      {
+        "text": "office locations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a5ef1588-eb45-4232-bd1e-9023818e628e",
+    "data": [
+      {
+        "text": "Where can I find the closest office to my location?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a9de4518-7c2a-455d-ae6d-39a98dc99438",
+    "data": [
+      {
+        "text": "Where to go for CSE?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2907af19-9ed7-4969-839f-cc60373eac78",
+    "data": [
+      {
+        "text": "Where can I go to talk to someone about CSE?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "22cdb4fb-eec5-47b4-bd7d-5d2fb47236a6",
+    "data": [
+      {
+        "text": "CSE locations in my area?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ff443af6-7c3b-4fde-877f-8f8091723467",
+    "data": [
+      {
+        "text": "Offices in my area.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f0d7ae67-e338-452f-82aa-33fe29182781",
+    "data": [
+      {
+        "text": "map",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

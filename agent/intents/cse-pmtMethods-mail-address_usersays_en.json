@@ -1,0 +1,106 @@
+[
+  {
+    "id": "64968d17-229c-43ff-862b-6faa1d044cd0",
+    "data": [
+      {
+        "text": "Address Check",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d1f101fc-b1c1-4069-adfa-8a87fcfe53e9",
+    "data": [
+      {
+        "text": "Trying to find the address to send my child support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bacbdc20-bcfb-4b86-a507-a6a0c764ae3f",
+    "data": [
+      {
+        "text": "What\u0027s the address to mail in payments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c2cb6ff3-c4c9-4a51-bbc0-6d1ce83e3222",
+    "data": [
+      {
+        "text": "What is the PO box address to send child support payment?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ecd58ef6-1afb-491e-92fb-6be2b5e77e82",
+    "data": [
+      {
+        "text": "where do i send the check",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2ab343ae-cec2-4072-945d-cc5db9915da4",
+    "data": [
+      {
+        "text": "where do i mail payments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d3dd689b-a039-4a0e-80ce-d8d93231a78b",
+    "data": [
+      {
+        "text": "where should I mail check",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fc16ea98-11d2-47bd-8686-67d8ddcda5dd",
+    "data": [
+      {
+        "text": "where should payments be sent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

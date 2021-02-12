@@ -1,0 +1,17 @@
+[
+  {
+    "id": "263c0664-3f66-4ad6-af57-0b9cc6a17a0f",
+    "data": [
+      {
+        "text": "yes",
+        "meta": "@yes-no",
+        "alias": "needsHelp",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

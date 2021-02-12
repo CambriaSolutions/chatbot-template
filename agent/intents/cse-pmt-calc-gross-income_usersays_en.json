@@ -1,0 +1,77 @@
+[
+  {
+    "id": "956f553d-ce24-44fd-b65d-f226015dffbe",
+    "data": [
+      {
+        "text": "every other week",
+        "meta": "@cadence",
+        "alias": "incomeTerm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7da7de82-7579-4137-850c-b237cca2797b",
+    "data": [
+      {
+        "text": "Weekly",
+        "meta": "@cadence",
+        "alias": "incomeTerm",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b935a913-fe4b-4d07-ab71-b0815d82d892",
+    "data": [
+      {
+        "text": "Bi-Weekly",
+        "meta": "@cadence",
+        "alias": "incomeTerm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2c351b16-c054-4f12-ace1-d48e7a8203cb",
+    "data": [
+      {
+        "text": "Monthly",
+        "meta": "@cadence",
+        "alias": "incomeTerm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4024734a-60b2-401b-9cd2-3c5330568a66",
+    "data": [
+      {
+        "text": "Annually",
+        "meta": "@cadence",
+        "alias": "incomeTerm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

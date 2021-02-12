@@ -73,7 +73,7 @@ textUrl: 'https://[your_project].cloudfunctions.net/textRequest',
 
 - `activationText` a string message to call out action
 
-```activationText = 'Talk to <<Bot>>'
+```activationText = 'Talk to Gen'
 
 ```
 

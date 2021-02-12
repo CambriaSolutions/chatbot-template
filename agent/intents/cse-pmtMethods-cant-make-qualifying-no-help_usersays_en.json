@@ -1,0 +1,17 @@
+[
+  {
+    "id": "3e807425-0848-45be-bb4a-b919c3a32a76",
+    "data": [
+      {
+        "text": "yes",
+        "meta": "@yes-no",
+        "alias": "needsInquiry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

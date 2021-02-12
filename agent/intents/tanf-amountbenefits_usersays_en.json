@@ -1,0 +1,171 @@
+[
+  {
+    "id": "351bc97e-ac92-4caa-8096-c7fc51743a04",
+    "data": [
+      {
+        "text": "How much money/benefits do I get for each child?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0da16f5e-816e-4e94-8dd2-408be7161cd5",
+    "data": [
+      {
+        "text": "How much benefits do I get for each person?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dce3aa76-a482-412e-8fcc-b7fb239e410b",
+    "data": [
+      {
+        "text": "How much benefits do I get for my kids?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ab7bb788-d680-4764-a7df-6bcede1d5e4f",
+    "data": [
+      {
+        "text": "How much benefits do I receive per person?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "019693fb-116e-4abe-a9f6-6358a0509e72",
+    "data": [
+      {
+        "text": "How much money do I receive for each person?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d51cade4-7132-4ea8-a05d-e57c51c72f90",
+    "data": [
+      {
+        "text": "How much money do I get for my kids?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "96bf1db8-b362-4c23-833f-204abf742381",
+    "data": [
+      {
+        "text": "TANF amounts.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ffabd44a-54e6-4055-9162-a6fd84a80def",
+    "data": [
+      {
+        "text": "TANF payments.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8068ac31-eb25-4f8e-8c4f-417b7caa98c7",
+    "data": [
+      {
+        "text": "How much TANF money I can get?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f214ce70-cba4-4c4c-8010-5c4de3c39039",
+    "data": [
+      {
+        "text": "Why do I see less money on my card?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f9405954-4c9e-4e34-9b9a-51387b16832a",
+    "data": [
+      {
+        "text": "How much money do I get?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "673f2a10-b325-4858-8483-4e31a7fae958",
+    "data": [
+      {
+        "text": "What\u0027s the amount that I\u0027ll get?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "64ae40df-7546-4c48-8b75-cc788a90c340",
+    "data": [
+      {
+        "text": "How much can I receive in TANF benefits?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

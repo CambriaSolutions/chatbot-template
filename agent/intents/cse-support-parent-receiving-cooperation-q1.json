@@ -1,0 +1,46 @@
+{
+  "id": "b751eb0f-8633-4156-972c-8c2549dd35a7",
+  "name": "cse-support-parent-receiving-cooperation-q1",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Parents are generally required to cooperate with child support to be eligible to receive or continuing receiving certain other       benefits such as TANF, food stamps (SNAP), Medicaid, child-care, housing, and other types of benefits. The application fee for       child support services does not apply to TANF, food stamps (SNAP) or Medicaid cases. Cooperation is defined as the joint action       of working toward a common goal. Parents and child support staff must work together to ensure children receive the financial support they deserve. "
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

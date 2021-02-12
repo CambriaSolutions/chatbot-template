@@ -1,0 +1,54 @@
+{
+  "id": "6dc03ac5-5f6c-45ac-b0db-6af8b67fea95",
+  "name": "cse-eppi-surcharge",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The easiest way to avoid surcharges is to use \"In-network\" banks. \"In-network\" is defined as Hancock Bank, Regions Bank, or Trustmark Bank ATM locations. Each month you are allowed unlimited cash withdrawals at MasterCard member Bank teller windows. Bank ATMs outside of these \"in-network\" bank ATMs may apply a surcharge. Always read ATM messages carefully to determine if a bank ATM is applying fees to the transaction."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

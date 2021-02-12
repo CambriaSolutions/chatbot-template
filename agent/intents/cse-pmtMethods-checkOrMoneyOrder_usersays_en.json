@@ -1,0 +1,67 @@
+[
+  {
+    "id": "216531ef-1a5d-4ae6-a5a0-eefdaac7335d",
+    "data": [
+      {
+        "text": "Address Check",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3ff5ed23-8bfa-4371-9257-8121ae109a36",
+    "data": [
+      {
+        "text": "Check",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0d01825d-e974-4130-b24e-5c5aa0065ad8",
+    "data": [
+      {
+        "text": "do you take checks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "15597f50-7430-479e-a738-f3891e45a7f2",
+    "data": [
+      {
+        "text": "Check or Money Order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "baeeb8e6-f000-4a98-8767-aa0e0dfeaaac",
+    "data": [
+      {
+        "text": "can i pay by check",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

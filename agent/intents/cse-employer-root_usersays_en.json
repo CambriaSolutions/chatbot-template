@@ -1,0 +1,28 @@
+[
+  {
+    "id": "8cb43d29-a2e3-4b68-a0d9-2158e8032ff6",
+    "data": [
+      {
+        "text": "i am an employer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8b32ae5a-6079-4eff-ac13-edfbe8f9e35b",
+    "data": [
+      {
+        "text": "employer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  }
+]

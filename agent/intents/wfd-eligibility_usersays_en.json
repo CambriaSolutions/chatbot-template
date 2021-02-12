@@ -1,0 +1,158 @@
+[
+  {
+    "id": "57dbb578-f967-4cc3-aa3f-8f20c7a4e1cb",
+    "data": [
+      {
+        "text": "Do I qualify?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "39bdb604-8c40-4569-9a3c-863e8d177028",
+    "data": [
+      {
+        "text": "Can I still receive UI and participate?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1d27874a-1a56-4363-b08d-7d071bff9201",
+    "data": [
+      {
+        "text": "If I have a balance, or owe the school, can I still participate in available S2W program(s)?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2534dba9-de4a-43c4-a494-6b46cbbec249",
+    "data": [
+      {
+        "text": "What do I need to qualify?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "233700b3-4bb0-4caa-9fc9-b6170fc4fb57",
+    "data": [
+      {
+        "text": "What will I have to pay for?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "07fe4da9-222f-4c3a-8717-328eee76344e",
+    "data": [
+      {
+        "text": "How old do I have to be to participate in a program?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "53fd74b0-b698-4031-ae33-73071adf13f3",
+    "data": [
+      {
+        "text": "Can I participate if I am taking classes part-time?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4e7c8d1a-3929-427b-b866-723ad90f5e3d",
+    "data": [
+      {
+        "text": "If I have a disability, can I still  participate?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fc4c4ae5-5942-4809-a49a-953b07a48d4c",
+    "data": [
+      {
+        "text": "If I have a part-time job, can I participate?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2fbb7ae3-09e8-430f-a1c1-95f9ceba5b15",
+    "data": [
+      {
+        "text": "Do I have to be receiving SNAP?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bcdee0a5-f83d-42da-afce-400992437359",
+    "data": [
+      {
+        "text": "Can I volunteer to participate in a S2W program?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "224fe62d-fc4f-429d-9dab-caabe3bd256c",
+    "data": [
+      {
+        "text": "Can I participate if I receive TANF benefits?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

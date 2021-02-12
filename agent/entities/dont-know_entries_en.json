@@ -1,0 +1,59 @@
+[
+  {
+    "value": "don\u0027t know",
+    "synonyms": [
+      "don\u0027t know"
+    ]
+  },
+  {
+    "value": "i don\u0027t know",
+    "synonyms": [
+      "I dont know",
+      "dont know",
+      "dunno",
+      "i don\u0027t know",
+      "idk"
+    ]
+  },
+  {
+    "value": "i dont have one",
+    "synonyms": [
+      "i dont have one"
+    ]
+  },
+  {
+    "value": "i dont know it",
+    "synonyms": [
+      "i dont know it"
+    ]
+  },
+  {
+    "value": "i guess i don\u0027t know it",
+    "synonyms": [
+      "i guess i don\u0027t know it"
+    ]
+  },
+  {
+    "value": "i haven\u0027t gotten one",
+    "synonyms": [
+      "i haven\u0027t gotten one"
+    ]
+  },
+  {
+    "value": "not certain",
+    "synonyms": [
+      "I\u0027m not certain",
+      "im not certain",
+      "not certain",
+      "who knows"
+    ]
+  },
+  {
+    "value": "not sure",
+    "synonyms": [
+      "I\u0027m not sure",
+      "im not sure",
+      "no idea"
+    ]
+  }
+]

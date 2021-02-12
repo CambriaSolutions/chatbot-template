@@ -1,0 +1,34 @@
+{
+  "id": "9443ffd8-cc86-4341-ac37-8df48fb5d3b4",
+  "name": "cse-support-submitSupportRequest-safety",
+  "auto": true,
+  "contexts": [
+    "waiting-support-submitSupportRequest-safety"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

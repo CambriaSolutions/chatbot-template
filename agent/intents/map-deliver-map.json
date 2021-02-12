@@ -1,0 +1,93 @@
+{
+  "id": "de8a1f8c-6eb2-4d9f-939b-474a5d691b1c",
+  "name": "map-deliver-map",
+  "auto": true,
+  "contexts": [
+    "waiting-maps-deliver-map"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-maps-deliver-map",
+          "lifespan": 0,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9ca28de2-0c78-4959-888c-32eeda505fb9",
+          "name": "userAddress",
+          "required": false,
+          "dataType": "@sys.address",
+          "value": "$userAddress",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the street name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "71ad17e2-ca5f-4e4c-9b71-11adde9ac3a7",
+          "name": "userCity",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "value": "$userCity",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the city?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3a7f7d89-f110-4c4e-8dd0-869a467bb0df",
+          "name": "userZip",
+          "required": false,
+          "dataType": "@sys.zip-code",
+          "value": "$userZip",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

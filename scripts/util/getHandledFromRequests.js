@@ -64,7 +64,10 @@ const main = async () => {
     }
   }
 
-  await getAllHandledPhrases('mscj')
+  await getAllHandledPhrases('cse')
+  await getAllHandledPhrases('tanf')
+  await getAllHandledPhrases('snap')
+  await getAllHandledPhrases('wfd')
   await getAllHandledPhrases('general')
 
   fs.close(fPhrases, async () => {

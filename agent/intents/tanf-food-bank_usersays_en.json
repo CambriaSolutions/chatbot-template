@@ -1,0 +1,132 @@
+[
+  {
+    "id": "1d9eee86-8e83-423a-8e64-b136fc195d9e",
+    "data": [
+      {
+        "text": "I\u0027ve applied for food stamps and I need more food.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "11877f72-b306-49e7-94bd-e027b5c5fac9",
+    "data": [
+      {
+        "text": "I need food now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4438159f-e20a-48e4-be6b-c6aea5489b1a",
+    "data": [
+      {
+        "text": "I\u0027ve applied for snap but need more food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fce761f6-8985-4f0c-9f22-7fbb59307e38",
+    "data": [
+      {
+        "text": "pantry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d648ea67-4ab2-42f8-a311-9baa9966a1eb",
+    "data": [
+      {
+        "text": "hot meals",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4820446b-c5a1-4c5e-a25f-1cb3d0379b22",
+    "data": [
+      {
+        "text": "free food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9cf35a51-9b06-41de-bc7b-5784ab83ae14",
+    "data": [
+      {
+        "text": "where can my family get food?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "55c1abf6-92d4-4096-b392-14ba86a05947",
+    "data": [
+      {
+        "text": "soup kitchens",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bb5530bd-9dbd-4383-9b89-295a36145b34",
+    "data": [
+      {
+        "text": "food banks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "847c725f-66f3-4a58-a653-aabbafab6640",
+    "data": [
+      {
+        "text": "food pantry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -8,6 +8,8 @@ Metrics captured:
 - Duration of each conversation.
 - Topics discussed more frequently.
 - At what point users leave the conversation.
+- How often are support requests created.
+- Percentage of conversations that contain support requests.
 - Number of errors occurring.
 
 ## Available Scripts

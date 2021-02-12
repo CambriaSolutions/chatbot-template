@@ -1,0 +1,73 @@
+{
+  "id": "fe5e1c1a-ed63-4cc6-9503-c71ff29fadaa",
+  "name": "snap-disaster-not-recipient",
+  "auto": true,
+  "contexts": [
+    "snap-subject-matter",
+    "snap-disaster-waiting-recipient"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "snap-subject-matter",
+          "lifespan": 99
+        },
+        {
+          "name": "snap-disaster-waiting-recipient",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "efb94de9-3dc5-46cd-b908-5cc41c7df5b4",
+          "name": "yes-no",
+          "required": false,
+          "dataType": "@yes-no",
+          "value": "$yes-no",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cul\u003e\n\u003cli\u003eSNAP recipients are not eligible for DSNAP. SNAP households may be eligible for replacement of SNAP benefits.\u003c/li\u003e\n\u003cli\u003eDSNAP applications may only be accepted in the event of a federally declared disaster including a Presidential Disaster Declaration involving widespread devastation to large numbers of individuals and businesses in Mississippi.\u003c/li\u003e\n\u003cli\u003eLosses incurred in a declared disaster will be handled in accordance with special instructions issued at that time.\u003c/li\u003e\n\u003c/ul\u003e"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,113 @@
+{
+  "id": "2f65575a-b72a-4f15-93ef-c252d3110adf",
+  "name": "cse-onlineAction-root",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-feedback-root",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f6e1d428-ae6f-4798-be15-34e9124a688a",
+          "name": "date-period",
+          "required": false,
+          "dataType": "@sys.date-period",
+          "value": "$date-period",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "076eccab-a116-4dba-915e-0ec0ec673b13",
+          "name": "given-name",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "value": "$given-name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c3add1c7-afca-4aaf-8a7f-31bdce477a32",
+          "name": "last-name",
+          "required": false,
+          "dataType": "@sys.last-name",
+          "value": "$last-name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Currently, there is not an online portal to view child support information. However, there is a wide variety of information available on the child support website located \u003ca href\u003d\"https://www.mdhs.ms.gov/child-support\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e, such as a downloadable application available \u003ca href\u003d\" https://www.mdhs.ms.gov/wp-content/uploads/2020/04/675-Application-Fillable.pdf\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e, and access to information about how to make payments. You can find answers to frequently asked questions in the Parents Handbook located \u003ca href\u003d\" https://www.mdhs.ms.gov/wp-content/uploads/2019/08/MDHS_CSE_Parents-Handbook_V2.pdf\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e, or the Employer Guide located \u003ca href\u003d\"https://www.mdhs.ms.gov/wp-content/uploads/2020/06/MDHS_CSE_Reference-guide-for-employers.pdf\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you need assistance on your case, please click on “common requests” below and follow the prompts to submit a ticket on your case, or you may call \u003ca href\u003d\"tel:+18778824916\"\u003e 1-877-882-4916\u003c/a\u003e to speak with a customer service representative."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "COMMON REQUESTS",
+              "SUBMIT FEEDBACK"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

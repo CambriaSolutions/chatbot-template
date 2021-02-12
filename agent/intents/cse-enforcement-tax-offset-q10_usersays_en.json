@@ -1,0 +1,80 @@
+[
+  {
+    "id": "fbd03a55-4c1c-403f-97f5-5900fc2d6f77",
+    "data": [
+      {
+        "text": "Can I have the refund earlier than the release date?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b765a707-b346-43b9-913c-dc222bed4a8f",
+    "data": [
+      {
+        "text": "Can I have the taxes early?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "04fee732-7cf9-4ecc-9db4-a9b87574c81c",
+    "data": [
+      {
+        "text": "Can I have the refund applied early?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a26534cd-b76d-4635-9805-30adf5e894c6",
+    "data": [
+      {
+        "text": "Can I sign to release taxes early?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "96d2d5e4-076e-400c-92e4-c1645c7a5f3c",
+    "data": [
+      {
+        "text": "Can we release the taxes early?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ac2de029-0fff-4b2c-89b5-8504555206ff",
+    "data": [
+      {
+        "text": "If I am the spouse on a jointly filed IRS tax return, may I waive my claim to a portion of the jointly filed federal income tax return to allow for the payment to be released early?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

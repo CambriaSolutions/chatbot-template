@@ -1,0 +1,28 @@
+[
+  {
+    "id": "8c18edc8-53b5-4156-9763-8d41313af7eb",
+    "data": [
+      {
+        "text": "Bank Accounts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d1cec208-4ae6-4ad9-a8dc-b9f0ee1ce9c7",
+    "data": [
+      {
+        "text": "Liens",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "id": "9ece8b4a-d754-45ed-ba24-616451ba1df6",
+  "name": "cse-employer-billsAndNotices",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you are an employer who is receiving a monthly Child Support Income Withholding Bill for an employee, you may now view and print these documents online. These documents are available in Portable Document Format (PDF) only. If you have questions, please contact the Child Support Call Center \u003ca href\u003d\"tel:+18778824916\"\u003e1-877-882-4916\u003c/a\u003e"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please \u003ca href\u003d\"https://ccis.mdhs.ms.gov/\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e to access the Child Support Billing Notice System"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "02258b78-7e35-4c0d-a5f9-4d7da97434d5",
+  "name": "guardianship",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

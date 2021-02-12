@@ -1,0 +1,41 @@
+[
+  {
+    "id": "6ef5d736-bc2e-46e8-8478-810e64a8dc4c",
+    "data": [
+      {
+        "text": "make purchases with my card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "86b866c9-f1c5-4e8d-9131-7224dfb9b9fe",
+    "data": [
+      {
+        "text": "how do i use the card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ad74ec29-4fda-4504-a3fc-33b368a1c4c6",
+    "data": [
+      {
+        "text": "how do i make purchase",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,389 @@
+[
+  {
+    "id": "9a399135-bc0e-41b2-9bd0-d6f3b95ac04b",
+    "data": [
+      {
+        "text": "What to do to get transportation benefits?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "25b5e8d2-9d78-4048-ae6c-0669a9ca6521",
+    "data": [
+      {
+        "text": "Can I get transportation stipends?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2c64595c-4764-4927-9ccb-13064c90ae6d",
+    "data": [
+      {
+        "text": "Transportation.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ac4f183a-f35a-4173-8c25-9ffc6cad3de5",
+    "data": [
+      {
+        "text": "I need a form for child care services.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d106c53d-0be5-4449-b014-5f1071f94e95",
+    "data": [
+      {
+        "text": "Form ",
+        "userDefined": false
+      },
+      {
+        "text": "379",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "452466be-8b95-4aeb-9ca4-77aee88e30ba",
+    "data": [
+      {
+        "text": "I\u0027m trying to apply for the emergency child care payments for essential workers.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "874739d1-92f0-4d80-9968-bd07b566a1b2",
+    "data": [
+      {
+        "text": "Can I apply for a child care program?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "77eef347-0a2e-4a9c-9e58-65fe9e65cc2e",
+    "data": [
+      {
+        "text": "Do I qualify for child care programs?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "602c82b0-25eb-4649-aeb3-ef1c58e89b45",
+    "data": [
+      {
+        "text": "Child care assistance.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "795a6fbe-d229-4f40-abcf-bc6f14e785c5",
+    "data": [
+      {
+        "text": "Child care services application.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "10058987-26a9-454e-8c9f-dc7feb129eb9",
+    "data": [
+      {
+        "text": "Can I still get TANF if I make more money?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c766d103-84b3-4fb1-b65d-2734f7d907ab",
+    "data": [
+      {
+        "text": "I already applied for snap have not heard back from anyone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "96e77011-7318-4b9b-a885-6a588387ec8a",
+    "data": [
+      {
+        "text": "I\u0027m looking for my stamps for my kids for school that received free lunch for the school year I haven\u0027t received those yet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0a3c0e06-58bf-4c83-a88b-bd2f7051dd75",
+    "data": [
+      {
+        "text": "Child support enforcement",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d71980e2-dc36-4230-b4a2-f5bd35b6bced",
+    "data": [
+      {
+        "text": "CHILD CARE APPLICATION",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "294578d3-ca5a-4584-9e7f-9033f1ec1f6a",
+    "data": [
+      {
+        "text": "I need to know about my child support case?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "12ae12e9-c4e3-4b8c-8264-74c9be482706",
+    "data": [
+      {
+        "text": "Child support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c094a2ff-7326-4d06-8fde-90eeb973d237",
+    "data": [
+      {
+        "text": "I\u0027m trying to apply for food stamps",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c09b6b18-b075-4b93-86aa-e0c096aeee77",
+    "data": [
+      {
+        "text": "Food stamps",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f6323aff-3def-4baa-bed4-772cfddb3366",
+    "data": [
+      {
+        "text": "Renew food stamp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f32ef2e5-fd5d-4f16-bd20-86bf0191da25",
+    "data": [
+      {
+        "text": "I receive food stamps",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "121b67c1-62d2-47dc-9d29-29344c2b5691",
+    "data": [
+      {
+        "text": "snap please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f43b87a9-53b8-425d-8b94-0a77fb03de6f",
+    "data": [
+      {
+        "text": "snap",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eec9422c-5e6f-42f0-a155-2d96af8c10d1",
+    "data": [
+      {
+        "text": "I\u0027m here for snap",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1b9ff5d5-1179-4de4-98a9-b880e97cb070",
+    "data": [
+      {
+        "text": "what\u0027s snap?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c930b6f1-0088-49f0-993f-c1afd3e46a69",
+    "data": [
+      {
+        "text": "tanf please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c53caa7d-9abf-4459-a733-2b863c2589d2",
+    "data": [
+      {
+        "text": "Tanf",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f5a9ffc0-76a5-4413-91b9-2612c4485a15",
+    "data": [
+      {
+        "text": "I\u0027m here for tanf",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5dcb2228-0c52-4a85-8b9b-5fcdc6d298f4",
+    "data": [
+      {
+        "text": "what\u0027s tanf?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

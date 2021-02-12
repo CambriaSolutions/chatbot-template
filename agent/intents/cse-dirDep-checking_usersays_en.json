@@ -1,0 +1,28 @@
+[
+  {
+    "id": "fb15c4c6-4298-4980-b046-a202d5778bf9",
+    "data": [
+      {
+        "text": "debit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cca00bd4-0fe2-4a7e-ad52-880b9adc1966",
+    "data": [
+      {
+        "text": "checking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "id": "cb106071-7559-4608-9a1a-416d333db343",
+  "name": "wfd-afterSchool",
+  "auto": true,
+  "contexts": [
+    "wfd-subject-matter",
+    "waiting-wfd-afterSchool"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "wfd-subject-matter",
+          "lifespan": 99
+        },
+        {
+          "name": "waiting-wfd-afterSchool",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Afterschool Partners offer age-appropriate services during times when school is not in session such as afterschool \u0026 summer breaks. Programs offered can include, but are not limited to: literacy, remedial education, science, technology, engineering, arts, math, career exploration, emotional \u0026 mental health curriculum, leadership \u0026 personal development, \u0026 work-based learning activities. Teen pregnancy prevention, as well as drug and violence prevention, programs will also be available."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please \u003ca href\u003d\"https://www.mdhs.ms.gov/wp-content/uploads/2020/10/TANF-Afterschool-Subgrantee-Contact-Info.pdf\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e to see the providers information."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "handleEndConversation": true,
+            "suggestions": []
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

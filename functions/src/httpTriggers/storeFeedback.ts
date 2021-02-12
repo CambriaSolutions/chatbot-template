@@ -68,12 +68,12 @@ export const storeFeedback = async (req, res) => {
 
     // If one of the context's name contains 'subject-matter' then this is the context 
     // used to identify the subject matter. But name field has full format
-    // e.g. "projects/mscj-csa-dev/agent/sessions/3c007146-2b0c-99e8-2806-563698d992d4/contexts/mscj-subject-matter"
+    // e.g. "projects/mdhs-csa-dev/agent/sessions/3c007146-2b0c-99e8-2806-563698d992d4/contexts/cse-subject-matter"
     const outputContextObject = reqData.outputContexts.find(x => x.name.indexOf('subject-matter') >= 0)
 
     const subjectMatterContext = outputContextObject.name.split('/').pop()
 
-    // Take the first portion of the context name as the subject matter. e.g. for 'mscj-intent-name', we use 'mscj' 
+    // Take the first portion of the context name as the subject matter. e.g. for 'cse-account-balance', we use 'cse' 
     const subjectMatter = subjectMatterContext.split('-')[0]
 
     // const context = `projects/${projectName}`
@@ -148,7 +148,7 @@ export const storeFeedback = async (req, res) => {
           name: feedback,
           occurrences: 1,
         }))
-        // Create new metric entry with feedback and empty intent
+        // Create new metric entry with feedback and empty intent & supportRequest
         await metricRef.update({
           feedback: {
             helpful: wasHelpful ? feedbackList : [],

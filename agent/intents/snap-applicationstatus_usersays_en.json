@@ -1,0 +1,252 @@
+[
+  {
+    "id": "eacaac4b-ff5f-4b69-9648-5e24a6cc4ac3",
+    "data": [
+      {
+        "text": "What information will be verified?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "25acbe0c-3d80-4175-a797-d4ea6cb85299",
+    "data": [
+      {
+        "text": "What happens after I submit a SNAP Application?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e38a0b6c-077d-475b-89fb-ce48364f2b23",
+    "data": [
+      {
+        "text": "I\u0027m looking for my stamps for my kids for school that received free lunch for the school year, I haven\u0027t received those ",
+        "userDefined": false
+      },
+      {
+        "text": "yet",
+        "meta": "@cadence",
+        "alias": "cadence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8ff5ff69-3582-440f-bf61-518568e008e8",
+    "data": [
+      {
+        "text": "I already applied for snap have ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " heard back from anyone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "124f099a-dcde-4490-b8ea-2e8eb18691c9",
+    "data": [
+      {
+        "text": "I was checking on my application",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6dce3ac3-67d4-4329-844f-6b3eaaefbc9d",
+    "data": [
+      {
+        "text": "If I\u0027ve already applied can I make an account to login to see my status?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "38224531-e64f-4e9b-b8c7-ca0043a416b8",
+    "data": [
+      {
+        "text": "How to check to see if I\u0027m approved",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "418f686c-e0e0-4940-a59e-508bc5def284",
+    "data": [
+      {
+        "text": "To check Snap status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "87d8d822-e8e2-474c-ac2b-a3f72ff02596",
+    "data": [
+      {
+        "text": "Checking my application",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "68cf771c-1b02-4620-a3ed-97aca63d96c0",
+    "data": [
+      {
+        "text": "How do I check my status?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "213a66b8-bd39-4b66-af18-ccffd4d61b50",
+    "data": [
+      {
+        "text": "Checking status of application",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "17e3fc61-7e97-44ed-8c74-3f6d802b6db8",
+    "data": [
+      {
+        "text": "Status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "51cd8a0a-4011-429a-8ee3-89759243e56e",
+    "data": [
+      {
+        "text": "I applied. Want to check on status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "80836ab8-c511-4989-8369-3e7353107194",
+    "data": [
+      {
+        "text": "Status on my snap application",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6a39535c-3d98-485a-a6e4-7395ed45b6d7",
+    "data": [
+      {
+        "text": "Snap benefits update",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1b8e0227-9d4f-4a28-a91d-720476230099",
+    "data": [
+      {
+        "text": "Status of applications",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e0625164-052d-4325-80ff-795be6999460",
+    "data": [
+      {
+        "text": "Check my status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a8bc4ea6-139d-469c-8dbb-c29f6c1c7532",
+    "data": [
+      {
+        "text": "Checking my application status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

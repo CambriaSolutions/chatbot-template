@@ -13,15 +13,23 @@ import { dialogflowFirebaseFulfillment } from './httpTriggers/dialogflowFirebase
 import { eventRequest } from './httpTriggers/eventRequest'
 import { reportError } from './httpTriggers/reportError'
 import { textRequest } from './httpTriggers/textRequest'
+import { downloadExport } from './httpTriggers/downloadExport'
 import { storeFeedback } from './httpTriggers/storeFeedback'
 
 // Database Triggers
+import { trainAgent } from './databaseTriggers/trainAgent'
 import { storeAnalytics } from './databaseTriggers/storeAnalytics'
 
 // Scheduled Triggers
+import { importDataset } from './scheduledTriggers/importDataset'
+import { trainModels } from './scheduledTriggers/trainModels'
 import { healthCheck } from './scheduledTriggers/healthCheck'
 import { coldStartFulfillment } from './scheduledTriggers/coldStartFulfillment'
 import { exportBackup } from './scheduledTriggers/exportBackup'
+
+
+import { checkTrainingOperationStatus } from './scheduledTriggers/checkTrainingOperationStatus'
+import { checkDeploymentOperationStatus } from './scheduledTriggers/checkDeploymentOperationStatus'
 
 
 const runtimeOpts: functions.RuntimeOptions = {
@@ -35,16 +43,22 @@ const httpTriggers = {
   eventRequest: { handler: eventRequest, corsEnabled: true },
   reportError: { handler: reportError, corsEnabled: true },
   textRequest: { handler: textRequest, corsEnabled: true },
+  downloadExport: { handler: downloadExport, corsEnabled: true },
   storeFeedback: { handler: storeFeedback, corsEnabled: true },
 }
 
 // Database Triggers
 const databaseTriggers = {
+  trainAgent: { event: 'onUpdate', path: '/subjectMatters/{subjectMatter}/queriesForTraining/{id}', handler: trainAgent },
   storeAnalytics: { event: 'onCreate', path: '/subjectMatters/{subjectMatter}/requests/{id}', handler: storeAnalytics },
 }
 
 // Scheduled Triggers
 const scheduledTriggers = {
+  importDataset: { schedule: '0 20 * * *', timezone: 'America/Los_Angeles', handler: importDataset },
+  trainModels: { schedule: '0 21 * * 1', timezone: 'America/Los_Angeles', handler: trainModels }, // Every Monday at 1 AM CST
+  checkTrainingOperationStatus: { schedule: '0 */6 * * *', timezone: 'America/Los_Angeles', handler: checkTrainingOperationStatus }, // At minute 0 past every 6th hour.
+  checkDeploymentOperationStatus: { schedule: '30 */6 * * *', timezone: 'America/Los_Angeles', handler: checkDeploymentOperationStatus }, // At minute 30 past every 6th hour. (In case training completed, give deployment at least 30 mins)
   healthCheck: { schedule: '0 1 * * *', timezone: 'America/Los_Angeles', handler: healthCheck }, // every day 1 AM PST
   coldStartFulfillment: { schedule: '*/5 * * * *', timezone: 'America/Los_Angeles', handler: coldStartFulfillment }, // every 5 minutes
   exportBackup: { schedule: '0 1 * * *', timezone: 'America/Los_Angeles', handler: exportBackup }, // every day 1 AM PST
@@ -115,4 +129,4 @@ Object.entries(scheduledTriggers).forEach(([triggerName, scheduledTrigger]) => {
     .schedule(scheduledTrigger.schedule)
     .timeZone(scheduledTrigger.timezone)
     .onRun(async (context) => scheduledTriggerWrapper(scheduledTrigger.handler, context))
-}) 
+})

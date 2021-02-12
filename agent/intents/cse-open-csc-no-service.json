@@ -1,0 +1,105 @@
+{
+  "id": "b9ae31d0-268e-4d7b-b69d-9bd2bffa8fc7",
+  "name": "cse-open-csc-no-service",
+  "auto": true,
+  "contexts": [
+    "waiting-open-csc-no-service",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-open-csc-full-services",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-open-csc-location-services",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-open-csc-employer-payments",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-open-csc-no-service",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-open-csc-select-form",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sure, I can help you with finding the type of service you desire. I can also help you with information, instructions and a link to the application to open a child support case."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The custodial parent, non-custodial parent or guardian may complete an application."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Which of the following services do you want assistance with?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Full Services",
+              "Location Services",
+              "Safety",
+              "Income Disbursement Service Only"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

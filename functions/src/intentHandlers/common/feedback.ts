@@ -8,9 +8,9 @@ export const feedbackRoot = async (agent: Agent) => {
   try {
     const { Suggestion } = await import('dialogflow-fulfillment')
 
-    agent.add('Was <<Bot>> helpful?')
-    agent.add(new Suggestion('Yes'))
-    agent.add(new Suggestion('No'))
+    await agent.add('Was Gen helpful?')
+    await agent.add(new Suggestion('Yes'))
+    await agent.add(new Suggestion('No'))
     await disableInput(agent)
     await agent.context.set({
       name: 'waiting-feedback-not-helpful',
@@ -39,17 +39,17 @@ export const feedbackNotHelpful = async (agent: Agent) => {
         },
         {
           value:
-            'I would prefer calling in or visiting the office to using <<Bot>>',
+            'I would prefer calling in or visiting the office to using Gen',
         },
         {
-          value: 'Was not easy conversing with <<Bot>>',
+          value: 'Was not easy conversing with Gen',
         },
         {
           value: 'Was not easy to navigate',
         },
       ],
     })
-    agent.add(
+    await agent.add(
       new Payload(
         agent.UNSPECIFIED,
         { feedback },
@@ -81,18 +81,17 @@ export const feedbackHelpful = async (agent: Agent) => {
           value: 'Was easy to ask for assistance',
         },
         {
-          value: 'I prefer using <<Bot>> to calling or visiting an office',
+          value: 'I prefer using Gen to calling or visiting an office',
         },
         {
           value: 'Was easy to navigate',
         },
         {
-          value: 'Easy to converse with <<Bot>>',
+          value: 'Easy to converse with Gen',
         },
       ],
     })
-    
-    agent.add(
+    await agent.add(
       new Payload(
         agent.UNSPECIFIED,
         { feedback },
@@ -102,7 +101,6 @@ export const feedbackHelpful = async (agent: Agent) => {
         }
       )
     )
-    
     await agent.context.set({
       name: 'waiting-feedback-complete',
       lifespan: 2,
@@ -114,7 +112,7 @@ export const feedbackHelpful = async (agent: Agent) => {
 
 export const feedbackComplete = async (agent: Agent) => {
   try {
-    agent.add('To start over just say hello!')
+    await agent.add('To start over just say hello!')
   } catch (err) {
     console.error(err.message, err)
   }

@@ -1,0 +1,197 @@
+[
+  {
+    "id": "ea6c22ac-e496-4c0a-9470-72047f8bce2e",
+    "data": [
+      {
+        "text": "Training program.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eee97151-1aff-4440-8484-a7bd1e5d1061",
+    "data": [
+      {
+        "text": "Skills2Work program.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4673dd48-8172-4b00-90df-f21a87440a3a",
+    "data": [
+      {
+        "text": "Can you help me get a job?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3e4d878b-9404-41d2-be23-341518733326",
+    "data": [
+      {
+        "text": "How can I get a job?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9a47e7ab-00aa-4bd3-aff3-f23cd758efdf",
+    "data": [
+      {
+        "text": "What is Skills2Work?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d887d794-cc0e-4a68-bb0b-3393e408e167",
+    "data": [
+      {
+        "text": "Skills2Work",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "33392ad8-f7ef-43b4-aa54-f00dbc0c5c97",
+    "data": [
+      {
+        "text": "If i start a program and don\u0027t like it, can I start another program?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "83768742-f5a1-4ef5-aead-5f1b963ae07b",
+    "data": [
+      {
+        "text": "After training will this program help me get a good paying job?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "43778394-a54e-4a23-a069-871e2c8e81dc",
+    "data": [
+      {
+        "text": "Are any programs offered at night?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6ad515b7-f978-4b45-a8ad-a952e7853279",
+    "data": [
+      {
+        "text": "What are the supportive services?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "08be97c4-bf22-43f8-abc1-e964c76960ab",
+    "data": [
+      {
+        "text": "What is a middle skill job?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a3191e73-2e45-4198-9832-e5175dbbe17b",
+    "data": [
+      {
+        "text": "What types of training programs are available?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d4c7977d-bee7-4037-a65a-5c347af0cf77",
+    "data": [
+      {
+        "text": "What\u0027s available in my area?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "968ff2a1-2f2c-4fd3-a209-00d3f9de7622",
+    "data": [
+      {
+        "text": "What are some benefits of the program?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "78b42a82-ee19-4225-a482-f23e0008d3f6",
+    "data": [
+      {
+        "text": "Who is hiring?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

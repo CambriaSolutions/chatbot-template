@@ -1,0 +1,93 @@
+[
+  {
+    "id": "aab5474c-1200-44b1-b567-acac10111491",
+    "data": [
+      {
+        "text": "genetic testing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "23baaa35-7888-4852-ad7f-5d2542b4fc54",
+    "data": [
+      {
+        "text": "dna test",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "334e329c-ea07-48c9-8eb4-060f74344e7f",
+    "data": [
+      {
+        "text": "how can i tell if the child is mine",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c3d0f94b-ae5d-492f-b11b-6318dff94edf",
+    "data": [
+      {
+        "text": "what if the child isnt mine",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "69adf105-a591-443e-9fa7-98d335105d25",
+    "data": [
+      {
+        "text": "how can i request a DNA test",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "62796be1-0ea8-4f03-8669-d6ee355e3d9c",
+    "data": [
+      {
+        "text": "How can i request genetic testing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "29ded524-68e2-4510-9830-1e8f8138bd24",
+    "data": [
+      {
+        "text": "How can the father request a Genetic Test?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

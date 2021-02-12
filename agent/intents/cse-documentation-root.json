@@ -1,0 +1,78 @@
+{
+  "id": "c786114b-e875-4c3b-a5d9-ff3b98e054b7",
+  "name": "cse-documentation-root",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-feedback-root",
+          "lifespan": 2
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99
+        },
+        {
+          "name": "waiting-support-submitSupportRequest-inquiry",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8853eed0-31ff-467e-bce7-cdbd1d41d504",
+          "name": "cadence",
+          "required": false,
+          "dataType": "@cadence",
+          "value": "$cadence",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Some forms are available on the MDHS website located \u003ca href\u003d\"https://www.mdhs.ms.gov/child-support/\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e. If you do not see the form you are looking for on the MDHS website, or if you would like to request copies of forms, or documents such as your court orders, please select the option to submit a request below and someone will contact you to provide further assistance."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "SUBMIT SUPPORT REQUEST",
+              "SUBMIT FEEDBACK"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

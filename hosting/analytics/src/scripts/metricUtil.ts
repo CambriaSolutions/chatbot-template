@@ -10,25 +10,8 @@ const toDate = (dateString) => {
   return new Date(year, month, day)
 }
 
-// Not every day has a value for each type of support request. This function will make sure
-// every day has a property for each support ticket type, and defaults to zero when necessary.
-const sort = (data) => {
-  // Sort by date
-  const dataSorted = orderBy(data, x => toDate(x.id).getTime())
-
-  // Spread the default support values, and override the defaults with any preexisting. 
-  // All months need to have all support request types, even if 0, in order to work in graph. 
-  const paddedData = map(dataSorted, x => ({
-    ...x
-  }))
-
-  return {
-    data: paddedData
-  }
-}
-
-
 // If a day has no data (maybe it was the weekend), then we fill in that data with zeroes.
+// NOTE - This will not fill in the specific support requests types with zeroes.
 const fillMissingData = (metrics, filterStartDate, filterEndDate) => {
   const metricsByDate = keyBy(metrics, x => x.id)
   const startDate = new Date(filterStartDate)
@@ -43,6 +26,7 @@ const fillMissingData = (metrics, filterStartDate, filterEndDate) => {
         id: formattedDate,
         numConversations: metricsByDate[formattedDate].numConversations ? metricsByDate[formattedDate].numConversations : 0,
         numConversationsWithDuration: metricsByDate[formattedDate].numConversationsWithDuration ? metricsByDate[formattedDate].numConversationsWithDuration : 0,
+        supportRequests: metricsByDate[formattedDate].supportRequests ? metricsByDate[formattedDate].supportRequests : 0,
         cpCount: metricsByDate[formattedDate].cpCount ? metricsByDate[formattedDate].cpCount : 0,
         ncpCount: metricsByDate[formattedDate].ncpCount ? metricsByDate[formattedDate].ncpCount : 0,
         employerCount: metricsByDate[formattedDate].cpCount ? metricsByDate[formattedDate].employerCount : 0,
@@ -55,6 +39,7 @@ const fillMissingData = (metrics, filterStartDate, filterEndDate) => {
         cpCount: 0,
         ncpCount: 0,
         employerCount: 0,
+        supportRequests: []
       })
     }
   }
@@ -62,20 +47,56 @@ const fillMissingData = (metrics, filterStartDate, filterEndDate) => {
   return cleanedData
 }
 
+// Not every day has a value for each type of support request. This function will make sure
+// every day has a property for each support ticket type, and defaults to zero when necessary.
+const sortAndFillSupportRequestBlanks = (data, typesOfSupportRequests) => {
+  // Sort by date
+  const dataSorted = orderBy(data, x => toDate(x.id).getTime())
+
+  // Create an object that contains all the types of support requests (as keys), and their values are 0
+  // We do it this way to keep this logic generic and future proof in case new types of support requests are added
+  const defaultSupportValues = mapValues(keyBy([...typesOfSupportRequests], x => x), () => 0)
+
+  // Spread the default support values, and override the defaults with any preexisting. 
+  // All months need to have all support request types, even if 0, in order to work in graph. 
+  const paddedData = map(dataSorted, x => ({
+    ...defaultSupportValues,
+    ...x
+  }))
+
+  return {
+    typesOfSupportRequests: [...typesOfSupportRequests], // Converting from set to array
+    data: paddedData
+  }
+}
+
 const prepareDataForComposedChartByDay = (rawData, filterStartDate, filterEndDate) => {
   const data = fillMissingData(rawData, filterStartDate, filterEndDate)
+  const typesOfSupportRequests = new Set()
   const mappedData = map(data, day => ({
     id: day.id,
     label: day.id,
     numConversations: day.numConversations,
     numConversationsWithDuration: day.numConversationsWithDuration,
+    // Add each type of support ticket as a piece of data at root level for use by line chart. 
+    ...(reduce(day.supportRequests, function (result, supportRequest) {
+      // Add to collection of types of support requests
+      typesOfSupportRequests.add(supportRequest.name)
+
+      // Add to reducer object
+      result[supportRequest.name] = supportRequest.occurrences ? supportRequest.occurrences : 0
+      return result
+    }, {}))
   }))
 
-  return sort(mappedData)
+  return sortAndFillSupportRequestBlanks(mappedData, typesOfSupportRequests)
 }
 
 const prepareDataForComposedChartByAggregationType = (aggregationType, rawData, filterStartDate, filterEndDate) => {
   const data = fillMissingData(rawData, filterStartDate, filterEndDate)
+
+  // We need to know how many different types of support requests were submitted so the line graph can be dynamic and future proof.
+  const typesOfSupportRequests = new Set()
 
   const aggregatedData = reduce(data, function (result, day) {
     let key = ''
@@ -110,11 +131,20 @@ const prepareDataForComposedChartByAggregationType = (aggregationType, rawData, 
     result[key].numConversations = monthNumConversations + dayNumConversations
     result[key].numConversationsWithDuration = monthNumConversationsWithDuration + dayNumConversationsWithDuration
 
+    // Add the support request metrics of that day to the overall month/week
+    if (day.supportRequests) {
+      day.supportRequests.forEach(x => {
+        // Add to collection of types of support requests
+        typesOfSupportRequests.add(x.name)
+
+        result[key][x.name] = (result[key][x.name] ? result[key][x.name] : 0) + x.occurrences
+      })
+    }
 
     return result
   }, {})
 
-  return sort(aggregatedData)
+  return sortAndFillSupportRequestBlanks(aggregatedData, typesOfSupportRequests)
 }
 
 export const prepareDataForComposedChart = (data, filterLabel, filterStartDate, filterEndDate) => {

@@ -335,6 +335,14 @@ export const updateSubjectMatterTimezone = newTimezone => {
   }
 }
 
+const getQueriesForLabeling = (startDate, endDate) => db
+  .collection(
+    '/subjectMatters/cse/queriesForLabeling/'
+  )
+  .where('createdAt', '>=', startDate)
+  .where('createdAt', '<=', endDate)
+  .get()
+
 const getUnhandledPhrasesFromRequests = (subjectMatter, startDate, endDate) => db
   .collection(
     `/subjectMatters/${subjectMatter}/requests/`
@@ -354,6 +362,36 @@ const addPhrasesToContent = (unhandledPhrases, content, subjectMatter = null) =>
     if (subjectMatter) {
       newRow = [...newRow, subjectMatter.toUpperCase()]
     }
+    _content = [..._content, newRow]
+  })
+
+  return _content
+}
+
+const addSuggestionsToContent = (queriesForLabeling, includeSuggestions, includeDateColumn, includeCSEColumn) => {
+  let _content = []
+
+  queriesForLabeling.forEach(doc => {
+    const data = doc.data()
+    const createdAtFormatted = format(data.createdAt.toDate(), 'MM-dd-yyyy')
+    const userQuery = data.userQuery
+    let newRow = [userQuery]
+
+    if (includeSuggestions) {
+      const sug1 = data.suggestions[0] ? data.suggestions[0].suggestionText : 'N/A'
+      const sug2 = data.suggestions[1] ? data.suggestions[1].suggestionText : 'N/A'
+      const sug3 = data.suggestions[2] ? data.suggestions[2].suggestionText : 'N/A'
+      newRow = [...newRow, sug1, sug2, sug3]
+    }
+
+    if (includeDateColumn) {
+      newRow = [...newRow, createdAtFormatted]
+    }
+
+    if (includeCSEColumn) {
+      newRow = [...newRow, 'CSE']
+    }
+
     _content = [..._content, newRow]
   })
 
@@ -405,12 +443,18 @@ export const downloadExport = () => {
 
     let phrasesContent = []
     let feedbackContent = []
+    let cseSuggestionsContent = null
 
     if (subjectMatter.toLowerCase() === 'total') {
-      const subjectMatters = ['mscj']
+      const subjectMatters = ['tanf', 'snap', 'wfd']
 
       const unhandledPhrasesPromises = map(subjectMatters, sm => getUnhandledPhrasesFromRequests(sm, startDate, endDate))
       const feedbackCommentsPromises = map(subjectMatters, sm => getFeedbackComments(sm, startDate, endDate))
+
+      const cseQueriesForLabeling = await getQueriesForLabeling(startDate, endDate)
+
+      phrasesContent = addSuggestionsToContent(cseQueriesForLabeling, false, true, true)
+      cseSuggestionsContent = addSuggestionsToContent(cseQueriesForLabeling, true, false, false)
 
       const unhandledPhrasesResults = await Promise.all(unhandledPhrasesPromises)
       const feedbackCommentsResults = await Promise.all(feedbackCommentsPromises)
@@ -426,14 +470,21 @@ export const downloadExport = () => {
     } else {
       let unhandledPhrases: any = []
 
-      unhandledPhrases = await getUnhandledPhrasesFromRequests(subjectMatter, startDate, endDate)
-      phrasesContent = addPhrasesToContent(unhandledPhrases, phrasesContent)
+      // If subject matter is cse, then we need to fetch the data from a different location
+      // in order to see the suggestions made by automl
+      if (subjectMatter === 'cse') {
+        const queriesForLabeling = await getQueriesForLabeling(startDate, endDate)
+        phrasesContent = addSuggestionsToContent(queriesForLabeling, true, true, false)
+      } else {
+        unhandledPhrases = await getUnhandledPhrasesFromRequests(subjectMatter, startDate, endDate)
+        phrasesContent = addPhrasesToContent(unhandledPhrases, phrasesContent)
+      }
 
       const feedbackComments = await getFeedbackComments(subjectMatter, startDate, endDate)
       feedbackContent = addFeedbackToContent(feedbackComments, feedbackContent)
     }
 
-    await generateExcelFile(phrasesContent, feedbackContent, subjectMatter.toLowerCase() === 'total', subjectMatter)
+    await generateExcelFile(phrasesContent, feedbackContent, cseSuggestionsContent, subjectMatter.toLowerCase() === 'total', subjectMatter)
   }
 }
 

@@ -1,0 +1,62 @@
+{
+  "id": "e752c0cd-cded-4279-bf95-dadd8cf42cba",
+  "name": "snap-onlinePurchasing",
+  "auto": true,
+  "contexts": [
+    "snap-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "snap-subject-matter",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "SNAP Online Purchasing allows households to purchase food using SNAP benefits online. The online shopping and payment option is required to be secure, private, easy to use, and provide similar support to that found for SNAP transactions in a retail store. Not all FNS approved retailers are authorized to accept EBT online. The only retailers currently authorized are Amazon, ALDI and Walmart. The best way to determine if grocery delivery is available for your location is to visit the retailer websites."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The use of your EBT card online will still require your unique personal-identification-number (PIN). All participating pilot retailers are working with this same company to offer secure PIN entry. Delivery, service, or convenience fees may vary by retailer. SNAP benefits cannot be used to pay for fees of any type, such as delivery, service, or convenience fees."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -108,7 +108,7 @@ const backFunction = (agent: any): IntentHandler => {
       // using the "content" and "suggestions" data stored in the last intent
       // in "userConversationPath"
       const previousIntent = lastIntentHandler ? lastIntentHandler : async (_agent) => {
-        genericHandler(_agent, lastIntent.content, lastIntent.suggestions)
+        await genericHandler(_agent, lastIntent.content, lastIntent.suggestions)
 
         if (lastIntent.handleEndConversation) {
           const { handleEndConversation } = await import('../intentHandlers/globalFunctions')

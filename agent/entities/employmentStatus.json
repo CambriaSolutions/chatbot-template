@@ -1,0 +1,9 @@
+{
+  "id": "cfc0a05e-f377-4c2d-a6b5-b20604aff6da",
+  "name": "employmentStatus",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

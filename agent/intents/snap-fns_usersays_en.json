@@ -1,0 +1,67 @@
+[
+  {
+    "id": "5a1a9481-c1ec-426e-978a-c7e2b5e6bd4e",
+    "data": [
+      {
+        "text": "What to do as a retailer to add online shopping?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bee89d85-0e8f-4aa1-a000-faef64413666",
+    "data": [
+      {
+        "text": "Can I have online shopping?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c4e440fe-3820-4fd3-a848-2c1e339bc360",
+    "data": [
+      {
+        "text": "What are the requirements for me as a retailer?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d2350601-e06e-499b-84ee-39976bb57c51",
+    "data": [
+      {
+        "text": "How can a retailer become authorized to accept EBT payments online?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fdca2294-2002-429a-b4a1-9fd643231fd8",
+    "data": [
+      {
+        "text": "Where to find info about EBT benefits online?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,139 @@
+[
+  {
+    "id": "fee7aa72-64a1-44ba-a72d-f8cd82866651",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "got fired",
+        "meta": "@employmentStatus",
+        "alias": "employmentStatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "34bc2f8e-876c-4266-81ad-f7276435231d",
+    "data": [
+      {
+        "text": "I dont have a new employer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d0d698da-0b50-4f44-8d0b-7d0d8ede8146",
+    "data": [
+      {
+        "text": "i dont have one",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a3ac2ac6-ad94-439c-9a1e-2f2b81545406",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "lost my job",
+        "meta": "@employmentStatus",
+        "alias": "employmentStatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "33b4ad54-59c6-472c-a9fc-3a094dffb627",
+    "data": [
+      {
+        "text": "im jobless",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "760510ef-0232-4fa8-a516-c7fe5a3aa4e4",
+    "data": [
+      {
+        "text": "i don\u0027t know",
+        "meta": "@dont-know",
+        "alias": "dont-know",
+        "userDefined": false
+      },
+      {
+        "text": " yet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c334089d-bbd7-4e05-b472-9ab4662f8eb4",
+    "data": [
+      {
+        "text": "i don\u0027t have a new job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "80748dff-0e2d-4db4-ba48-6449454aef02",
+    "data": [
+      {
+        "text": "i aint got one",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f00a46f4-dffb-4921-b9b4-0bee9eb26e5b",
+    "data": [
+      {
+        "text": "I don\u0027t have one yet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

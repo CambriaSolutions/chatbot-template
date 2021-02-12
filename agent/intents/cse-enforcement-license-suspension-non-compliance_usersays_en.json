@@ -1,0 +1,54 @@
+[
+  {
+    "id": "24b3929e-f0b8-4c04-8199-3465f2375708",
+    "data": [
+      {
+        "text": "their license is already suspended",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c3b913ba-5a22-4d0e-8064-1fbfa139c79a",
+    "data": [
+      {
+        "text": "lisense was suspended before non payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "037dfa8a-5a8c-4348-bca8-d797580f4d0b",
+    "data": [
+      {
+        "text": "the license was suspended before non payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4a2045ad-5ed6-423b-857b-433541a9a6ec",
+    "data": [
+      {
+        "text": "What if their license has been suspended before for non-payment?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

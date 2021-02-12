@@ -1,0 +1,165 @@
+[
+  {
+    "id": "dc4bdc82-3fb3-4d08-8e52-3c0e236b3a42",
+    "data": [
+      {
+        "text": "TANF WORK PROGRAM (TWP)",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7db3c7c4-2f4c-4c48-8e67-726ea5bd39dd",
+    "data": [
+      {
+        "text": "What happens if I quit a job or reduce my hours?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1ff5c41f-a610-48a9-939e-7ae5d02a488c",
+    "data": [
+      {
+        "text": "What are the sanctions for failure to satisfactorily participating?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "603a1764-50d7-4c43-8933-7c5a15f867a9",
+    "data": [
+      {
+        "text": "Are ",
+        "userDefined": false
+      },
+      {
+        "text": "there",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " additional benefits through the TWP program?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5dabf1cf-e68b-487a-9294-d2d6a0f81ad6",
+    "data": [
+      {
+        "text": "If I find full-time employment, are ",
+        "userDefined": false
+      },
+      {
+        "text": "there",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " income disregards?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9202d682-ee88-49af-ac3a-91796e518e8b",
+    "data": [
+      {
+        "text": "What kind of TWP activities are available?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6ef2ddd0-ddce-4d69-b9a7-a466508fae3a",
+    "data": [
+      {
+        "text": "What is TWP\u0027s participation requirements?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "851dffff-9481-4286-b99d-1e6897ff4887",
+    "data": [
+      {
+        "text": "Will I be required to participate in TWP to receive benefits?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "867ac5bf-9d0c-4f85-afc9-48a8049ded46",
+    "data": [
+      {
+        "text": "What are the time limits for participating in TWP?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2afe3b0f-4b4e-43b2-9540-efd6488566a2",
+    "data": [
+      {
+        "text": "What is TWP?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b8c2b6b3-be62-4604-a468-5e3e878995da",
+    "data": [
+      {
+        "text": "How do I qualify for TWP?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

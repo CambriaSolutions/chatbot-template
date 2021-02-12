@@ -1,0 +1,102 @@
+{
+  "id": "c2af320a-532b-4e6d-a3e0-26753b6c36c7",
+  "name": "tanf-changeReporting",
+  "auto": true,
+  "contexts": [
+    "tanf-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "tanf-subject-matter",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [
+        {
+          "id": "af038c11-06eb-44cb-b737-e7e285ad4053",
+          "name": "yes-no",
+          "required": false,
+          "dataType": "@yes-no",
+          "value": "$yes-no",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "897a8820-5760-42b9-9112-d6ea11b1c742",
+          "name": "action-requests",
+          "required": false,
+          "dataType": "@action-requests",
+          "value": "$action-requests",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Eligible TANF households must report the following changes within 10 days of the date the household becomes aware of the change:\n\u003cul\u003e\u003cli\u003echanges of more than $100 in the amount of gross earned income (such as wages, tips, bonuses, self-employment, etc.)\u003c/li\u003e\u003cli\u003echanges of more than $100 in the amount of gross unearned income (such as social security/railroad retirement, other disability, VA income, pensions, unemployment, child support, alimony, money received from other people, worker’s compensation, etc.);\u003c/li\u003e\u003cli\u003ea change in the source of income;\u003c/li\u003e\u003cli\u003echanges in household composition, such as any person(s) moving in or out of the household;\u003c/li\u003e\u003cli\u003ea change in residence and any resulting shelter cost (such as rent/mortgage and utilities) changes;\u003c/li\u003e\u003cli\u003echanges in court ordered child support;\u003c/li\u003e\u003cli\u003ea change in liquid resources, such as cash, stocks, bonds, and bank accounts.\u003c/li\u003e\u003c/ul\u003e"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "TANF households receiving substantial gambling or lottery winnings of $3,500 or more must report this change within 10 days of receipt of the winnings. Households receiving substantial gambling or lottery winnings are ineligible to receive TANF. If the household fails to report a required change and receives extra TANF benefits, the value of these benefits will have to be repaid. The person could also be prosecuted for fraud."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please \u003ca href\u003d\"https://www.mdhs.ms.gov/wp-content/uploads/2020/05/MDHS-EA-946-Fillable.pdf\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e to download the Change Reporting Form."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

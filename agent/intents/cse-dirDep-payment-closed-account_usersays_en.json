@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1af69425-ae8d-46e5-ab94-ea3c1a2b345b",
+    "data": [
+      {
+        "text": "my bank account it closed but a payment was sent to my account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d87a6cdb-10c8-415c-be72-a0905be3010d",
+    "data": [
+      {
+        "text": "closed account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "169aea72-2dc3-4251-8fc5-d2ccf890d997",
+    "data": [
+      {
+        "text": "payments were sent to a closed account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2caa460a-dfda-48ef-a94d-7f5366f88850",
+    "data": [
+      {
+        "text": "my bank account is currently closed, however a payment was sent to the account. What happened to the payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

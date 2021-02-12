@@ -25,7 +25,7 @@ const headerStyle = {
   }
 }
 
-const createSheet1 = (workbook, phrasesData, subjectMatter, includeSubjectMatterCol) => {
+const createSheet1 = (workbook, phrasesData, subjectMatter, includeSubjectMatterCol, includeSuggestions) => {
   const sheet1Name = subjectMatter.toLowerCase() === 'total'
     ? 'Total Unhandled Questions'
     : 'Unhandled Questions' + (subjectMatter ? ' for ' + subjectMatter.toUpperCase() : '')
@@ -33,10 +33,18 @@ const createSheet1 = (workbook, phrasesData, subjectMatter, includeSubjectMatter
   // Create worksheets with headers and footers
   const sheet1 = workbook.addWorksheet(sheet1Name, phrasesData)
 
-  const sheet1ColumnDefs = [
-    { width: 100 },
-    { width: 20 }
-  ]
+  const sheet1ColumnDefs = includeSuggestions ?
+    [
+      { width: 100 },
+      { width: 30 },
+      { width: 30 },
+      { width: 30 },
+      { width: 20 }
+    ]
+    : [
+      { width: 100 },
+      { width: 20 }
+    ]
 
   sheet1.columns = sheet1ColumnDefs
 
@@ -60,10 +68,46 @@ const createSheet1 = (workbook, phrasesData, subjectMatter, includeSubjectMatter
     }
   }
 
-  let sheet1Columns = [
-    unhandledPhrasesColumn,
-    dateColumn
+  const suggestionColumns = [
+    {
+      name: 'Gen Suggestion 1',
+      filterButton: true,
+      style: {
+        font: {
+          size: 16
+        }
+      }
+    },
+    {
+      name: 'Gen Suggestion 2',
+      filterButton: true,
+      style: {
+        font: {
+          size: 16
+        }
+      }
+    },
+    {
+      name: 'Gen Suggestion 3',
+      filterButton: true,
+      style: {
+        font: {
+          size: 16
+        }
+      }
+    }
   ]
+
+  let sheet1Columns = includeSuggestions ?
+    [
+      unhandledPhrasesColumn,
+      ...suggestionColumns,
+      dateColumn
+    ] :
+    [
+      unhandledPhrasesColumn,
+      dateColumn
+    ]
 
   sheet1.getCell('A1').style = headerStyle
   sheet1.getCell('B1').style = headerStyle
@@ -82,6 +126,16 @@ const createSheet1 = (workbook, phrasesData, subjectMatter, includeSubjectMatter
     sheet1.columns = [...sheet1.columns, { width: 20 }]
 
     sheet1.getCell('C1').style = headerStyle
+  }
+
+  if (includeSuggestions) {
+    sheet1.getCell('C1').style = headerStyle
+    sheet1.getCell('D1').style = headerStyle
+    sheet1.getCell('E1').style = headerStyle
+
+    if (includeSubjectMatterCol) {
+      sheet1.getCell('F1').style = headerStyle
+    }
   }
 
   sheet1.addTable({
@@ -122,7 +176,7 @@ const createSheet2 = (workbook, feedbackData, subjectMatter, includeSubjectMatte
       }
     },
     {
-      name: 'Was <<Bot>> helpful?',
+      name: 'Was Gen helpful?',
       filterButton: true,
       style: {
         font: {
@@ -173,7 +227,77 @@ const createSheet2 = (workbook, feedbackData, subjectMatter, includeSubjectMatte
   sheet2.getCell('C1').style = headerStyle
 }
 
-export const generateExcelFile = async (phrasesData, feedbackData, includeSubjectMatterCol, subjectMatter) => {
+const createSheet3 = (workbook, suggestionsData) => {
+  const sheet3Name = 'Unhandled Questions for CSE'
+
+  const sheet3 = workbook.addWorksheet(sheet3Name)
+
+  sheet3.columns = [
+    { width: 50 },
+    { width: 20 },
+    { width: 20 },
+    { width: 20 }
+  ]
+
+  const sheet3Columns = [
+    {
+      name: 'Unhandled Questions',
+      filterButton: true,
+      style: {
+        font: {
+          size: 16
+        },
+
+      }
+    },
+    {
+      name: 'Gen Suggestion 1',
+      filterButton: true,
+      style: {
+        font: {
+          size: 16
+        }
+      }
+    },
+    {
+      name: 'Gen Suggestion 2',
+      filterButton: true,
+      style: {
+        font: {
+          size: 16
+        }
+      }
+    },
+    {
+      name: 'Gen Suggestion 3',
+      filterButton: true,
+      style: {
+        font: {
+          size: 16
+        }
+      }
+    }
+  ]
+
+  sheet3.addTable({
+    name: 'QuerySuggestions',
+    ref: 'A1',
+    headerRow: true,
+    totalsRow: false,
+    style: {
+      theme: null
+    },
+    columns: sheet3Columns,
+    rows: suggestionsData.length > 0 ? suggestionsData : [map(new Array(sheet3.columns.length), () => 'N/A')]
+  })
+
+  sheet3.getCell('A1').style = headerStyle
+  sheet3.getCell('B1').style = headerStyle
+  sheet3.getCell('C1').style = headerStyle
+  sheet3.getCell('D1').style = headerStyle
+}
+
+export const generateExcelFile = async (phrasesData, feedbackData, suggestionsData, includeSubjectMatterCol, subjectMatter) => {
   const workbook = new ExcelJS.Workbook()
 
   workbook.creator = 'Cambria'
@@ -181,8 +305,12 @@ export const generateExcelFile = async (phrasesData, feedbackData, includeSubjec
   workbook.created = new Date()
   workbook.modified = new Date()
 
-  createSheet1(workbook, phrasesData, subjectMatter, includeSubjectMatterCol)
+  createSheet1(workbook, phrasesData, subjectMatter, includeSubjectMatterCol, subjectMatter === 'cse')
   createSheet2(workbook, feedbackData, subjectMatter, includeSubjectMatterCol)
+
+  if (subjectMatter.toLowerCase() === 'total') {
+    createSheet3(workbook, suggestionsData)
+  }
 
   // write to a new buffer
   const buffer = await workbook.xlsx.writeBuffer()

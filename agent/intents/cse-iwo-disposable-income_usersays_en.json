@@ -1,0 +1,74 @@
+[
+  {
+    "id": "d3c22391-2955-4d4d-a9de-c6a99d8eef3b",
+    "data": [
+      {
+        "text": "10",
+        "meta": "@sys.number",
+        "alias": "disposableIncome",
+        "userDefined": true
+      },
+      {
+        "text": " dollars i guess",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f90950d6-aa61-4756-a9e0-fc16d0676013",
+    "data": [
+      {
+        "text": "10",
+        "meta": "@sys.number",
+        "alias": "disposableIncome",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "10744378-30bc-4e60-8317-fc1675e34c69",
+    "data": [
+      {
+        "text": "five hundred",
+        "meta": "@sys.number",
+        "alias": "disposableIncome",
+        "userDefined": false
+      },
+      {
+        "text": " buckes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9b11a03c-fa9a-4271-8d19-d163464fbd9f",
+    "data": [
+      {
+        "text": "thousand",
+        "meta": "@sys.number",
+        "alias": "disposableIncome",
+        "userDefined": false
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

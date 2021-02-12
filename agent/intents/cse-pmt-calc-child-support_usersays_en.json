@@ -1,0 +1,55 @@
+[
+  {
+    "id": "ad4cfc24-9912-4ed6-b43a-e4eda4ec5d5f",
+    "data": [
+      {
+        "text": "1500",
+        "meta": "@sys.number",
+        "alias": "retirementContributions",
+        "userDefined": false
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f7d6780d-2fb5-4928-9439-a6f926a53feb",
+    "data": [
+      {
+        "text": "seventy",
+        "meta": "@sys.number",
+        "alias": "retirementContributions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2224cdf8-2a92-4a9e-8ccd-a34cc64b212f",
+    "data": [
+      {
+        "text": "$",
+        "userDefined": false
+      },
+      {
+        "text": "60",
+        "meta": "@sys.number",
+        "alias": "retirementContributions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

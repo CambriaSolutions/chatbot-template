@@ -1,0 +1,55 @@
+[
+  {
+    "id": "cd0d3816-64f7-4add-881e-6f4dd1e5e07e",
+    "data": [
+      {
+        "text": "twenty",
+        "meta": "@sys.number",
+        "alias": "grossIncome",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "356c0592-f183-4d83-838c-776867bdc78c",
+    "data": [
+      {
+        "text": "100",
+        "meta": "@sys.number",
+        "alias": "grossIncome",
+        "userDefined": true
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1ee58f67-9399-4fde-bbd6-09ad544c665e",
+    "data": [
+      {
+        "text": "$",
+        "userDefined": false
+      },
+      {
+        "text": "2000",
+        "meta": "@sys.number",
+        "alias": "grossIncome",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "id": "ea5cf4f8-f585-4bc5-9475-5c23988807cd",
+  "name": "cse-iwo-employer-submit-payments",
+  "auto": true,
+  "contexts": [
+    "waiting-iwo-employer-submit-payments",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-iwo-employer-submit-payments",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-iwo-payments-handoff",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Employers can make payments electronically through iPayOnline or EFT payments."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For information on how to enroll, you can call \u003ca href\u003d\"tel:+1-769-777-6111\"\u003e1-769-777-6111\u003c/a\u003e or by emailing \u003ca href\u003d\"mailto:MSSDUOutreach@informatixinc.com\"\u003eMSSDUOutreach@informatixinc.com\u003c/a\u003e"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The employer may submit payments to the State Disbursement Unit per the Income Withholding Order. Submit payments to:\n         MDHS/SDU\n         PO Box 23094\n         Jackson, MS 39225\n        "
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

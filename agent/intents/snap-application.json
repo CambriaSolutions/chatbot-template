@@ -1,0 +1,83 @@
+{
+  "id": "deb8b14b-6392-4f9b-95ac-2ef2dfd0a98c",
+  "name": "snap-application",
+  "auto": true,
+  "contexts": [
+    "snap-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ddb6faf6-806c-4447-a180-2ee5925f46ab",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Supplemental Nutrition Assistance Program (SNAP), formerly known as the food stamp program, provides benefits that help households buy the food they need for good health."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please  \u003ca href\u003d\"https://www.access.ms.gov/Application\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e to start a new SNAP application. If you have limited internet access you can submit your application over the phone at  \u003ca href\u003d\"tel:+1-877-833-2550\"\u003e1-877-833-2550\u003c/a\u003e."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you need additional help, please see resources available in your area by clicking \u003ca href\u003d\"https://myresources.mdhs.ms.gov/\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "handleEndConversation": true,
+            "suggestions": []
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

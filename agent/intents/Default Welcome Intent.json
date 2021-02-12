@@ -1,5 +1,5 @@
 {
-  "id": "4648bed0-29c4-4bc2-bbe1-1461f4e03072",
+  "id": "338db31d-531b-44b7-988d-c621c8faaea4",
   "name": "Default Welcome Intent",
   "auto": true,
   "contexts": [],
@@ -9,21 +9,7 @@
       "action": "input.welcome",
       "affectedContexts": [],
       "parameters": [],
-      "messages": [
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en",
-          "speech": [
-            "Hi! How are you doing?",
-            "Hello! How can I help you?",
-            "Good day! What can I do for you today?",
-            "Greetings! How can I assist?"
-          ],
-          "condition": ""
-        }
-      ],
+      "messages": [],
       "speech": []
     }
   ],

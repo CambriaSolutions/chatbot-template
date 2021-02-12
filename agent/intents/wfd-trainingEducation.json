@@ -1,0 +1,68 @@
+{
+  "id": "70fdc66f-5d51-4a4d-a2df-7a203a88f1e8",
+  "name": "wfd-trainingEducation",
+  "auto": true,
+  "contexts": [
+    "wfd-subject-matter",
+    "waiting-wfd-trainingEducation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "wfd-subject-matter",
+          "lifespan": 99
+        },
+        {
+          "name": "waiting-wfd-trainingEducation",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Eligible TANF and SNAP recipients have an opportunity to participate in the Workforce Training and Education programs to receive short-term specialized skills training and career preparation in a chosen area. The goal is to improve the quality of Mississippi’s workforce. Youth programs assist out-of-school youth in obtaining High School Equivalences and further engaging in pathways that lead to a living wage. Adult programs help recipients gain access to education and/or training opportunities to help them compete for employer-driven jobs."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please \u003ca href\u003d\"https://www.mdhs.ms.gov/wp-content/uploads/2020/10/TANF-WF-Subgrantee-Contact-Info.pdf\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e to see the providers information."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "handleEndConversation": true,
+            "suggestions": []
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

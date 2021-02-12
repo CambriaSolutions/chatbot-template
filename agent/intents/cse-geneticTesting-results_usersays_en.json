@@ -1,0 +1,41 @@
+[
+  {
+    "id": "98ad7c89-8c42-4983-a0f4-6ecd99d5d42a",
+    "data": [
+      {
+        "text": "how soon will i get my genetic test results",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ea0afa35-f3ed-4251-8147-4d8a57916724",
+    "data": [
+      {
+        "text": "when will i get my genetic test results",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b97ac8e4-1739-4211-b0a0-877a2acd3044",
+    "data": [
+      {
+        "text": "When will I receive my results from the Genetic Test?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

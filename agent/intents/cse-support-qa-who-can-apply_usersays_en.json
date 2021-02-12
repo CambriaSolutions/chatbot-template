@@ -1,0 +1,54 @@
+[
+  {
+    "id": "4b73180c-c9b7-42cd-8f76-4c7be2524b42",
+    "data": [
+      {
+        "text": "who can apply for support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "734261f1-7857-42f9-9379-1b2d6f4ea434",
+    "data": [
+      {
+        "text": "im a grandparent but the child lives with me, can i apply for support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b12d92d7-b837-4b46-a0b2-d64865c7743b",
+    "data": [
+      {
+        "text": "Who can apply for child support?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cbbd9f9c-2fbd-4590-b707-75f74194c13f",
+    "data": [
+      {
+        "text": "Can grandparents apply for child support?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

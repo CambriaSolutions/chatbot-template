@@ -1,0 +1,71 @@
+{
+  "id": "1ce026bf-2eb5-4e22-a378-473d7c94dae6",
+  "name": "cse-support-phone-number",
+  "auto": true,
+  "contexts": [
+    "waiting-support-phone-number",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-support-phone-number",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-no-phone-number",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "acae70d9-c992-4ebe-9f65-b79162e2ca0e",
+          "name": "phoneNumber",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "$phoneNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "I didn\u0027t recognize that as a phone number, starting with area code, could you repeat that?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

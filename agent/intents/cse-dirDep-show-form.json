@@ -1,0 +1,75 @@
+{
+  "id": "d6dbfc32-23b8-42b0-814b-00fa9d15259c",
+  "name": "cse-dirDep-show-form",
+  "auto": true,
+  "contexts": [
+    "waiting-dirDep-show-form",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-dirDep-show-form",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-dirDep-learn-more",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please \u003ca href\u003d\"https://www.mdhs.ms.gov/wp-content/uploads/2019/11/Direct-Deposit-Agreement-Form-687-11-21-19-edits.pdf\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e for the Direct Deposit Form."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "In the event you cannot or do not want to download the form, please contact customer service at \u003ca href\u003d\"tel:+16013594500\"\u003e1-601-359-4500\u003c/a\u003e and our Mail Room will send you a copy."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

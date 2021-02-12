@@ -1,0 +1,68 @@
+{
+  "id": "73ea7313-f8fc-4127-a94f-7647b90d9af2",
+  "name": "tanf-application",
+  "auto": true,
+  "contexts": [
+    "tanf-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The TANF Program provides for families with needy children under age 18. The program is designed to help families achieve self-sufficiency through employment and training."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please  \u003ca href\u003d\"https://www.access.ms.gov/Application\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e to start a new TANF application. If you have limited internet access you can submit your application over the phone at \u003ca href\u003d\"tel:+ 1-877-833-2550\"\u003e 1-877-833-2550\u003c/a\u003e."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you need additional help, please see resources available in your area by clicking \u003ca href\u003d\"https://myresources.mdhs.ms.gov/\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "handleEndConversation": true,
+            "suggestions": []
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

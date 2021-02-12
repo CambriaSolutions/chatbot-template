@@ -1,0 +1,97 @@
+{
+  "id": "1faed28f-5e52-4d82-8470-f3b7ef615927",
+  "name": "cse-iwo-payments-handoff",
+  "auto": true,
+  "contexts": [
+    "waiting-iwo-payments-handoff",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-pmtMethods-checkOrMoneyOrder",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmtMethods-cash",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmtMethods-eCheckDebit",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmtMethods-withhold-payments",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-pmtMethods-cant-make",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-iwo-payments-handoff",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-iwo-employer-submit-payments",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Parents who pay support have a variety of methods to make payments.\u003cbr/\u003e\u003cbr/\u003eFor payment options other than having payments withheld from your pay, select one of the following to learn more.\u003cbr/\u003e\u003cbr/\u003eThe date the payment is received is the date of collection. Payments cannot be posted for a prior month.\u003cbr/\u003e\u003cbr/\u003ePayments are not considered to be received by MDHS until all payment processing has occurred."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Cash",
+              "Estimate Payments",
+              "Withhold Payments",
+              "eCheck/Bank Account Debit",
+              "Check or Money Order",
+              "Can\u0027t Make Payments"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

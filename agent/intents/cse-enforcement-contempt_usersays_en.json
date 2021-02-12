@@ -1,0 +1,201 @@
+[
+  {
+    "id": "57db8dc5-7a6e-40bf-9ae2-f7a3c5045f16",
+    "data": [
+      {
+        "text": "He/she is ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " going to pay.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3485287d-7847-4954-8b82-689498b56c57",
+    "data": [
+      {
+        "text": "He/she just bought a new truck, house, went on vacation.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1f5b02d2-1f41-4fae-9ab4-f70ac002a1d6",
+    "data": [
+      {
+        "text": "I want the judge to make him/her pay.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6de81079-632e-4826-83bc-cfe7dcb76880",
+    "data": [
+      {
+        "text": "He/she is refusing to pay (child) support.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "76517efc-e5cc-4d0a-823b-8698527fa0fa",
+    "data": [
+      {
+        "text": "He/she needs to be held in contempt for ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " paying.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f2e48167-b263-483d-b625-26b043790115",
+    "data": [
+      {
+        "text": "What does contempt means?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2616b65a-2c1f-4db5-8198-3bbc924a0594",
+    "data": [
+      {
+        "text": "Can I have details about contempt?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fff92341-f30a-443e-af9b-55ba0c197827",
+    "data": [
+      {
+        "text": "Can I submit a contempt request?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "268908cd-916a-414f-a3ef-c6274a1d5e51",
+    "data": [
+      {
+        "text": "He/she is ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "meta": "@yes-no",
+        "alias": "yes-no",
+        "userDefined": false
+      },
+      {
+        "text": " going to pay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e1cde3dd-6812-4ad2-9bbd-71c3038df091",
+    "data": [
+      {
+        "text": "I want to put him/her in jail",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4a9c055c-7766-40e8-917e-5b9e4e619c1b",
+    "data": [
+      {
+        "text": "I want to take him/her to court",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "22298ea4-7c1d-40b8-a757-c88921a482f1",
+    "data": [
+      {
+        "text": "Contempt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "09f5c24e-cd5c-4064-9c99-baa6cc65b20b",
+    "data": [
+      {
+        "text": "What does contempt mean?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  }
+]

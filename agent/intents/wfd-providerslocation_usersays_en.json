@@ -1,0 +1,113 @@
+[
+  {
+    "id": "61cfc2b3-7050-4b11-a9cd-1f4ea9f8f654",
+    "data": [
+      {
+        "text": "Providers Location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4669bc24-482c-49ee-bcc0-d9bdfe2136f6",
+    "data": [
+      {
+        "text": "Is there a training program in my area?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f8e6c7a7-1fc7-4609-bfce-993eb8a653cc",
+    "data": [
+      {
+        "text": "Is there a training program ",
+        "userDefined": false
+      },
+      {
+        "text": "in",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      },
+      {
+        "text": " my county?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e93b144e-5e9a-4b4f-9305-6c674d33ee58",
+    "data": [
+      {
+        "text": "What skills training programs does provide?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "df0297c5-80db-4b1c-af54-a80f028149a4",
+    "data": [
+      {
+        "text": "Where are the partners located?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2c6a9da9-4fdb-4706-8d08-cb1f9c7a349d",
+    "data": [
+      {
+        "text": "If I want to sign ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      },
+      {
+        "text": " or get more information, who do I call",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e811a492-f5c5-4933-b336-24062ce72365",
+    "data": [
+      {
+        "text": "Who are the partners?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

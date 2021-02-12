@@ -15,9 +15,9 @@ const addUser = async (userId, isAdmin, canExportData, defaultSubjectMatter, ava
   await db.collection('users').doc(userId).set(userData)
 }
 
-const sms = ['general', 'mscj']
+const sms = ['general', 'cse', 'snap', 'tanf']
 
-addUser('UserGUID', true, true, 'mscj', sms)
+addUser('UserGUID', true, true, 'cse', sms)
 
 
 

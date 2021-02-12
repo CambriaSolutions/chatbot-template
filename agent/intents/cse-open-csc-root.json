@@ -1,0 +1,90 @@
+{
+  "id": "ff47e2f8-15d8-4aa8-812a-0fb9d1b77fb8",
+  "name": "cse-open-csc-root",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-open-csc-full-services",
+          "lifespan": 2
+        },
+        {
+          "name": "waiting-open-csc-location-services",
+          "lifespan": 2
+        },
+        {
+          "name": "waiting-open-csc-employer-payments",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sure, I can help you with finding the type of service you desire. I can also help you with information, instructions and a link to the application to open a child support case."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The parent who will receive support, the parent who will pay support, or a potential father or guardian may complete an application for child support services."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Click on one of the options below to learn more about child support services or enter a support request if you would like to reopen an old case."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "FULL SERVICES",
+              "LOCATION SERVICES",
+              "SAFETY",
+              "INCOME DISBURSEMENT SERVICE ONLY"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

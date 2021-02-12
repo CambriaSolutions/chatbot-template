@@ -1,0 +1,67 @@
+{
+  "id": "94e10c7a-8de2-475f-b1b1-aebd3df29458",
+  "name": "cse-visitation-petitiontocite",
+  "auto": true,
+  "contexts": [
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you have a divorce decree or existing visitation order and you are having problems visiting your child, pro se litigation may be an option for you if you have been unable to resolve these issues with the other parent. If you plan to represent yourself in court without an attorney, you will be responsible for completing and filing all legal forms with the court."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please \u003ca href\u003d\"https://www.mdhs.ms.gov/wp-content/uploads/2018/09/Petition-to-cite-for-Contempt-Pro-Se-9-18.pdf\" target\u003d\"_blank\"\u003eclick here\u003c/a\u003e to download the Petition to Cite for Contempt Packet. You may access “Self-Help” videos \u003ca href\u003d\"http://www.msatjc.org/self-help-videos\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e if you plan to represent yourself without a lawyer."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Pro Se Packets",
+              "Legal Services"
+            ],
+            "handleEndConversation": true
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

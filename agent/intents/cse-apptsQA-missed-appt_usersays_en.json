@@ -1,0 +1,93 @@
+[
+  {
+    "id": "cb182277-f197-40af-b639-066d8a72d371",
+    "data": [
+      {
+        "text": "missed appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9882a560-7942-4a44-85aa-a3f605f36788",
+    "data": [
+      {
+        "text": "i didtn show up to my appointmnet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c04522d1-05b6-4b91-a2d2-79a5587c9b40",
+    "data": [
+      {
+        "text": "i didnt show up to my appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a2d04461-4531-4e52-b346-d72673147878",
+    "data": [
+      {
+        "text": "what if i dont show up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "00fbdf0e-9a17-41ef-ab0f-3b0f73fb4371",
+    "data": [
+      {
+        "text": "i missed my appointment, whats gunna happen",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f392e326-b1b5-429e-8247-9243468d44b8",
+    "data": [
+      {
+        "text": "what happens if i miss my appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "19f4d4ed-c9d6-425c-8b6e-4c03e5e294c4",
+    "data": [
+      {
+        "text": "what will happen if i miss my appointment?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

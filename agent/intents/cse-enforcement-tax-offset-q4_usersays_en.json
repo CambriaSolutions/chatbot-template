@@ -1,0 +1,74 @@
+[
+  {
+    "id": "3b220bd0-144c-44b5-a070-5c8f2c019212",
+    "data": [
+      {
+        "text": "How much does the parent paying support (",
+        "userDefined": false
+      },
+      {
+        "text": "NCP",
+        "meta": "@guardianship",
+        "alias": "guardianship",
+        "userDefined": false
+      },
+      {
+        "text": ") must be behind in their child support before their taxes are taken, tax refund is taken?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ec72cab6-0bd1-4ac9-b90c-2fe47ccccd1d",
+    "data": [
+      {
+        "text": "Will the parent paying child support (",
+        "userDefined": false
+      },
+      {
+        "text": "NCP",
+        "meta": "@guardianship",
+        "alias": "guardianship",
+        "userDefined": false
+      },
+      {
+        "text": ") be submitted for tax offset if they are behind in their child support?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d2e29cf4-aa6c-44f0-8da9-379fd12462d5",
+    "data": [
+      {
+        "text": "How much do you have to be behind (in arrears) in your child support before taxes are taken, tax refund is taken?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "06081692-757a-431e-af79-97889843f8fa",
+    "data": [
+      {
+        "text": "When is a case eligible for tax refund offset?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

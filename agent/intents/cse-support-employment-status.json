@@ -1,0 +1,90 @@
+{
+  "id": "05ef02e8-8d67-4b0d-a2b0-0536a71b4408",
+  "name": "cse-support-employment-status",
+  "auto": true,
+  "contexts": [
+    "waiting-support-employment-status",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-support-handle-employment-status",
+          "lifespan": 3,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-employment-status",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-parent-paying-more",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8902abb4-71a2-4fdb-b7d0-400f3c7ed9d6",
+          "name": "employmentStatus",
+          "required": false,
+          "dataType": "@employmentStatus",
+          "value": "$employmentStatus",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Which of the following applies to you?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Full Time to Part Time",
+              "Part Time to Full Time",
+              "Loss of Employer",
+              "Change or Add Employer"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

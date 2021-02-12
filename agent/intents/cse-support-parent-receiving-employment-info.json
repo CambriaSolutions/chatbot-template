@@ -1,0 +1,78 @@
+{
+  "id": "a0878a66-22ae-4d5e-b542-ad8a8cfd4a7a",
+  "name": "cse-support-parent-receiving-employment-info",
+  "auto": true,
+  "contexts": [
+    "waiting-support-parent-receiving-employment-info",
+    "cse-subject-matter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "waiting-support-report-provider-employment",
+          "lifespan": 3,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-parent-receiving-employment-info",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-support-parent-paying-more",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "waiting-iwo-root",
+          "lifespan": 0,
+          "parameters": {}
+        },
+        {
+          "name": "cse-subject-matter",
+          "lifespan": 99,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Would you like to report information about the parent who provides support?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Yes",
+              "No"
+            ],
+            "handleEndConversation": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

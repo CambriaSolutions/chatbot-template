@@ -14,7 +14,7 @@ const updateUserSettings = async () => {
   const oldUsersBackupRef = store.collection(`oldUsersBackup`)
 
   const users = await usersRef.get()
-  const subjectMatters = ['general', 'mscj']
+  const subjectMatters = ['general', 'cse', 'tanf', 'snap']
 
   users.forEach(async doc => {
     // By destructuring like this, we remove projects and defaultProject and keep all 
@@ -26,7 +26,7 @@ const updateUserSettings = async () => {
 
     usersRef.doc(doc.id).set({
       ...dataToPersist,
-      defaultSubjectMatter: 'mscj',
+      defaultSubjectMatter: 'cse',
       subjectMatters: subjectMatters
     })
   })

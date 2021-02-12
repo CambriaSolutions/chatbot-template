@@ -1,0 +1,54 @@
+[
+  {
+    "id": "606eb949-2f00-4538-8783-098fee5928bc",
+    "data": [
+      {
+        "text": "workmans\u0027 compensation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7a264b03-8aa5-49e8-8958-7d99eec79a08",
+    "data": [
+      {
+        "text": "settlements",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9a1d5fc8-a003-4a52-8e07-2a35271d8d1c",
+    "data": [
+      {
+        "text": "Workman\u0027s comp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7e31a6d7-90dc-4bd1-9d6f-f30458943ffc",
+    "data": [
+      {
+        "text": "Personal injury",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
